@@ -32,6 +32,14 @@ Try it yourself at: https://creator.voiceflow.com/prototype/650f3cda275e88510bea
 https://github.com/ulyssorok/sentinel/assets/25058545/2feeab24-6e21-4e0b-bd67-a09b6424e057
 
 
+### Sentinel Vision - Specialist Bot
+
+
+https://github.com/ulyssorok/sentinel/assets/25058545/0c027220-8c91-4c1f-b63c-007f1c89c6c9
+
+
+### All Demos
+
 Everyday questions about outer space and craft a personalized answer for each individual depending on their comfort and technical understanding of space! 😄
 
 <img width="257" alt="Screenshot 2023-10-07 181951" src="https://github.com/ulyssorok/sentinel/assets/25058545/5d6d41c0-afc1-4b51-b484-31e0b35d1b71">
@@ -48,8 +56,6 @@ Space-related Existential Questions 😖
 
 https://github.com/ulyssorok/sentinel/assets/25058545/d605f074-966a-484f-86e9-2aa93b6d4c31
 
-### Sentinel Vision - Specialist Bot
-
 Prototype analysis and improvement suggestions for NASA Standard 5018 🔍
 
 https://github.com/ulyssorok/sentinel/assets/25058545/0cb57d96-96ad-431e-87aa-28c5dd0b7a0d
@@ -61,8 +67,6 @@ https://github.com/ulyssorok/sentinel/assets/25058545/947f9428-9491-43ae-b7eb-00
 Additional probing questions about NASA Standard 5009 + 5018 🔬
 
 https://github.com/ulyssorok/sentinel/assets/25058545/a0ba805b-79c1-401e-b97f-ba0ca904653c
-
-
 
 ## Pitch
 
