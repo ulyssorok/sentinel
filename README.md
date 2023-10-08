@@ -8,7 +8,12 @@
 
 Leveraging OpenAI's GPT-4 with browsing along with Voiceflow as our interface
 
-Our bot can handle everyday questions about outer space and craft a personalized answer for each individual depending on their comfort and technical understanding of space!
+Our bot can handle:
+1. Everyday questions about outer space and craft a personalized answer for each individual depending on their comfort and technical understanding of space!
+2. Analyze and suggest improvements to NASA Standard
+  a. Using ingested data from Military Handbook, NASA Standards, NESC tactical bulletins, NASA lessons learned, and NASA tactical reports to suggest improvements
+  b. Summarize the report
+  c. Answer clarification questions
 
 Try it yourself at: https://creator.voiceflow.com/prototype/650f3cda275e88510bea289d
 
