@@ -69,3 +69,6 @@ https://github.com/ulyssorok/sentinel/assets/25058545/a0ba805b-79c1-401e-b97f-ba
 https://www.canva.com/design/DAFwnfmZblk/wz_89bePyPBzx2RaaOoumg/view?utm_content=DAFwnfmZblk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 ## The Team
+
+![image](https://github.com/ulyssorok/sentinel/assets/25058545/053729de-f31b-4c60-b68f-958e8fef8050)
+
