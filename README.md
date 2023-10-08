@@ -24,6 +24,9 @@ Prototype analysis and improvement suggestions for NASA Standard 5018
 
 https://github.com/ulyssorok/sentinel/assets/25058545/d80300d7-0f56-4956-84d5-c9e2bc5b53b6
 
+Prototype analysis and improvement suggestions for NASA Standard 5009
+
+https://github.com/ulyssorok/sentinel/assets/25058545/35580075-2c11-4d82-82b7-1d7205ede8d0
 
 ## 💡 Inspiration 
 
