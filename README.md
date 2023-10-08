@@ -28,6 +28,12 @@ Prototype analysis and improvement suggestions for NASA Standard 5009
 
 https://github.com/ulyssorok/sentinel/assets/25058545/35580075-2c11-4d82-82b7-1d7205ede8d0
 
+Additional probing questions about NASA Standard 5009
+
+https://github.com/ulyssorok/sentinel/assets/25058545/77e6786a-c338-40c9-bcbe-9541c9ad712f
+
+
+
 ## 💡 Inspiration 
 
 ## ❓ What it does
