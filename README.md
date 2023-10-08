@@ -1,6 +1,6 @@
 # 👓 Sentinel
 
-### Sentinel brings space data accessibility to mobile, Discord, Slack, and Telegram!
+### Sentinel brings space data accessibility to mobile, tablet and Web!
 
 #### Mission: Onboarding the next billion space enthusiasists, regardless of platform and technical expertise restrictions
 
