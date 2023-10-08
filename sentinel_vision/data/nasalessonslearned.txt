@@ -1,0 +1,166 @@
+NASA Lessons Learned
+
+Welcome to the new NASA website. We’re working to continuously improve your web experience. If you don't find what you are looking for, give feedback.
+
+
+Explore
+Search
+Search...
+NASA Logo
+
+News & Events
+
+Multimedia
+NASA+
+NESC Home
+
+About
+Contact
+
+Knowledge Products
+
+NESC Learning Resources
+Workshops
+
+More
+NESC Lessons Learned
+For NASA programs using risk-based independent verification and validation (IV&V), detailed NASA-developed/supported simulation of key flight phases provides deeper government insight and certification ability.
+Abstract: For NASA programs engaging in risk-based IV&V of contractor-provided flight systems, a detailed, independently developed simulation of deorbit, entry, descent, and landing (DEDL) phases proved invaluable to the Commercial Crew Program (CCP) in providing government insight into and certification of the flight systems. The independent DEDL simulation also informed the CCP by allowing government investigation into areas of concern with the flight system design and/or operation during DEDL. Rapid post-flight support of a CCP spacecraft in-flight anomaly (IFA) was possible with this independent DEDL simulation, demonstrating its potential application for future flights.
+
+AIAA/ANSI Standard S-120A-2015_R2019, Mass Properties Control for Space Systems, should be applied in context
+Abstract:  Mass properties control is a critical aspect of space system development. American National Standards Institute/American Institute of Aeronautics and Astronautics (ANSI/AIAA) Standard S-120A and the International Society of Allied Weight Engineers (SAWE) RP A-3, Recommended Practice for Mass Properties Control for Space Systems [ref. 1], define the terminology and document common processes and approaches for managing mass of space systems. The lesson learned through the efforts of the Pressurized Rover (PR) Red Team Assessment, performed by the NASA Engineering and Safety Center in 2022, is that the standard has been developed and applies to space vehicles, upper stages, payloads, reentry vehicles, launch vehicles and ballistic vehicles. It does not specifically address space systems (e.g., rovers) that are operational on other surfaces, and it does not address associated hardware categories (e.g., suspension and drive train assemblies).
+
+Controlling Triboelectrification Effects on Spacecraft Ethernet Cabling
+Abstract:  Triboelectric charging of a spacecraft and launch vehicles on ascent may occur due to the process of contact and separation between the vehicle skin and aerosols, dust, ice, water droplets, smoke, and other particulates encountered in the flight path. Depending on characteristics at the atomic and molecular levels of the vehicle skin’s surface and the substances and particulates encountered, electrical charge will transfer between the vehicle and the encountered substances, resulting in an accumulation of electrical charge on the vehicle skin. If the vehicle skin is conductive and electrically bonded such that in its entirety it presents an equipotential surface, then the accumulated electrical charge will spread in a nearly uniform manner leaving all regions with a nearly equal potential with respect to each other and the surrounding environment. Regions that are not electrically bonded as described, or surfaces that have resistivity values, can reach different potentials than the surrounding surfaces. When this happens, the differing potentials may grow to very large magnitudes, leading to electrostatic discharge events between the regions. As the vehicle rises in altitude, the breakdown potential between these regions of differing potential decreases commensurate with decreases in atmospheric density and pressure. If the potential differences between surfaces of the vehicle become equal to or exceed the breakdown potential, one or more discharge events may occur, each of them generating voltage and current transients that can easily damage or interfere with the designed operation of on-board electrical, avionic, and communications and navigation systems. This lesson learned discusses an in-flight anomaly caused by triboelectric discharge events and exacerbated by the lack of adequate cable shielding that affected flight computer communication links. Also discussed are mitigations to prevent this occurrence.
+
+Best Practices for the Elemental Profiling of High-Purity Hydrazine
+Abstract:  Trace contaminants in high-purity hydrazine (HPH) propellant impact a wide variety of commercial, Department of Defense (DoD), and NASA missions. Depending on thruster design, contaminants must be kept at extremely low levels and are verified as such by routine analysis. Several impactful contaminants are not currently controlled in the current MIL-PRF-26356 specification which governs procurement. A number of these elemental contaminants have recently undergone an assessment to shed light on potential contaminants present following changes in the HPH supply chain. A round robin analysis utilizing four separate laboratories resulted in unacceptably high variability in the quantification of these contaminants.
+
+Efforts were made to ascertain the causes of this lab-to-lab variability. These efforts highlighted several sample preparation and analytical method considerations that can impact laboratory results. The principal objective of this lesson learned, and these recommendations, is to establish an analysis methodology which yields accurate and repeatable quantification by providing best practices for both quantitation methodology and strategies for avoiding sample contamination during analysis.
+
+Cable Harness Wiring and Connector Anomalies Caused by Induced Damage in Human Spaceflight Vehicles
+Abstract:  Early indications show that the commercial spacecraft developers and operators are experiencing a reduced incidence of wiring anomalies compared to the Space Shuttle Program (SSP). There are differences in implementation of wiring designs between the new vehicles and the Space Shuttle. Recognition of these differences and an appreciation of where SSP failure mechanisms can pose a risk to new crewed launch vehicles and spacecraft can help to manage the incidence of wiring anomalies. Decisions that reduce wire inspection and testing post installation may need to be revisited if the factors resulting in reduced wire incidents change. ​​
+
+Latching Safety Critical Signals in Pyro Circuits
+Abstract:  In recent designs of safety-critical pyro control circuitry, latching circuits, used to store the state of control signals, have been found to have sensitivity to noise that could lead to inadvertent firing. This lesson learned describes the sensitive circuit, and makes recommendations to improve the design.
+
+Contracting for Modeling and Simulation (M&S)-based Analytical Services with Only the Analysis Results as Deliverables
+Abstract:  NASA, on certain occasions, contracts for the accomplishment of M&S-based analyses with few requirements, if any, for delivery of the M&S or other development or use artifacts along with the results from the analyses. While the costs for such contracts are lower, this practice provides an environment for potentially limiting the full and complete understanding of the model and data upon which the analyses are accomplished.
+
+Following Design Guidelines to Reduce Atmospheric Buffeting in Launch Vehicles
+Abstract:  If NASA aerodynamic design guidelines for hammerhead payload fairings [Cole, H. A.; Jr., et al.: Buffet During Atmospheric Ascent, NASA SP-8001, November 1970] are not followed, severe aerodynamic behavior may result, affecting controllability and structural integrity. Recently, vehicles of importance to NASA have not met the Guidelines.
+
+Aligning System Development Models with Insight Approaches
+Abstract:  The NASA Engineering and Safety Center (NESC) evaluated systems engineering and integration (SE&I) processes and functions currently used in space exploration programs. Systems engineering practices and processes following the traditional waterfall development model differ from the systems engineering practices and processes incorporated in the spiral development model. Differences in these development models accentuate areas of concern.
+
+Automotive and Non-Automotive Commercial-Off-the-Shelf (COTS) Electrical, Electronic and Electromechanical (EEE) Parts
+Abstract:  The NASA Engineering and Safety Center (NESC) performed testing on representative automotive and nonautomotive commercial-off-the-shelf (COTS) electrical, electronic, and electromechanical (EEE) parts. This activity was performed for the purpose of increasing NASA’s understanding of the relative risk of using these parts in avionics systems applications. Avionics are the electronic systems (e.g., guidance & navigation, communication, command, display, control, data handling, telemetry, etc…) and related flight and ground support components (i.e., “black boxes”), and associated technologies used on aircraft, human and robotic spacecraft, and space launch vehicles.
+
+Lessons Learned from a Structural Assessment of the International Space Station European-Manufactured Modules
+Abstract:  After a NASA Engineering and Safety Center (NESC) Assessment of the use of International Space Station (ISS) European-manufactured modules that did not receive post-proof weld non-destructive evaluation (NDE), significant lessons were learned relating to the use of Leak Before Burst (LBB) criteria versus safe-life criteria as a design tool for complex fracture critical welded structures.
+
+Orbital Express Rendezvous Lessons Learned
+Abstract: During the time period between late calendar year (CY) 2005 and the middle of CY 2007, a member of the NASA Engineering and Safety Center (NESC) Guidance Navigation and Control (GN&C) Technical Discipline Team (TDT) provided specialized engineering technical support to the Defense Advanced Research Project Agency (DARPA) Orbital Express (OE) Demonstration System mission. An NESC report, A Summary of the Rendezvous, Proximity Operations, Docking, and Undocking (RPODU) Lessons Learned from the Defense Advanced Research Project Agency (DARPA) Orbital Express (OE) Demonstration System Mission, was published at the conclusion of this assignment.
+
+Electrical Short Circuits due to Tin Whiskers
+Abstract: A NASA Engineering and Safety Center (NESC) investigation of intermittent electrical shorts in the Cassini space probe determined the cause of the shorts was most likely due to the presence of tin whiskers on certain components within the Cassini Plasma Spectrometer (CAPS) analytical instrument. The NASA technical community and commercial space enterprises need to have continued awareness that tin whiskers still cause failures on existing spacecraft and may be found on new systems.
+
+Lessons Learned from Evaluation of Loctite® as a Secondary Locking Feature for ISS Fasteners
+Abstract: An independent review of the sensitivities of Loctite® 242 and 271 for use as a secondary locking feature on International Space Station (ISS) and flight vehicle applications yielded eight Lessons Learned.
+
+Atmospheric Revitalization and Pressure Control System (ARPCS)
+Abstract: This lesson learned provides a summary of ground operations lessons learned for the Space Shuttle Atmospheric Revitalization and Pressure Control System compiled in June 2011. Lessons learned topics covered include: composite overwrap pressure vessel stress rupture failure mode, O2/N2 flow sensor problems, ground support equipment pressure distribution unit calibration, negative pressure relief valve failure to reseat, fire bottle quantity verification, test requirements, latching valves and position indication, and cabin leak checks.
+
+Failure of Pyrotechnic Operated Valves with Dual Initiators
+Abstract: Four spacecraft propulsion system pyrovalve no-fire failures were investigated by the NESC (NASA Engineering and Safety Center). In all four cases, a normally closed pyrovalve failed to actuate during tests in which simultaneous firing of dual initiators failed to ignite the booster charge. Timing of redundant initiator firings is crucial for reliable operation of pyrovalves. Dual simultaneous firing (< 10 microseconds skew) is not as robust as a single firing and should be avoided.
+
+Limitations of Internal Protective Devices in High-Voltage/High- Capacity Batteries Using Lithium-Ion
+Abstract: Most commercial cylindrical 18650 Lithium-Ion (Li-Ion) cells have two internal protective devices: the Positive Temperature Coefficient (PTC) and the Current Interrupt Device (CID). The PTC protects the cells under external short conditions and the CID protects the cells under overcharge conditions. While proven to be effective at the single cell and small-size battery levels, these devices do not always offer protection when used in high voltage and high-capacity battery designs.
+
+Guidance for NASA Selection & Application of DC-DC Converters
+Abstract: Numerous NASA projects have suffered severe cost and schedule impacts due to problems with hybrid DC-DC converter application, quality, and reliability. Although there have been a few in-flight failures, most problems and failures have occurred during flight system development and test. This write-up summarizes DC-DC converter lessons learned that were documented in 2008 by a NASA NESC study that advises flight projects on device selection, purchase, and test.
+
+Capture the Inspection and Testing Results of Space Shuttle Critical Flight and Ground Systems in Formal Engineering Reports
+Abstract: Formal, archival documentation of the original investigation and the subsequent tests and analyses conducted to resolve the problem of the cracks found in the flowliners at the gimbal joint of the LH2 feedlines of the Orbiter fleet were substantially incomplete. The discipline of preparing and peer reviewing formal engineering reports leads to a high degree of accuracy and technical rigor.
+
+Need for Increased Use of Formal Engineering Reports
+Abstract: The NASA Engineering and Safety Center NESC has found that much of the technical data gathered during performance of Independent Technical Assessments is available only as Power Point presentations and not as formal technical reports. Engineering organizations should use reports to document technical results. In addition, emphasis should always be on the content not format, regardless of whether PowerPoint or an engineering report is used for communication.
+
+NASA Engineering and Safety Center Consultation on Mars Exploration Rover Entry, Descent and Landing
+Abstract: Engineering sensors included on board the Spirit and Opportunity Mars Exploration Rovers were inadequate to allow an unambiguous physical reconstruction of vehicle performance during the critical entry, descent and landing phase. Suitable sensors to measure pressure, temperature and/or other key variables of the local environment, should be included on future landed missions.
+
+Improvement of Agency-Wide Support Functions are Required to Implement the One NASA Organization
+Abstract: The NASA Engineering and Safety Center (NESC) was charted to perform independent technical analyses and evaluations of complex technical issues of Agency programs by using a diverse team of scientists and engineers from across the Agency. This is being accomplished successfully using the One NASA approach. As such, the NESC has become a pathfinder activity for the development of a One NASA organization. Numerous administrative hurdles had to be overcome in establishing the NESC as a true, One NASA organization. Improvements are needed in the areas of personnel records, payroll, benefits, directory services, IT, and property control among others.
+
+Dissimilar Problem Reporting and Corrective Action Databases Complicate Data Mining and Integrated Trending Analysis
+Abstract: Performance of data mining and trending analyses of recurring anomalies in NASA programs are difficult due to numerous and dissimilar Problem Reporting and Corrective Action (PRACA) Databases. These databases exist without a common format, classification system or ontology. Agency-wide standards and best practices should be established for PRACA data collection and the associated data taxonomy.
+
+NASA Engineering and Safety Center Consultation on Mars Exploration Rover Ground Operations Human Factors
+Abstract: The existence of Agency-wide standards for work time limits for personnel engaged in critical flight operations has apparently not been widely communicated across NASA. The standards need to be properly promulgated and implemented across all flight programs.
+
+Benefits of a One NASA Organization in Solving Program and Project Technical Issues
+Abstract: The NASA Engineering and Safety Center (NESC) responds to requests from programs/projects to independently analyze complex or difficult problems encompassing a wide range of technical issues and disciplines. The NESC responds with an integrated technical “tiger team” that includes scientists and engineers from all NASA Centers and industry/academia members as warranted. The NESC has achieved numerous successes to date by institutionalizing the tiger team approach. These diverse and effective tiger teams were made possible by using the One NASA model.
+
+Need for Increased Use of Formal Engineering Reports
+Abstract: The NASA Engineering and Safety Center (NESC) has found that much of the technical data gathered during performance of Independent Technical Assessments is available only as Power Point presentations and not as formal technical reports. Engineering organizations should use reports to document technical results. In addition, emphasis should always be on the content not format, regardless of whether PowerPoint or an engineering report is used for communication.
+
+Standards, Specifications and Processes for Projects with Outside Partners
+Abstract: In November of 2003, the NASA Engineering and Safety Center (NESC) performed an Independent Technical Assessment of the Code Y CALIPSO satellite Proteus propulsion bus (ref. NESC Final Report NESC-RP-001, NASA Technical Memorandum number applied for). This is a joint mission with NASA GSFC, LaRC and the Centre National d’Etudes Spatiales (CNES) scheduled to launch from Vandenberg Air Force base in April 2005 on a Delta II rocket. There was a high level of confusion among the partners as to what standards, specifications and processes were to be applied (i.e., NASA, French, or DOD).
+
+Ambiguous Fault Tolerance Requirements
+Abstract: In November of 2003, the NASA Engineering and Safety Center (NESC) performed an Independent Technical Assessment of the Code Y CALIPSO satellite Proteus propulsion bus (ref. NESC Final Report NESC-RP-001, NASA Technical Memorandum number applied for). This is a joint mission with NASA GSFC, LaRC and the Centre National d’Etudes Spatiales (CNES) scheduled to launch from Vandenberg Air Force base in April 2005 on a Delta II rocket. There were many interpretations of which specific document dictated the fault tolerance requirements for the spacecraft. Further, given a specific document, there were divergent conclusions over what the fault tolerance verbiage in each document imposed on the spacecraft design, checkout and operations.
+
+Dissenting Opinions and Flight Readiness Review (FRR) Process
+Abstract: The NASA Engineering & Safety Center (NESC) received a dissenting opinion describing aerodynamic concerns leading to a potential loss of vehicle control that would result in a failure to achieve mission objectives. Working in conjunction with the X-43A project, the NESC ensured that the aerodynamic issues were properly addressed through the existing independent Flight Readiness Review (FRR) process. The role of the NESC was to confirm that the independent FRR committee adequately reviewed, investigated and responded to the dissenting opinion.
+
+NASA Logo
+The National Aeronautics and Space Administration
+NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.
+
+About NASA's Mission
+Join Us 
+Home
+News & Events
+Multimedia
+NASA TV
+Missions
+Humans in Space
+Earth & Climate
+The Solar System
+The Universe
+Science
+Aeronautics
+Technology
+Learning Resources
+About NASA
+NASA en Español
+Follow NASA
+More NASA Social Accounts
+NASA Newsletters
+Sitemap
+ 
+For Media
+ 
+Privacy Policy
+ 
+FOIA
+ 
+No FEAR Act
+ 
+Office of the IG
+ 
+Budget & Annual Reports
+ 
+Agency Financial Reports
+ 
+Contact NASA
+ 
+Accessibility
+Page Last Updated:
+Oct 03, 2023
+ 
+Page Editor:
+Daniel Hoffpauir
+ 
+Responsible NASA Official:
+Brian Dunbar
