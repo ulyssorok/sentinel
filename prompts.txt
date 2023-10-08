@@ -1,7 +1,4 @@
-Please analyze and suggest improvements to NASA Standard 5018
-
-If applicable, Please consider the Military Handbook, NASA Standards, NESC tactical bulletins, NASA lessons learned, and nasa tactical reports when suggesting improvements.
-
+Please analyze and suggest improvements to NASA Standard 5018. If applicable, Please consider the Military Handbook, NASA Standards, NESC tactical bulletins, NASA lessons learned, and nasa tactical reports when suggesting improvements.
 The output must include:
 1. The section number and version letter of the document under review
 2. The current language from that section
