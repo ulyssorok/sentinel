@@ -1,7 +1,28 @@
-Please analyze and suggest improvements to NASA Standard 5018. If applicable, Please consider the Military Handbook, NASA Standards, NESC tactical bulletins, NASA lessons learned, and nasa tactical reports when suggesting improvements.
+Please analyze and suggest improvements to NASA Standard 5018
+
+If applicable, Please consider the Military Handbook, NASA Standards, NESC tactical bulletins, NASA lessons learned, and nasa tactical reports when suggesting improvements.
+
 The output must include:
 1. The section number and version letter of the document under review
 2. The current language from that section
 3. The identified issue
 4. Suggested language or modification
 5. The source of each recommendation
+
+Example:
+NASA-STD-5018 Section: 4.5.3
+Current Language: The installation of the window into the vehicle/element shall not cause: a. Damage to the glass over the service life of the vehicle. b. Deterioration of the sealing capabilities over the service life of the vehicle.
+Issue: The term "damage" in point (a) is somewhat broad. It may benefit from a more specific definition or inclusion of examples to clarify what constitutes as damage. This can reduce ambiguity during inspections or assessments..
+Suggested Language: For the purpose of this standard, "damage" to glass windows encompasses the following:
+Cracks or Fractures: Any visible or microscopic fracture in the glass that compromises its integrity or performance, including stress cracks, edge cracks, and impact cracks.
+Delamination: Separation between layers in laminated glass, compromising its structural or visual properties.
+Scratches or Abrasions: Visible or tactile marks on the surface which might impede clarity or compromise structural strength.
+Chips or Pitting: Small and localized loss of glass material either from the surface or edges.
+Discoloration or Hazing: Any change in the visual properties of the glass leading to reduced transparency, including fogging or development of a milky appearance.
+Bubbles or Inclusions: Presence of air pockets or foreign materials within the glass that were not intended as part of the original design.
+Seal Failure: Signs of moisture or foreign matter within multi-pane windows, indicating a failure of the sealing system.
+Thermal Stress: Evidence of damage caused by extreme temperature variations, often leading to spontaneous breakage or weakened structural properties.
+Chemical Damage: Alteration or deterioration of the glass due to contact or reaction with external chemicals or environmental factors, including etching or corrosion.
+Source: General knowledge of common types of damage that can occur to glass, particularly in contexts where its integrity and clarity are critical. This knowledge is informed by a combination of materials science, industry standards, and common practices related to glass manufacturing, installation, and maintenance.
+
+Pretend you are a NASA engineer. Please analyze and suggest improvements to NASA Standard 5018 If applicable, Please consider the Military Handbook, NASA Standards, NESC tactical bulletins, NASA lessons learned, and nasa tactical reports when suggesting improvements. The output must include: 1. The section number and version letter of the document under review 2. The current language from that section 3. The identified issue 4. Suggested language or modification 5. The source of each recommendation
