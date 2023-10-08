@@ -1,0 +1,2961 @@
+NASA TECHNICAL STANDARD 5009
+
+Office of the NASA Chief Engineer
+
+NASA-STD-5009C
+Approved: 2023-08-03
+Superseding NASA-STD-5009B
+METRIC/SI (ENGLISH)
+
+NONDESTRUCTIVE EVALUATION REQUIREMENTS FOR
+FRACTURE-CRITICAL METALLIC COMPONENTS
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+
+NASA-STD-5009C
+
+DOCUMENT HISTORY LOG
+Status
+Interim
+Baseline
+Revision
+
+Document Change
+Revision Number
+
+A
+
+Approval Date
+2006-09-11
+2008-04-07
+2018-06-19
+
+Revision
+
+B
+
+2019-05-08
+
+Revision
+
+C
+
+2023-08-03
+
+Description
+Interim Release
+Baseline Release
+Significant changes were made to
+this NASA Technical Standard. It is
+recommended that it be reviewed in
+its entirety before implementation.
+Key changes were:
+Calibration of Eddy Current, factors
+to consider for CR and DR
+application, sensitivity level 3 or 4
+penetrant choice.
+Added requirement e. in section
+4.5.2 that was approved in the
+Baseline but inadvertently omitted
+from Revision A. Inserted Tables 1
+and 2 and Figure 1 from the
+Baseline to correct formatting
+issues.
+Significant changes were made to
+this NASA Technical Standard. It is
+recommended that it be reviewed in
+its entirety before implementation.
+Key changes were: Re-organized to
+bring “standard NDE” to the front,
+followed by “special NDE” then the
+sections of “Documenting” to help
+reduce redundant shall statements.
+Added note that the Standard is not
+applicable to additive manufactured
+metals. Deleted sections on digital
+radiography and added that
+standard NDE only applies to film
+X-ray. Corrected and added several
+definitions and applicable
+documents. For “special NDE,”
+added sections on three possible
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+2 of 54
+
+NASA-STD-5009C
+Status
+
+Document Change
+Revision Number
+
+Approval Date
+
+Description
+POD approaches. Added
+discussions on the history of
+NASA-STD-5009, Tables 1 and 2
+reliably detected flaw sizes. Added
+discussions on similarity and
+transfer functions. Added lower
+limits of plate thickness for
+penetrant and eddy current. Added
+guidelines for mapping reliably
+detectable dye penetrant crack size
+at external corners with fillet radii.
+Added guidelines for determining
+x-ray shots for inspection of
+cylindrical parts. Eliminated the
+requirement to have the proper
+authority disposition all crack-like
+flaws. Updated to current template.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+3 of 54
+
+NASA-STD-5009C
+FOREWORD
+This NASA Technical Standard is published by the National Aeronautics and Space
+Administration (NASA) to provide uniform engineering and technical requirements for
+processes, procedures, practices, and methods endorsed as standard for NASA programs and
+projects, including requirements for selection, application, and design criteria of an item.
+This Standard establishes the nondestructive evaluation (NDE) requirements for any NASA
+system or component, flight or ground, where fracture control and a quantitative demonstration of
+probability of detection (POD) are a requirement. This Standard specifically defines requirements
+for nondestructive evaluation in support of NASA-STD-5019A with Changes, Fracture Control
+Requirements for Spaceflight Hardware.
+Submit requests for information via “Email Feedback” at https://standards.nasa.gov. Submit
+requests for changes to this Standard via Marshall Space Flight Center (MSFC) Form 4657,
+Change Request for a NASA Engineering Standard, or the “Suggest a Change to this Standard”
+link on the Standard’s Summary Page at https://standards.nasa.gov.
+
+Original Signed By
+______________________
+Joseph W. Pellicciotti
+NASA Chief Engineer
+
+8/3/2023
+________________
+Approval Date
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+4 of 54
+
+NASA-STD-5009C
+TABLE OF CONTENTS
+DOCUMENT HISTORY LOG ................................................................................................... 2
+FOREWORD................................................................................................................................. 4
+LIST OF FIGURES ...................................................................................................................... 7
+LIST OF TABLES ........................................................................................................................ 7
+NONDESTRUCTIVE EVALUATION REQUIREMENTS FOR FRACTURECRITICAL METALLIC COMPONENTS ........................................................................... 8
+1.
+
+2.
+
+3.
+
+4.
+
+SCOPE ................................................................................................................................... 8
+1.1
+
+Purpose ............................................................................................................................ 8
+
+1.2
+
+Applicability.................................................................................................................... 8
+
+1.3
+
+Tailoring .......................................................................................................................... 9
+
+APPLICABLE DOCUMENTS ............................................................................................ 9
+2.1
+
+General ............................................................................................................................ 9
+
+2.2
+
+Government Documents .............................................................................................. 10
+
+2.3
+
+Non-Government Documents ...................................................................................... 10
+
+2.4
+
+Order of Precedence..................................................................................................... 11
+
+ACRONYMS, ABBREVIATIONS, SYMBOLS, AND DEFINITIONS ........................ 11
+3.1
+
+Acronyms, Abbreviations, and Symbols .................................................................... 11
+
+3.2
+
+Definitions ..................................................................................................................... 12
+
+NDE REQUIREMENTS .................................................................................................... 16
+4.1
+
+Standard NDE .............................................................................................................. 16
+
+4.1.1
+
+Standard NDE Crack Sizes .................................................................................. 16
+
+4.1.2
+
+Standard NDE Classification Justification ......................................................... 18
+
+4.1.3
+
+Demonstration of Standard NDE Capability ..................................................... 18
+
+4.1.4
+
+Standard NDE Methods ....................................................................................... 18
+
+4.1.5
+
+Method for Introducing New Standard NDE Flaw Sizes .................................. 24
+
+4.1.6
+
+Inability to Meet Standard NDE Inspection Process Requirements ................ 24
+
+4.2
+
+Special NDE .................................................................................................................. 25
+
+4.2.1
+
+General ................................................................................................................... 25
+
+4.2.2
+
+Special NDE Crack Sizes ...................................................................................... 25
+
+4.2.3
+
+Demonstration of Special NDE Capability ......................................................... 25
+
+4.2.4
+
+NDE Capability Demonstration Specimens........................................................ 27
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+5 of 54
+
+NASA-STD-5009C
+4.3
+
+NDE Procedures, Standards, and Methods ............................................................... 28
+
+4.3.1
+
+Material Review Board (MRB)............................................................................ 28
+
+4.3.2
+
+NDE Drawing Callouts ......................................................................................... 28
+
+4.3.3
+
+NDE Process Documentation Control ................................................................. 29
+
+4.3.4
+
+Capability Demonstration Specimens ................................................................. 29
+
+4.3.5
+
+Organizational Guidelines and Documentation ................................................. 29
+
+4.4
+
+NDE Documentation .................................................................................................... 30
+
+4.4.1
+
+NDE Plan ............................................................................................................... 30
+
+4.4.2
+
+NDE Summary/Inspection Report ...................................................................... 30
+
+4.4.3
+
+Supporting Data and Record Retention ............................................................. 31
+
+4.5
+
+Personnel Qualification and Certification ................................................................. 31
+
+APPENDIX A: REQUIREMENTS IDENTIFICATION MATRIX ...................................... 36
+APPENDIX B: EXAMPLE OF AN NDE ORGANIZATION (“SHALLS” ARE FOR
+EXAMPLE ONLY) ..................................................................................................................... 49
+B.1
+
+IMPLEMENTATION AND RESPONSIBILITIES ..................................................... 49
+B.1.1
+
+Oversight Responsibility ...................................................................................... 49
+
+B.1.2
+
+Responsibility of Hardware-Specific NDE Requirements ................................ 49
+
+B.1.3 Responsibility of NDE Standards, Procedures, and Reference Standards
+During Hardware Development and Manufacturing ..................................................... 50
+B.1.4
+
+Responsibility of NDE Standards, Procedures, and Reference Standards for
+
+Operations and Maintenance NDE ................................................................................... 50
+B.1.5
+
+NDE Drawing Callouts ......................................................................................... 51
+
+B.1.6
+
+NDE Process and Configuration Control ........................................................... 51
+
+B.1.7
+
+Capability Demonstration Specimens ................................................................. 51
+
+B.1.8
+
+Responsibilities of NDE Inspection Organization .............................................. 52
+
+APPENDIX C: REFERENCE DOCUMENTS ........................................................................ 53
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+6 of 54
+
+NASA-STD-5009C
+LIST OF FIGURES
+Figure 1—Flat Part X-ray Shot Geometry .................................................................................... 22
+Figure 2—Curved Part X-ray Shot Geometry .............................................................................. 23
+Figure 3—Assumed Flaw Geometries .......................................................................................... 35
+
+LIST OF TABLES
+Table 1—Reliably Detectable Flaw Sizes for Fracture Analysis Based on Standard NDE
+Methods (Millimeters) (See Section 4.1 of this Standard for applicability.) .............................. 33
+Table 2—Reliably Detectable Flaw Sizes for Fracture Analysis Based on Standard NDE
+Methods (Inches) (See Section 4.1 of this Standard for applicability.) ........................................ 34
+Table 3―Requirements Identification Matrix .............................................................................. 36
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+7 of 54
+
+NASA-STD-5009C
+NONDESTRUCTIVE EVALUATION REQUIREMENTS FOR
+FRACTURE-CRITICAL METALLIC COMPONENTS
+
+1.
+
+SCOPE
+
+1.1
+
+Purpose
+
+This NASA Technical Standard establishes the nondestructive evaluation (NDE) requirements
+for any NASA system or component, flight or ground, where fracture control and a quantitative
+demonstration of probability of detection (POD) are required. This Standard defines the primary
+requirements for NDE in support of NASA-STD-5019A with Changes, Fracture Control
+Requirements for Spaceflight Hardware. NDE applied in-process for purposes of process control
+and NDE of damage-tolerant composites are not addressed in this Standard.
+It is the policy of NASA to produce aerospace flight systems with a high degree of reliability and
+safety. This is accomplished through good design, manufacturing, test, and operational practices,
+including the judicious choice of materials, detailed analysis, appropriate factors of safety,
+rigorous testing and control of hardware, and reliable inspection. NASA fracture control
+requirements stipulate that all human-rated aerospace flight systems be subjected to fracture
+control procedures to preclude catastrophic failure. Those procedures frequently rely on NDE to
+ensure that the potential failure initiation of relevant crack-like flaws is not present in critical
+areas.
+Programs that are not human-rated may choose to impose these requirements on a mission or
+hardware to increase the robustness of a structural design or to serve as a stepping-stone for
+human-rating.
+1.2
+
+Applicability
+
+1.2.1 This Standard is applicable to the fracture control of metal components (e.g., aluminum,
+steel, titanium, and nickel alloys) for any NASA system or component, flight or ground, where
+fracture control is a requirement.
+For additively manufactured (AM) components, refer to NASA-STD-6030, Additive
+Manufacturing Requirements for Spaceflight Systems.
+The requirements described herein apply to fracture-critical hardware developed for NASA
+applications by NASA Field Centers, international partners, contractors, and outside
+organizations. NDE processes are required to meet the requirements in this Standard to screen
+hardware reliably for the presence of crack-like flaws.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+8 of 54
+
+NASA-STD-5009C
+1.2.2 This Standard is approved for use by NASA Headquarters and NASA Centers and
+Facilities, and applicable technical requirements may be cited in contract, program, and other
+Agency documents. This language applies to the Jet Propulsion Laboratory (a Federally Funded
+Research and Development Center), other contractors, recipients of grants, cooperative
+agreements, or other agreements only to the extent specified or referenced in the applicable
+contracts, grants, or agreements.
+1.2.3 References to “this Standard” refer to NASA-STD-5009C; references to other documents
+state the specific document information.
+1.2.4 Verifiable requirement statements are designated by the acronym NER (Nondestructive
+Evaluation Requirement), numbered, and indicated by the word “shall.” This Standard contains 74
+requirements. To facilitate requirements selection by NASA programs and projects, a Requirements
+Identification Matrix is provided in Appendix A.
+1.2.5 Explanatory or guidance text is indicated in italics beginning in section 4. The terms “may”
+or “can” denote discretionary privilege or permission, “should” denotes a good practice and is
+recommended but not required, “will” denotes expected outcome, and “are/is” denotes descriptive
+material or a statement of fact.
+1.3
+
+Tailoring
+
+Tailoring of the requirements in this Standard for application to a specific program or project is
+acceptable when formally approved by the delegated NASA Technical Authority in accordance
+with NPR 7120.5, NASA Space Flight Program and Project Management Requirements, and
+documented in program or project requirements.
+
+2.
+
+APPLICABLE DOCUMENTS
+
+2.1
+
+General
+
+2.1.1 Documents listed in this section contain provisions constituting requirements of this
+Standard as cited in the text. Latest issuances of cited documents apply unless specific versions
+are designated. Obtain approval from the delegated NASA Technical Authority to use a version
+other than as designated.
+2.1.2 Access applicable documents at https://standards.nasa.gov or obtain documents directly
+from the Standards Developing Body or other document distributors, and from information
+provided or linked.
+Note: Refer to Appendix C for reference documents.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+9 of 54
+
+NASA-STD-5009C
+2.2
+
+Government Documents
+
+Department of Defense
+MIL-HDBK-1823A, Nondestructive Evaluation System Reliability Assessment
+NASA
+NPR 1441.1, NASA Records Management Program Requirements
+NPR 7120.5, NASA Space Flight Program and Project Management Requirements
+NASA-STD-5019A with Changes, Fracture Control Requirements for Spaceflight Hardware
+NASA/TM−20210018515 (Corrected Copy), NESC-TI-20-01545, Guidebook for Limited
+Sample Probability of Detection (LS-POD) Demonstration for Signal-Response Nondestructive
+Evaluation (NDE) Methods
+2.3
+
+Non-Government Documents
+
+Aerospace Industries Association (AIA)/National Aerospace Standards (NAS)
+NAS 410, NAS Certification and Qualification of Nondestructive Test Personnel
+American Society for Nondestructive Testing
+Materials Evaluation (ME), Volume 40, No. 9, 1982, Recommended Practice for a
+Demonstration of Nondestructive Evaluation (NDE) Reliability on Aircraft Production Parts,
+Ward D. Rummel (Authorized NASA Users Only:
+https://sharepoint.msfc.nasa.gov/sites/agency/1539nasaen/Shared%20Documents/Forms/AllItem
+s.aspx?RootFolder=%2Fsites%2Fagency%2F1539nasaen%2FShared%20Documents%2FNASA
+%2DSTD%2D5009C%2FNASA%2DSTD%2D5009%20%2D%20Applicable%20Documents&
+FolderCTID=0x01200095DB05AE97665D40A79F36C31E990E4C&View=%7B2F7691A6%2
+D3B60%2D4654%2DBA21%2D8F169BC3D21F%7D; other users may request from The
+American Society for Nondestructive Testing [https://www.asnt.org])
+ASTM International
+ASTM E164, Standard Practice for Contact Ultrasonic Testing of Weldments
+ASTM E1417/E1417M, Standard Practice for Liquid Penetrant Testing
+ASTM E1444/E1444M, Standard Practice for Magnetic Particle Testing for Aerospace
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+10 of 54
+
+NASA-STD-5009C
+ASTM E1742/E1742M, Standard Practice for Radiographic Examination
+ASTM E2375, Standard Practice for Ultrasonic Testing of Wrought Products
+SAE International
+SAE AMS2647, Fluorescent Penetrant Inspection Aircraft Structures and Engine Component
+Maintenance
+SAE ARP4402, Eddy Current Inspection of Open Fastener Holes in Aluminum Aircraft Structure
+SAE AS4787, Eddy Current Inspection of Circular Holes in Nonferrous Metallic Aircraft Engine
+Hardware
+2.4
+
+Order of Precedence
+
+2.4.1 The requirements and standard practices established in this Standard do not supersede or
+waive existing requirements and standard practices found in other Agency documentation, or in
+applicable laws and regulations unless a specific exemption has been obtained by the Office of
+the NASA Chief Engineer.
+2.4.2 Conflicts between this Standard and other requirements documents will be resolved by
+the delegated NASA Technical Authority.
+
+3.
+
+ACRONYMS, ABBREVIATIONS, SYMBOLS, AND DEFINITIONS
+
+3.1
+
+Acronyms, Abbreviations, and Symbols
+
+β
+
+%
+=
+
+≥
+
+
+±
+AIA
+AM
+AMS
+ARP
+AS
+
+For a cylindrical shape with a crack perpendicular to the side wall running in the
+axial direction (length of the tube), the local direction of the radiation beam to that
+crack
+percent
+equals
+greater than or equal to
+less than or equal to
+plus or minus
+Aerospace Industries Association
+Additive Manufactured
+Aerospace Materials Specification
+Aerospace Recommended Practice
+Aerospace Standard
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+11 of 54
+
+NASA-STD-5009C
+CR
+DR
+EDM
+ESA
+HDBK
+IACS
+in
+JSC
+LS-POD
+ME
+MIL
+mm
+MRB
+MSFC
+NAS
+NASA
+NAVAIR
+NDE
+NER
+NPR
+PEM
+POD
+POF
+PRC
+PTC
+QQI
+RFCB
+SAE
+SI
+STD
+TM
+USN
+3.2
+
+Computed Radiography
+Digital Radiography
+electrical discharge machining
+European Space Agency
+Handbook
+International Annealed Copper Standard
+inch
+Johnson Space Center
+Limited Sample Probability of Detection
+Materials Evaluation
+Military
+millimeter
+Material Review Board
+Marshall Space Flight Center
+National Aerospace Standard
+National Aeronautics and Space Administration
+Naval Air Systems Command
+Nondestructive Evaluation
+Nondestructive Evaluation Requirement
+NASA Procedural Requirements
+Point Estimate Method
+Probability of Detection
+Probability of False-Calls
+Procedure
+partly through crack
+Quantitative Quality Indicator
+Responsible Fracture Control Board
+SAE International (formerly Society of Automotive Engineers)
+The International System of Units (commonly known as the Système
+Internationale)
+Standard
+Technical Memorandum
+United States Navy
+
+Definitions
+
+Applicable Documents: Documents cited in the body of the standard that contain provisions or
+other pertinent requirements directly related and necessary to the performance of the activities
+specified by the standard.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+12 of 54
+
+NASA-STD-5009C
+Capability Demonstration Specimens: A set of specimens made from material similar to the
+material of the hardware to be inspected with known flaws used to estimate the capability of flaw
+detection, i.e., Probability of Detection.
+Certification: A written statement by an employer that an individual has met the applicable
+requirements of this Standard. (Source: NAS 410)
+Contrast: The difference between the average signal value in a specific region and the average
+signal value in a neighboring region.
+Cracks or Crack-Like Flaws: A discontinuity assumed to behave like a crack for assessment of
+material or structural integrity.
+Flaw: An imperfection or discontinuity that may be detectable by nondestructive testing and is
+not necessarily rejectable. Examples of flaws in metallic materials include cracks, deep scratches
+and sharp notches that behave like cracks, material inclusions, forging laps, welding incomplete
+fusion, penetration, and slag or porosity with a crack-like tail.
+Fracture Control: The rigorous application of those branches of design engineering, quality
+assurance, manufacturing, and operations dealing with the analysis and prevention of crack
+propagation leading to catastrophic failure.
+Fracture-Critical Hardware, Component, or Part: Fracture control classification that
+identifies a part whose individual failure, caused by the presence of a crack, is a catastrophic
+hazard and that requires safe-life analysis or other fracture control assessment to be shown
+acceptable for flight. A part is fracture critical unless it can be shown that there is no credible
+possibility for a flaw to cause failure during its lifetime or the part failure does not result in a
+credible catastrophic hazard. Assessments for fracture critical parts include damage tolerance
+analysis, damage tolerance test, or defined approaches for specific categories. Parts under this
+classification receive flaw screening by NDE, proof test, or process control and are subjected to
+traceability, materials selection and usage, documentation, and engineering drawing
+requirements.
+Hardware Developer: The organization, NASA or prime contractor, responsible for the design,
+development, and manufacturing of hardware that is subject to fracture control.
+Instrument Standardization: Adjustment of an NDE instrument response using an appropriate
+reference standard with known size discontinuities such as electro-discharged machined slots and
+flat bottom holes, to obtain or establish a known and reproducible response. This is usually done
+prior to an examination but can be carried out anytime there is concern about the examination or
+instrument response. It is also commonly known as calibration prior to initiating an NDE
+procedure.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+13 of 54
+
+NASA-STD-5009C
+Material Review Board: After non-conforming material has been identified, this board reviews
+it and determines whether or not the material should be returned, reworked, used as-is, or
+scrapped. Note: The Material Review Board (MRB) consists of representatives across many
+disciplines, including manufacturing engineering, materials engineering, quality, etc.
+Naturally Occurring Flaw: A flaw that is present in a component as a result of the normally
+occurring manufacturing processes or usage of the component as compared to NDE simulated
+flaws such as electrical discharge machining (EDM) notches, flat bottom holes, engineered
+cracks, etc.
+NDE Plan: A plan that describes the process for establishment, implementation, and control of
+NDE of aerospace flight hardware during design, manufacturing, and its operational life.
+NDE Procedure: A written plan providing detailed information on “how-to” perform a
+hardware-specific inspection.
+NDE Reference Standard: A material or object for which all relevant chemical and physical
+characteristics are known and measurable, used as a comparison for, or standardization of,
+equipment or instruments used for nondestructive testing.
+90/95 Probability of Detection (POD 90/95): Refers to 90% probability of flaw detection with a
+95% lower confidence bound.
+Nondestructive Evaluation: The development and application of technical methods to examine
+materials or components in ways that do not impair future usefulness and serviceability to detect,
+locate, measure, and evaluate flaws; to assess integrity, properties, and composition; and to
+measure geometrical characteristics. This is to include nondestructive inspection and testing.
+Pie Gauge: A tool for quickly verifying the direction of magnetic flux on a surface. Pie gauges
+are not acceptable for measuring field intensities.
+Qualification: The skills, training, knowledge, examinations, experience, and visual capability
+required for personnel to properly perform to a particular level.
+Quantitative Quality Indicator: Magnetic particle test pieces with artificial flaws used to verify
+proper field direction and adequate field strength.
+Reference Document: Written, printed, or electronic matter that is useful as background
+information for the reader to help in understanding the subject matter but does not constitute
+technical requirements of the Standard.
+Reliably Detectable Flaw Size: The size of a crack-like flaw that can be detected with at least
+90% POD with 95% confidence (i.e., 90/95 POD). For Standard NDE, reliably detectable flaw
+sizes are provided in Tables 1 and 2. For Special NDE, the reliably detectable flaw size must be
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+14 of 54
+
+NASA-STD-5009C
+demonstrated through POD testing using the methods cited within this Standard. When
+determined using the MIL-HDBK-1823A, Nondestructive Evaluation System Reliability
+Assessment, POD method, this flaw size will be the minimum reliably detectable flaw size,
+denoted a90/95. Reliably detectable flaw sizes are assumed to exist in a part for the purpose of
+performing a damage tolerance safe-life analysis of the part, component, or assembly.
+Responsible Fracture Control Board (RFCB): The designated board at the NASA Center or
+sponsoring institution responsible for fracture control methodology that can interpret fracture
+control requirements.
+Responsible NASA Center: A group of designated multi-discipline representatives as
+designated by the responsible program office that has the authority to develop, interpret, and
+approve fracture control requirements and the responsibility for overseeing and approving the
+technical adequacy of all fracture control activities.
+Responsible NDE Engineering: The NDE engineering organization of the hardware developer
+or the sustaining engineering organization responsible for the engineering aspect of fracturecritical NDE during manufacturing or operations and maintenance.
+Sensitivity Level: A scale used to assess the quality of a penetrant of radiographic inspection.
+Similarity: The case where it has been established either by engineering judgement or
+quantitative data analysis that a one-to-one transfer function exists between the original NDE
+POD study and the specific NDE inspection situation at hand. Differences between the
+inspection configurations that might be assessed in similarity analysis include factors such as
+surface finish, accessibility, material type, geometry, and orientation.
+Simulated Fabricated Flaw: A flaw that is intentionally placed in a component for the purpose
+of generating an NDE signal response. These can be produced by a variety of material removal
+processes (e.g., cutting, drilling, EDM, laser notching, plasma focused ion beam notching) or
+additive material-forming processes.
+Simulated Induced Flaw: A flaw that is intentionally placed in a component for the purpose of
+generating an NDE signal response. Induced flaws are produced by intentional loading (thermal,
+mechanical, etc.) to induce damage (e.g., cracks, delaminations, disbonds).
+Special NDE: Nondestructive inspections of fracture-critical hardware that are capable of
+detecting cracks or crack-like flaws smaller than those assumed detectable by Standard NDE or
+do not conform to the requirements for Standard NDE as set forth in this Standard. Special NDE
+methods are not limited to fluorescent penetrant, radiography, ultrasonic, eddy current, and
+magnetic particle.
+Standard NDE: NDE methods for which conservative reliably detectable flaw sizes were
+established by POD demonstration testing performed by multiple inspectors. For the Standard
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+15 of 54
+
+NASA-STD-5009C
+NDE flaw sizes, it is assumed that qualified inspectors can provide the required 90/95 POD
+without additional POD demonstration testing. Current Standard NDE methods include
+fluorescent penetrant, radiographic (film), ultrasonic, eddy current, and magnetic particle testing.
+Sustaining Engineering: The organization, NASA or prime contractor, responsible for operation
+and maintenance of hardware that is subject to fracture control.
+Technical Authority: A representative delegated by the contracting agency to address technical
+matters and who is responsible for the interpretation and implementation of the requirements set
+forth in this Standard.
+
+4.
+
+NDE REQUIREMENTS
+
+The requirements set forth in this Standard are the minimum NDE requirements for metallic
+fracture-critical hardware. The application of Standard and Special NDE per the requirements
+of this Standard does not exempt fracture-critical hardware from routine NDE performed during
+manufacturing. The fracture control NDE procedures cited herein may exceed the requirements
+for NDE procedures that are routinely performed for purposes such as configuration control and
+process control. NASA-STD-5019A with Changes provides the definition of fracture-critical
+hardware for all spaceflight systems.
+4.1
+
+Standard NDE
+
+[NER 1] Standard NDE shall consist of nondestructive inspections of traditional (non-AM)
+metal components (e.g., aluminum, steel, titanium, and nickel alloys) using the NDE methods
+cited in Table 1, Reliably Detectable Flaw Sizes for Fracture Analysis Based on Standard NDE
+Methods (Millimeters), or Table 2, Reliably Detectable Flaw Sizes for Fracture Analysis Based
+on Standard NDE Methods (Inches), or additional methods that have been demonstrated by
+section 4.1.5 in this Standard and approved by the RFCB or delegated NASA Technical
+Authority.
+The Reliably Detectable Flaw Sizes shown in Table 1 and Table 2 can be assumed as starting
+points in the damage tolerance fracture analyses and are applicable only for metals (not to
+include AM metals). The crack geometries for the cracks in Table 1 or Table 2 are shown in
+Figure 3, Assumed Flaw Geometries.
+4.1.1 Standard NDE Crack Sizes
+[NER 2] Nondestructive inspections of fracture-critical hardware shall detect the initial crack
+sizes used in the damage tolerance fracture analyses with a capability of minimum 90%
+probability of detection at a 95% confidence level, known as 90/95.
+The Standard NDE flaw sizes for eddy current, penetrant, magnetic particle, radiography, and
+ultrasonic techniques are shown in Table 1 and Table 2. The table entries are based primarily on
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+16 of 54
+
+NASA-STD-5009C
+NDE capability studies conducted on flat specimens with open surface, partially through, etched
+fatigue cracks that were evaluated by multiple inspectors from multiple contractors early in the
+Space Shuttle Program. See Bishop (1973). The studies were performed on wrought steel for the
+magnetic particle method and on 2219-T87 aluminum panels for the other NDE methods.
+Bishop’s detectable flaw sizes for the penetrant method were the basis of the Shuttle Orbiter
+Fracture Control Plan’s (King and Johnson [1974]) definition of Standard NDE flaw sizes since
+it was the predominant NDE method in use at the time. Bishop’s POD estimates were averaged
+over a range of aspect ratio cracks. The translation of Bishop’s study results to the Standard
+NDE flaw sizes was based on both quantitative and qualitative analysis of the data. These
+original Orbiter Standard NDE flaw sizes evolved into later NASA Standards, including MSFCSTD-1249, Standard NDE Guidelines and Requirements for Fracture Control Programs, and
+eventually in this Standard through the consideration of additional POD studies and engineering
+judgement as well as structural analysis of additional crack configurations. The Standard NDE
+flaw sizes in Tables 1 and 2 are considered to meet the 90/95 capability requirement. A more
+detailed history can be found in NASA/TM−20220013820, NESC-TI-21-01657, A Survey of
+NASA Standard Nondestructive Evaluation (NDE).
+Since the Standard NDE flaw sizes were derived from a single flaw type and limited specimen
+parameters, the application of these flaw sizes to other geometries, materials, material forms,
+and material processes is based on a rationale of similarity to a specific fracture critical
+component. Similarity can be established by POD studies, using the method described in
+NASA/TM−20220003648, Guidebook for Assessing Similarity and Implementing Empirical
+Transfer Functions for Probability of Detection (POD) Demonstrations for Signal Based
+Nondestructive Evaluation (NDE) Methods, or engineering rationale approved by the RFCB.
+For example, a flat panel may be considered representative of a component with a large
+diameter curvature. Also, it may be considered reasonable to use the Standard NDE flaw sizes
+for most aerospace wrought alloys. Conversely, the Standard NDE flaw sizes may not apply to
+thick-section components; threaded parts; weldments; compressively loaded structures; double
+wall radiography; and other unique material, structural, or inspection applications.
+If similarity to Standard NDE flaw sizes cannot be established, the Standard NDE flaw sizes may
+also be transferred to estimate the detectable flaw size in a specific flight component using
+NASA/TM−20220003648, specifically, the inverse transfer function method.
+If similarity to Standard NDE cannot be established and an inverse transfer function cannot be
+applied, a Special NDE demonstration can be performed using naturally occurring flaws in
+flight component geometry to demonstrate 90/95 capability (see section 4.2 in this Standard).
+For example, a Special NDE demonstration using penetrant to evaluate the capillary action in
+fatigue cracks on a curved flight-representative component may confirm similarity of using
+penetrant on a curved part compared to a flat specimen.
+If a sufficient number of naturally occurring flaws in flight component geometry are not
+available for a Special NDE demonstration, a representative flaw type, flaw size, and specimen
+can be established using the NASA/TM−20220003648 forward method. It is recommended that
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+17 of 54
+
+NASA-STD-5009C
+Special NDE demonstrations be performed with simulated induced flaws (e.g., fatigue cracks)
+rather than fabricated flaw (e.g., EDM notches) to better represent flaw-to-flaw variability.
+4.1.2 Standard NDE Classification Justification
+[NER 3] The justification to classify an NDE procedure as a Standard NDE procedure shall be
+documented and approved by NDE engineering and the delegated NASA Technical Authority.
+4.1.3 Demonstration of Standard NDE Capability
+[NER 4] Instrument standardization shall be performed.
+Implementation of Standard NDE methods in accordance with the requirements in section 4.1.4
+in this Standard will not require a POD crack detection capability demonstration.
+4.1.4 Standard NDE Methods
+4.1.4.1
+
+Eddy Current
+
+Standard eddy-current inspection was only applied to nonmagnetic, nonferromagnetic, and
+conductive metals in our early capability databases. With approval from NDE Engineering or
+the delegated NASA Technical Authority, inspection of some ferromagnetic materials can be
+considered Standard.
+4.1.4.1.1 [NER 5] Eddy-current inspections shall be in accordance with SAE ARP4402, Eddy
+Current Inspection of Open Fastener Holes in Aluminum Aircraft Structure; SAE AS4787, Eddy
+Current Inspection of Circular Holes in Nonferrous Metallic Aircraft Engine Hardware; or
+NASA fracture control and NASA NDE Engineering-approved contractor internal specifications
+with the following additional requirements:
+a. [NER 6] For part conductivities less than 10% International Annealed Copper
+Standard (IACS), the reference standard shall have a conductivity of ±2% IACS with a
+minimum reference standard conductivity of 0.8% IACS.
+As given in SAE ARP4402, pay special attention to ensure that the conductivity of the reference
+standard matches the conductivity of the part to be inspected within ±15% of the IACS.
+b. [NER 7] Reference standard notches used for standardization shall be no larger than
+½ the length and ½ the depth of the target crack size with a maximum width of 0.127 mm (0.005
+in):
+The shape of surface and through artificial notches can be anywhere between semi-circular
+“thumb nail” to rectangular. The shape for corner notches can be anywhere between semicircular to triangular.
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+18 of 54
+
+NASA-STD-5009C
+
+c. [NER 8] Noise levels on the component shall be less than 25% of the reference notch
+response.
+d. [NER 9] Any indication greater than 50% of the reference notch response shall be
+reported to, and receive disposition by, the proper engineering authority.
+4.1.4.1.2 [NER 10] The influence of coatings and lift-off variations on the reliability of an
+eddy current Standard NDE inspection process shall be evaluated for application-specific
+suitability and documented in the NDE Summary Report.
+4.1.4.2
+
+Fluorescent Penetrant
+
+[NER 11] Fluorescent Penetrant inspection shall be in accordance with ASTM E1417/E1417M,
+Standard Practice for Liquid Penetrant Testing; SAE AMS2647, Fluorescent Penetrant
+Inspection Aircraft Structures and Engine Component Maintenance; or NASA fracture control
+and NASA NDE Engineering-approved contractor internal specifications.
+4.1.4.2.1 Penetrant System
+[NER 12] The penetrant system used shall be a fluorescent penetrant of sensitivity level 3 or 4.
+(See NASA/TM-2011-215869, A Comparison of the Capability of Sensitivity Level 3 and
+Sensitivity Level 4 Fluorescent Penetrants to Detect Fatigue Cracks in Various Metals.)
+4.1.4.2.2
+
+Mechanically Disturbed Surfaces
+
+[NER 13] Mechanically disturbed or wire EDM surfaces shall be etched or electropolished
+prior to the penetrant inspection and at an appropriate time in the manufacturing flow.
+The final penetrant inspection can be performed prior to metal finishing operations such as
+buffing or sanding that do not by themselves produce flaws. It should be noted that these final
+finishing operations may create a mechanically disturbed surface that could impede subsequent
+(nonconformance resolution and/or service life) penetrant inspections and thus require etching.
+4.1.4.2.3
+
+Etching/Electropolishing Procedure
+
+a. [NER 14] An etching/electropolishing procedure shall be developed, approved, and
+controlled to prevent part damage.
+b. [NER 15] The etching/electropolishing procedure shall specify the minimum
+amount of material to be removed to ensure that smeared metal does not mask cracks.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+19 of 54
+
+NASA-STD-5009C
+(1) [NER 16] Non-ferrous materials such as aluminum and titanium alloys shall be
+etched/electropolished to remove a minimum of 0.01 mm (0.0004 in) of material.
+(2) [NER 17] Corrosion resistant steel and nickel-based alloys shall be
+etched/electropolished to remove a minimum of 0.005 mm (0.0002 in) of
+material.
+For NER 16 and NER 17, reference JSC PRC-5010C, Process Specification for Pickling,
+Etching, and Descaling of Metals.
+Take care to use an etchant or electropolish and process parameters which will preserve the
+surface finish.
+c. [NER 18] If etching/electropolishing is not feasible or the minimum depths are not
+attainable, it shall be demonstrated and documented that the required flaw size can be reliably
+detected following current machining processes.
+When very close tolerances are required, critical surfaces should be machined near final
+dimensions, etched and inspected, then finish machined and dye penetrant inspected without
+further etch.
+4.1.4.2.4
+
+Special Considerations
+
+Tables 1 and 2 reliably detectable flaw sizes do not specify a minimum part thickness or edge or
+hole crack sizes when a fillet radius is present.
+[NER 19] Interpretation of reliably detectable flaw sizes for thin parts with thickness less than
+0.64 mm (0.025 in) or edges and holes with a fillet radius shall require approval by the RFCB.
+Refer to NASA/TM-20230000318, Guidelines for Mapping Reliably Detectable Dye Penetrant
+Crack Size at External Corners with Fillet Radii, for estimating reliably detectable flaw sizes on
+external corners.
+4.1.4.3
+
+Magnetic Particle
+
+[NER 20] Magnetic particle inspections shall be in accordance with ASTM E1444/E1444M,
+Standard Practice for Magnetic Particle Testing for Aerospace, or NASA fracture control and
+NASA NDE Engineering-approved contractor internal specifications.
+4.1.4.3.1 [NER 21] The magnetic particle inspection shall be the wet, fluorescent, continuous,
+or multi-mag method.
+4.1.4.3.2 [NER 22] A Quantitative Quality Indicator (QQI) shall be used to validate the local
+field intensities.
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+20 of 54
+
+NASA-STD-5009C
+
+4.1.4.3.3 [NER 23] Type CX-230 or CX4-230 QQIs shall be used on curved or complex
+surfaces where the Type CX-430 or CX4-430 QQIs cannot conform to the part in the area of
+interest.
+Cut Type CX4-230 and CX4-430 QQIs into four individual QQIs. Ensure QQIs are in intimate
+contact with the inspection surface with the notches facing down and the “+” notches aligned
+with the required magnetization directions.
+Hall probes are acceptable provided they are verified with a QQI. Pie gauges are not acceptable
+for measuring field intensities.
+4.1.4.4
+
+Radiography (X-Ray)
+
+Table 1 or Table 2 minimum detectable crack size for standard radiographic processes is based
+solely on film x-ray radiography and represents NASA’s past radiographic capability
+demonstrations on metallic specimens. With the conversion to digital radiographic techniques
+and methods, it is essential to assess the capability of such systems to meet the Tables 1 and 2
+requirements.
+4.1.4.4.1 [NER 24] A POD study shall be used to establish the capability of digital
+radiographic techniques, including computed radiography, digital radiography, and computed
+tomography which at this time are considered to be Special NDE.
+4.1.4.4.2 [NER 25] A POD study shall be used to establish the capability of Gamma radiation
+source inspections which are considered special NDE.
+For radiographic inspections, surface cracks are assumed to be oriented normal to the surface
+unless otherwise indicated in the inspection callouts.
+4.1.4.4.3 [NER 26] Film radiographic inspections, with capabilities shown in Table 1 or
+Table 2, shall be in accordance with ASTM E1742/E1742M, Standard Practice for Radiographic
+Examination, or NASA fracture control and NASA NDE Engineering-approved contractor
+internal specifications with the following additional requirements:
+a. [NER 27] The minimum radiographic inspection sensitivity level shall be 2-1T.
+The requirement for sensitivity level 2-1T is in accordance with industry specifications
+for similar applications, namely NAVAIR 01-1A-34, Aeronautical Equipment Welding,
+and European Space Agency ECSS‐E‐ST‐32‐01C, Fracture Control.
+b. [NER 28] Film density shall be 2.5 to 4.0.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+21 of 54
+
+NASA-STD-5009C
+The requirement for 2.5 to 4.0 film density, while more stringent than the requirements of
+ASTM E1742/E1742M, is intended to optimize contrast for flaw detection for most films
+used in aerospace hardware inspection. This is because the gradient values of these films
+(change in density in response to a small change in exposure values caused by flaw
+conditions) are generally highest in the required density range.
+c. [NER 29] The local x-ray axis of the radiation beam shall be within
+±5 degrees of the assumed crack plane orientation.
+For flat parts only, with the center axis of the beam perpendicular to the part, the area of the
+film that falls within a ±5-degree cone of radiation (10-degree total solid angle, i.e., 2 𝜽, apex at
+the radiation source, central axis of the cone equal to the central axis of the radiation beam) will
+be considered valid for interpretation. See Figure 1, Flat Part X-ray Shot Geometry.
+
+Figure 1—Flat Part X-ray Shot Geometry
+For a cylindrical shape with a crack perpendicular to the side wall running in the axial direction
+(length of the tube), the local direction of the radiation beam to that crack would be defined as
+“𝜷” as shown in Figure 2, Curved Part X-ray Shot Geometry.
+Refer to NASA/TM-20230000324, “Guidelines for Determining X-ray Shots for Inspection of
+Cylindrical Parts, to determine shot coverage and number of shots for inspection of girth weld
+on cylindrical or spherical parts.”
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+22 of 54
+
+NASA-STD-5009C
+
+Figure 2—Curved Part X-ray Shot Geometry
+4.1.4.5
+
+Ultrasonics
+
+[NER 30] Utrasonic inspections for wrought products shall be in accordance with ASTM
+E2375, Standard Practice for Ultrasonic Testing of Wrought Products; ASTM E164, Standard
+Practice for Contact Ultrasonic Testing of Weldments; or NASA fracture control and NASA
+NDE Engineering-approved contractor internal specifications with the following additional
+requirements:
+a. [NER 31] Any single discontinuity with a response greater than 50% of the response
+from a 1.98-mm (0.078-in) diameter flat bottom hole (or equivalent surface notch or side drilled
+hole) at the estimated discontinuity depth (or sound path) shall be reported.
+Rationale: This requirement is different from that in ASTM E2375 where response greater than
+the response from a 1.98-mm (0.078-in) diameter flat-bottom hole or equivalent notch at the
+estimated discontinuity depth and the discontinuity size given is not acceptable. Such
+requirement only provides 50% POD in detection of the 1.98-mm (0.078-in) diameter flat-bottom
+hole equivalent reflector which is the Standard ultrasonic testing flaw size flaw. Therefore, a
+lower response or the decision threshold at 50% of the response from a 1.98-mm (0.078-in)
+diameter flat-bottom hole or equivalent is used to provide targeted POD/Confidence of minimum
+90/95.
+b. [NER 32] Multiple discontinuities with indications greater than the response from a
+1.19-mm (0.047-in) diameter flat bottom hole (or equivalent surface notch or side drilled hole) at
+the estimated discontinuity depth (or sound path) shall be reported if the centers of any two such
+indications are separated by less than 25.4 mm (1 in).
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+23 of 54
+
+NASA-STD-5009C
+c. [NER 33] Any linear discontinuity (i.e., cracks or crack-like flaws such as stringers,
+incomplete fusion, or incomplete penetration) with a response equal to or greater than the
+response from a 1.19-mm (0.047-in) diameter flat bottom hole (or equivalent surface notch or
+side drilled hole) at the estimated discontinuity depth (or sound path) shall be reported regardless
+of length.
+4.1.5 Method for Introducing New Standard NDE Flaw Sizes
+4.1.5.1
+[NER 34] A Standard NDE POD study shall consist of a MIL-HDBK-1823Acompliant POD study that is conducted by a minimum of 10 inspectors that form a representative
+sample from a specific population of inspectors.
+4.1.5.2
+[NER 35] Individual inspector analyses shall be performed in accordance with MILHDBK-1823A methods and reported.
+4.1.5.3
+[NER 36] Individual inspector probability of false-calls (POF) shall be reported and
+are recommended to not exceed 1% POF with 50% confidence.
+4.1.5.4
+[NER 37] The Standard NDE flaw size shall be estimated as a function of the average
+and standard deviation of individual inspector a90/95 flaw sizes and represent the flaw size that
+90% of inspectors are expected to demonstrate at least 90/95 detection capability.
+4.1.5.5
+[NER 38] Approval of the study design, execution, and analysis, or waivers from
+these parameters, shall be subject to review and approval of the RFCB.
+Adding Standard NDE flaw sizes for other techniques not included in Tables 1 and 2 or revisions
+to flaw sizes can be established based on the requirements of this section. MIL-HDBK-1823A is
+the primary reference for the design, execution, and analysis of the individual inspector POD
+studies conducted within a NASA Standard NDE study. Additional guidance that augments and
+adapts MIL-HDBK-1823A for Standard NDE is contained in NASA/TM−20220013822, NESCTI-21-01657, Guidebook for the Design and Analysis of a NASA Standard Nondestructive
+Evaluation (NDE) Probability of Detection (POD) Study. It exploits the advantage of having
+prior POD studies in planning a Standard NDE POD study and provides considerations in how
+to define the inspector population and sampling strategies for selecting inspectors.
+NASA/TM−20220013822 recommends an approach to estimate the Standard NDE flaw size that
+provides 90% coverage of the inspector population.
+4.1.6 Inability to Meet Standard NDE Inspection Process Requirements
+[NER 39] If the requirements of section 4.1 of this Standard cannot be met or smaller cracks or
+crack-like flaws than those shown in Table 1 or Table 2 have to be detected, the inspection
+processes shall be considered Special NDE, and the Special NDE requirements of section 4.2 of
+this Standard apply.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+24 of 54
+
+NASA-STD-5009C
+4.2
+
+Special NDE
+
+4.2.1 General
+Special NDE consists of nondestructive inspections that are capable of detecting crack-like flaws
+smaller than those detectable by Standard NDE (Table 1 or Table 2) or those that do not
+conform to the requirements for Standard NDE given in section 4.1 of this Standard.
+Special NDE methods are not limited to fluorescent penetrant, radiography, ultrasonic, eddy
+current, and magnetic particle methods.
+Special NDE provides minimum 90/95 POD/Confidence in detection capability.
+[NER 40] All Special NDE certification processes of NASA partners, contractors, subcontractors, and suppliers shall be approved by RFCB.
+4.2.2 Special NDE Crack Sizes
+[NER 41] Special NDE inspections shall require the approval of the RFCB and the delegated
+NASA Technical Authority.
+The Special NDE crack size can be any demonstrated size.
+4.2.3 Demonstration of Special NDE Capability
+a. [NER 42] A 90/95% flaw detection capability shall be demonstrated before a
+Special NDE inspection can be performed for fracture-critical part screening.
+The demonstration of the Special NDE inspection at a given crack size qualifies the Special NDE
+for implementation for the detection of cracks at the demonstrated size and larger.
+b. [NER 43] The capability tests shall be designed and conducted based on the MILHDBK-1823A POD Method (section 4.2.3.1 of this Standard), the Binomial Point Estimate POD
+Method (section 4.2.3.2 of this Standard), the Limited-Sample POD method (section 4.2.3.3 of
+this Standard), or other method approved by the RFCB.
+Use the MIL-HDBK-1823A POD Method to demonstrate the smallest flaw size that the NDE
+method and inspector can demonstrate with the required 90/95 POD/Confidence. A large
+number of flawed specimens are recommended when using the POD methods (i.e., 40-60). The
+Binomial Point Estimate and Limited-Sample POD Methods are to be used when it is only
+necessary to demonstrate that the NDE method and inspector can provide at least 90/95
+POD/Confidence for a specific target flaw size. The Binomial Point Estimate POD Method can
+be applied to either hit-miss NDE data or signal response NDE data that have been converted to
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+25 of 54
+
+NASA-STD-5009C
+hit/miss and require a minimum of 29 flawed specimens. The Limited-Sample POD method can
+only be used for signal response NDE data and requires a minimum of ten flawed specimens.
+4.2.3.1
+
+NDE Qualification Using the MIL-HDBK-1823A POD Methods
+
+[NER 44] NDE qualification using the MIL-HDBK-1823 POD methods shall be performed in
+accordance with MIL-HDBK-1823A.
+This method requires a range of flaw sizes that span the targeted qualification flaw size. The
+large number of flaws required by this method is intended to allow estimation of the reliably
+detectable flaw size, a90/95 and the complete POD curve (or model). Qualification by this method
+demonstrates that the procedure and the individual operator are capable of reliably detecting
+flaws larger than or equal to the estimated a90/95 flaw size.
+ASTM E2862-18, Standard Practice for Probability of Detection Analysis for Hit/Miss Data, and
+ASTM E3023-21, Standard Practice for Probability of Detection Analysis for â Versus a Data,
+define procedures for performing the statistical analysis of hit/miss data and signal-response
+data, respectively, to estimate the demonstrated POD based on MIL-HDBK-1823A’s
+methodology.
+4.2.3.2
+
+NDE Qualification Using Binomial Point Estimate POD Method
+
+[NER 45] NDE qualification using the Binomial Point Estimate Method (PEM) shall be
+performed in accordance with Materials Evaluation (ME), Vol. 40, No. 9, pp 922-932, 1982,
+adapted for a single flaw size interval, and the target flaw size is equal to or larger than the
+maximum flaw size in the set or a flaw set approved by the RFCB.
+This method qualifies that an individual inspector achieves at least 90/95 detection capability for
+a specified target flaw size. The Binomial PEM method assumes that flaw detection capability
+increases with flaw size in the neighborhood of the target flaw size.
+The Binomial PEM does not estimate the minimum flaw size that provides 90/95 detection, which
+differs from the objective of the ME (1982). This method adapts the guidance in ME (1982) to
+one flaw size interval containing a minimum of 29 flaws with a maximum flaw size equal to the
+target flaw size. If the maximum flaw size exceeds the target, then basing the demonstration on
+the average of the flaw sizes could be considered if the average is not larger than the target size.
+The range of flaw sizes in the set is small enough to accept the assumption that the POD function
+is either concave in the region or does not markedly depart from being linear. The number of
+unflawed inspection sites (or opportunities) is recommended to be a minimum of three times the
+number of flawed sites in accordance with MIL-HDBK-1823A, which is an increase from the ME
+(1982) guidance. Therefore, a minimum of 29 flawed and 87 unflawed inspection sites are to be
+randomly presented to each inspector. Per MIL-HDBK-1823A, an unflawed inspection site need
+not be a separate specimen. There should be at least one blank specimen in the set when using
+the Binomial Point Estimate Method. There should be no indication of a specimen’s flaw state
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+26 of 54
+
+NASA-STD-5009C
+(i.e., flawed or unflawed) or flaw location(s) on the specimen that may enhance detection
+capability. Successful demonstration of 90/95 detection capability requires that all 29 flaw
+opportunities are detected with an acceptably low false call rate.
+If there are no more than 1 missed detection of the 29 flaws, a continuation of the demonstration
+activity may be warranted by adding 17 flaws to the inspection set, resulting in a total of 46
+flaws. Successful demonstration of 90/95 detection capability requires that 45 of the 46 flaws are
+detected with an acceptably low false call rate.
+The demonstration specimens should be representative or conservative relative to the operational
+components to be inspected, including material, surface finish, flaw type, flaw location, and flaw
+spatial frequency and proximity. If similarity (i.e., a 1-1 transfer function) cannot be justified, a
+transfer function may be developed according to NASA/TM−20220003648.
+4.2.3.3
+
+NDE Qualification Using Limited Sample POD Method
+
+[NER 46] NDE qualification using the limited sample probability of detection (LS POD) method
+shall be performed in accordance with NASA/TM−20210018515/Corrected Copy, NESC-TI-2001545, Guidebook for Limited Sample Probability of Detection (LS-POD) Demonstration for
+Signal-Response Nondestructive Evaluation (NDE) Methods.
+This method is also applicable to a single target flaw size but is limited to NDE methods that
+produce a signal response correlated to flaw size. The LS POD method assumes that the
+capability of flaw detection increases with the size of flaws in the neighborhood of the target flaw
+size. In addition to signal response data from flawed specimens, noise data (i.e., signals from
+specimens or inspection opportunities where no flaw exists) are necessary for this method.
+Qualification by this method demonstrates that the procedure and operator are capable of
+reliably detecting flaws larger than or equal to the target flaw size.
+4.2.4 NDE Capability Demonstration Specimens
+[NER 47] Special NDE demonstration specimen design shall be justified and approved by the
+RFCB or the delegated NASA Technical Authority based on the similarity or transfer function
+between the test hardware and the demonstration specimen and documented in the NDE
+Summary Report.
+Ideally, Special NDE capability demonstrations would be performed with naturally occurring
+flaws of the type and size specified by the fracture control plan in representative specimens of the
+actual component geometry and field inspection access restrictions. Seldom are enough
+specimens available with flaw sizes that are independently verified for a Special NDE capability
+demonstration. Historically, simulated flaws have been used in component representative or
+simplified specimens, such as plates, cylinders, or tubes. Simulated flaws may be induced, such
+as cracks induced by fatigue or thermal loading, or fabricated by material removal methods such
+as EDM machining or laser notching, or by AM methods. Simulated induced flaws such as
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+27 of 54
+
+NASA-STD-5009C
+fatigue cracks should be used for Special NDE capability demonstration as they are typically
+conservative to naturally occurring flaws with respect to flaw features such as crack opening
+that affect the signal response produced by NDE methods. In special cases, other flaws such as
+simulated fabricated flaws that are more representative of the naturally occurring flaws for the
+specific application may be used for the demonstration with the approval of the RFCB and the
+delegated NASA Technical Authority. The preparation and control of demonstration specimens
+and how to administer demonstration tests should meet the intent of MIL-HDBK-1823A, PEM,
+or LS-POD.
+4.3
+
+NDE Procedures, Standards, and Methods
+
+a. [NER 48] NDE procedures, standards, methods, and acceptance criteria shall be
+defined, validated, documented, approved, and implemented for all phases of the life cycle such
+as manufacturing, operation, and maintenance of each fracture-critical part.
+b. [NER 49] Updates to any of the NDE procedures, standards, methods, or acceptance
+criteria shall be validated, documented, and approved by the RFCB or the delegated NASA
+Technical Authority.
+c. [NER 50] All NDE inspections shall be conducted by certified NDE inspectors (see
+section 4.5 in this Standard).
+d. [NER 51] The fracture-critical NDE inspection procedure(s) shall be clearly defined
+for each type of part.
+e. [NER 52] All identified part areas shall be inspected.
+f. [NER 53] Unless specified otherwise by the delegated NASA Technical Authority,
+inspection procedures shall be designed to detect volumetric and surface cracks and crack-like
+flaws in all orientations.
+4.3.1 Material Review Board (MRB)
+[NER 54] The acceptance of cracks of any size in a fracture-critical part shall require an MRB
+action and the approval of the RFCB and the delegated NASA Technical Authority.
+4.3.2 NDE Drawing Callouts
+a. [NER 55] NDE inspection requirements for all fracture-critical parts shall be clearly
+identified on all drawings.
+b. [NER 56] The drawings shall clearly identify each inspection requirement by zone
+when different zones require different NDE inspection requirements and acceptance criteria.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+28 of 54
+
+NASA-STD-5009C
+c. [NER 57] The drawings shall be updated when NDE inspection requirements are
+updated.
+4.3.3 NDE Process Documentation Control
+a. [NER 58] A written procedure for each fracture-critical part shall be developed that
+complies with the relevant specification for the NDE method selected.
+b. [NER 59] Documentation control by revision or date shall be maintained current for
+the following:
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+
+Personnel Qualification.
+Personnel Certification.
+NDE Specification.
+NDE Reference Standards.
+NDE Method.
+NDE Part-Specific Procedures.
+
+All NDE process changes require approval by the responsible NDE organization and the
+delegated NASA Technical Authority.
+4.3.4 Capability Demonstration Specimens
+a. [NER 60] NDE capability demonstration specimens shall be used for determining
+the detection capability for all Special NDE applications and may be used to validate the
+capabilities of Standard NDE procedures.
+b. [NER 61] Specimens shall be representative of the material to be inspected and the
+critical inspection area for the applicable hardware and of the flaw size (length, width and depth),
+type, location, and orientation.
+Specimens may be borrowed from NASA or other Government departments when available.
+c. [NER 62] If appropriate demonstration specimens are not available, specimens shall
+be built or procured that meet both specimen requirements and specific engineering drawing
+requirements.
+d. [NER 63] Specimens used shall be documented as a part of the NDE procedures and
+personnel skill qualifications.
+4.3.5 Organizational Guidelines and Documentation
+It is recommended that a document be developed that meets the intent of the responsibilities and
+authorities described in Appendix B of this Standard.
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+29 of 54
+
+NASA-STD-5009C
+
+4.4
+
+NDE Documentation
+
+4.4.1 NDE Plan
+[NER 64] An NDE plan shall be developed that addresses the following, as a minimum:
+a.
+b.
+c.
+d.
+e.
+f.
+g.
+h.
+i.
+
+Applicable specifications and documented standards.
+Calibration artifact traceability.
+Inspector training, qualification, and certification.
+Method selection, application, and process control.
+Acceptance criteria.
+Application of requirements during manufacturing, maintenance, and operations.
+NDE applied to fracture-critical hardware.
+Standard NDE selection, application, and control.
+Special NDE selection, equipment, application, and configuration control.
+
+4.4.2 NDE Summary/Inspection Report
+4.4.2.1 [NER 65] An NDE Summary Report shall be developed and include, but not be
+limited to, the following:
+a. Identification of the fracture-critical part number.
+b. Critical zones inspected.
+c. NDE methods applied and procedures used.
+d. Classification and justification of Standard NDE or Special NDE inspections.
+e. Acceptance, rejection, or summary of critical data.
+f. Inspectors’ names and inspection dates.
+g. Evaluation of special conditions that affect Standard NDE.
+h. Descriptions, locations, and sizes for flaws that do not meet acceptance criteria.
+i. Non-conformances and problems encountered during the inspection.
+j. Descriptions, locations, and sizes for all detected cracks or crack-like flaws,
+regardless of size.
+4.4.2.2
+[NER 66] An NDE inspection report shall be generated for every part acceptance
+NDE operation by NDE personnel involved in the NDE operation and signed by cognizant NAS410, NAS Certification and Qualification of Nondestructive Test Personnel, Level 2 or 3.
+4.4.2.3
+[NER 67] NDE reports and digital records from NDE techniques that produce digital
+data (e.g., ultrasonic C-scans, radiographs, shearography images) used for part acceptance shall
+be traceable through the NDE Summary Report.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+30 of 54
+
+NASA-STD-5009C
+4.4.3 Supporting Data and Record Retention
+4.4.3.1
+[NER 68] All certification records, NDE reports, and associated paperwork shall be
+retained per current NASA requirements for records management as specified in NPR 1441.1,
+NASA Records Management Program Requirements.
+It is recommended that electronic and digital data be stored in common file formats that are not
+lost via equipment-unique data storage or limited proprietary formats.
+4.4.3.2
+[NER 69] Responsible NDE engineering shall acquire and retain all records during a
+change to a different contractor, including but not limited to, the following:
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+
+Controlling NDE specifications and document standards.
+Calibration artifact traceability.
+Part-specific NDE procedures.
+Special NDE 90/95% capability demonstration data.
+Supporting data used to justify Standard NDE.
+Standard and Special NDE inspector qualification and certification documents.
+Standard and Special NDE process changes and approval documents.
+The hardware acceptance, inspection, and summary reports.
+Other supporting data, including inspector identifications, inspection dates,
+detailed and zoned drawings, acceptance criteria, and NDE problem reports and
+resolutions.
+(10) NDE reports.
+4.5
+
+Personnel Qualification and Certification
+
+4.5.1 [NER 70] Personnel performing Standard or Special NDE of fracture-critical hardware
+shall be, at a minimum, qualified and certified Level II in accordance with NAS 410.
+Successful demonstration of 90/95 POD on the NDE capability demonstration specimens
+qualifies the specific written procedure and inspector performing the inspection for
+detecting the demonstrated flaw size and larger.
+4.5.2 [NER 71] If there is a failure to demonstrate capability, then proof of improved
+inspector skills shall be presented to the responsible NDE organization or the delegated NASA
+Technical Authority prior to a retest.
+Examples are additional training and education.
+4.5.3 [NER 72] Qualification for Special NDE shall be specific to the procedure and the
+inspector.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+31 of 54
+
+NASA-STD-5009C
+4.5.4 [NER 73] Special NDE inspection shall not be transferable to another procedure or
+inspector.
+4.5.5 [NER 74] The period of Special NDE certification shall be 3 years.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+32 of 54
+
+NASA-STD-5009C
+Table 1—Reliably Detectable Flaw Sizes for Fracture Analysis Based on Standard NDE
+Methods (Millimeters) (See Section 4.1 of this Standard for applicability.)
+Système Internationale Units (millimeters)
+Crack
+Location
+
+Part
+Thickness, t
+
+Crack
+Type
+
+Crack
+Dimension, a*
+
+Crack
+Dimension, c*
+
+t
+0.51
+1.27
+t
+1.91
+
+1.27
+2.54
+1.27
+2.54
+1.91
+
+t
+t
+0.64
+1.91
+t
+2.54
+
+2.54
+3.81 – t
+3.18
+1.91
+3.81
+3.81
+
+t
+0.97
+1.91
+t
+1.91
+
+3.18
+4.78
+3.18
+6.35
+6.35
+
+0.7t
+0.7t
+2a=0.7t
+
+1.91
+0.7t
+0.7t
+
+Eddy Current NDE
+Open Surface
+
+0.381 ≤ t  1.27
+t > 1.27
+
+Through
+PTC1
+
+Edge or Hole
+
+0.381 ≤ t  1.91
+t > 1.91
+
+Through
+Corner
+Penetrant NDE
+
+Open Surface
+
+0.64  t  1.27
+1.27<t <1.91
+t > 1.91
+
+Through
+Through
+PTC
+
+Edge or Hole
+
+0.64  t  2.54
+t > 2.54
+
+Through
+Corner
+
+Magnetic Particle NDE
+Open Surface
+
+t  1.91
+t > 1.91
+
+Through
+PTC
+
+Edge or Hole
+
+t  1.91
+t > 1.91
+
+Through
+Corner
+Radiographic NDE
+
+Open Surface
+
+t 2.72
+t > 2.72
+
+PTC
+PTC
+Embedded
+
+Ultrasonic NDE
+Comparable to a Class A Quality Level (ASTM E-2375)
+Open Surface
+
+t  2.54
+
+PTC
+Embedded**
+
+0.76
+1.65
+0.43
+0.99
+
+3.81
+1.65
+2.21
+0.99
+
+PTC – Partly through crack (Surface Crack)
+* See Figure 3 for definitions of “a” and “c” for different geometries.
+** Equivalent area is acceptable, ASTM E-2375, Class A.
+1
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+33 of 54
+
+NASA-STD-5009C
+Table 2—Reliably Detectable Flaw Sizes for Fracture Analysis Based on Standard NDE
+Methods (Inches) (See Section 4.1 of this Standard for applicability.)
+U. S. Customary Units (inches)
+Crack
+Location
+
+Part
+Thickness, t
+
+Crack
+Type
+
+Crack
+Dimension, a*
+
+Crack
+Dimension, c*
+
+t
+0.020
+0.050
+t
+0.075
+
+0.050
+0.100
+0.050
+0.100
+0.075
+
+t
+t
+0.025
+0.075
+t
+0.100
+
+0.100
+0.150 - t
+0.125
+0.075
+0.150
+0.150
+
+t
+0.038
+0.075
+t
+0.075
+
+0.125
+0.188
+0.125
+0.250
+0.250
+
+Eddy Current NDE
+Open Surface
+
+0.015 ≤ t ≤ 0.050
+t > 0.050
+
+Edge or Hole
+
+0.015 ≤ t  0.075
+t > 0.075
+
+Through
+PTC1
+PTC
+Through
+Corner
+Penetrant NDE
+
+Open Surface
+
+0.025  t  0.050
+0.050<t <0.075
+t > 0.075
+
+Through
+Through
+PTC
+
+Edge or Hole
+
+0.025 ≤ t  0.100
+t > 0.100
+
+Through
+Corner
+
+Magnetic Particle NDE
+Open Surface
+
+t  0.075
+t > 0.075
+
+Through
+PTC
+
+Edge or Hole
+
+t  0.075
+t > 0.075
+
+Through
+Corner
+Radiographic NDE
+
+Open Surface
+
+t 0.107
+t > 0.107
+
+PTC
+PTC
+Embedded
+
+0.7t
+0.7t
+2a=0.7t
+
+0.075
+0.7t
+0.7t
+
+Ultrasonic NDE
+Comparable to a Class A Quality Level (ASTM E-2375)
+Open Surface
+
+t  0.100
+
+PTC
+Embedded**
+
+0.030
+0.065
+0.017
+0.039
+
+0.150
+0.065
+0.087
+0.039
+
+1
+
+PTC - Partly through crack (Surface Crack)
+* See Figure 3 for definitions of “a” and “c” for different geometries.
+** Equivalent area is acceptable, ASTM E-2375, Class A.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+34 of 54
+
+NASA-STD-5009C
+
+Figure 3—Assumed Flaw Geometries
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+35 of 54
+
+NASA-STD-5009C
+
+APPENDIX A: REQUIREMENTS IDENTIFICATION MATRIX
+A.1
+
+PURPOSE
+
+Due to the complexity and uniqueness of space flight, it is unlikely that all of the requirements in a Standard will apply. The
+Requirements Identification Matrix below contains this Standard’s technical authority requirements and may be used by programs and
+projects to indicate requirements that are applicable or not applicable. Enter “Yes” in the “Applicable” column if the requirement is
+applicable to the program or project or “No” if the requirement is not applicable to the program or project. The “Comments” column
+may be used to provide specific instructions on how to apply the requirement, specify proposed tailoring, or provide an
+explanation/justification when not applicable.
+Table 3―Requirements Identification Matrix
+NASA-STD-5009C
+Section
+
+4.1
+
+Description
+
+Standard NDE
+
+Requirement in this Standard
+
+Applicable
+(Enter Yes
+or No)
+
+4. NDE Requirements
+[NER 1] Standard NDE shall consist of nondestructive inspections of traditional
+(non-AM) metal components, (e.g., aluminum, steel, titanium, and nickel alloys)
+using the NDE methods cited in Table 1, Reliably Detectable Flaw Sizes for
+Fracture Analysis Based on Standard NDE Methods (Millimeters), or Table 2,
+Reliably Detectable Flaw Sizes for Fracture Analysis Based on Standard NDE
+Methods (Inches), or additional methods that have been demonstrated by section
+4.1.5 in this Standard and approved by the RFCB or delegated NASA Technical
+Authority.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+36 of 54
+
+Comments
+
+NASA-STD-5009C
+Table 1—Reliably Detectable Flaw Sizes for Fracture Analysis Based on Standard NDE Methods (Millimeters) (See Section
+4.1 of this Standard for applicability.)
+Système Internationale Units (millimeters)
+Crack
+Location
+
+Part
+Thickness, t
+
+Crack
+Type
+
+Crack
+Dimension, a*
+
+Crack
+Dimension, c*
+
+t
+0.51
+1.27
+t
+1.91
+
+1.27
+2.54
+1.27
+2.54
+1.91
+
+t
+t
+0.64
+1.91
+t
+2.54
+
+2.54
+3.81 – t
+3.18
+1.91
+3.81
+3.81
+
+t
+0.97
+1.91
+t
+1.91
+
+3.18
+4.78
+3.18
+6.35
+6.35
+
+0.7t
+0.7t
+
+1.91
+0.7t
+
+Eddy Current NDE
+Open Surface
+
+0.381≤ t  1.27
+t > 1.27
+
+Through
+PTC1
+
+Edge or Hole
+
+0.381≤ t  1.91
+t > 1.91
+
+Through
+Corner
+Penetrant NDE
+
+Open Surface
+
+0.64  t  1.27
+1.27<t <1.91
+t > 1.91
+
+Through
+Through
+PTC
+
+Edge or Hole
+
+0.64  t  2.54
+t > 2.54
+
+Through
+Corner
+
+Magnetic Particle NDE
+Open Surface
+
+t  1.91
+t > 1.91
+
+Through
+PTC
+
+Edge or Hole
+
+t  1.91
+t > 1.91
+
+Through
+Corner
+Radiographic NDE
+
+Open Surface
+
+t 2.72
+t > 2.72
+
+PTC
+PTC
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+37 of 54
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+
+Description
+
+Requirement in this Standard
+Embedded
+
+2a=0.7t
+
+Applicable
+(Enter Yes
+or No)
+
+0.7t
+
+Ultrasonic NDE
+Comparable to a Class A Quality Level (ASTM E-2375)
+Open Surface
+
+t  2.54
+
+PTC
+Embedded**
+
+0.76
+1.65
+0.43
+0.99
+
+3.81
+1.65
+2.21
+0.99
+
+PTC – Partly through crack (Surface Crack)
+* See Figure 3 for definitions of “a” and “c” for different geometries.
+** Equivalent area is acceptable, ASTM E-2375, Class A.
+1
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+38 of 54
+
+Comments
+
+NASA-STD-5009C
+Table 2—Reliably Detectable Flaw Sizes for Fracture Analysis Based on Standard NDE Methods (Inches) (See Section 4.1
+of this Standard for applicability.)
+U. S. Customary Units (inches)
+Crack
+Location
+
+Part
+Thickness, t
+
+Crack
+Type
+
+Crack
+Dimension, a*
+
+Crack
+Dimension, c*
+
+t
+0.020
+0.050
+t
+0.075
+
+0.050
+0.100
+0.050
+0.100
+0.075
+
+t
+t
+0.025
+0.075
+t
+0.100
+
+0.100
+0.150 - t
+0.125
+0.075
+0.150
+0.150
+
+t
+0.038
+0.075
+t
+0.075
+
+0.125
+0.188
+0.125
+0.250
+0.250
+
+Eddy Current NDE
+Open Surface
+
+0.015 ≤ t ≤ 0.050
+t > 0.050
+
+Edge or Hole
+
+0.015 ≤ t  0.075
+t > 0.075
+
+Through
+PTC1
+PTC
+Through
+Corner
+Penetrant NDE
+
+Open Surface
+
+0.025  t  0.050
+0.050<t <0.075
+t > 0.075
+
+Through
+Through
+PTC
+
+Edge or Hole
+
+0.025  t  0.100
+t > 0.100
+
+Through
+Corner
+
+Magnetic Particle NDE
+Open Surface
+
+t  0.075
+t > 0.075
+
+Through
+PTC
+
+Edge or Hole
+
+t  0.075
+t > 0.075
+
+Through
+Corner
+Radiographic NDE
+
+Open Surface
+
+t 0.107
+t > 0.107
+
+PTC
+PTC
+
+0.7t
+0.7t
+
+0.075
+0.7t
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+39 of 54
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+
+Description
+
+Requirement in this Standard
+Embedded
+
+2a=0.7t
+
+Applicable
+(Enter Yes
+or No)
+
+0.7t
+
+Ultrasonic NDE
+Comparable to a Class A Quality Level (ASTM E-2375)
+Open Surface
+
+t  0.100
+
+PTC
+Embedded**
+
+0.030
+0.065
+0.017
+0.039
+
+0.150
+0.065
+0.087
+0.039
+
+1
+
+PTC - Partly through crack (Surface Crack)
+* See Figure 3 for definitions of “a” and “c” for different geometries.
+** Equivalent area is acceptable, ASTM E-2375, Class A.
+4.1.1
+Standard NDE
+[NER 2] Nondestructive inspections of fracture-critical hardware shall detect the
+Crack Sizes
+initial crack sizes used in the damage tolerance fracture analyses with a capability
+of minimum 90% probability of detection at a 95% confidence level, known as
+90/95.
+4.1.2
+Standard NDE Classification [NER 3] The justification to classify an NDE procedure as a Standard NDE
+Justification
+procedure shall be documented and approved by NDE engineering and the
+delegated NASA Technical Authority.
+4.1.3
+Demonstration of Standard
+[NER 4] Instrument standardization shall be performed.
+NDE Capability
+4.1.4.1.1
+Eddy Current
+[NER 5] Eddy-current inspections shall be in accordance with SAE ARP4402,
+Eddy Current Inspection of Open Fastener Holes in Aluminum Aircraft Structure;
+SAE AS4787, Eddy Current Inspection of Circular Holes in Nonferrous Metallic
+Aircraft Engine Hardware; or NASA fracture control and NASA NDE
+Engineering-approved contractor internal specifications with the following
+additional requirements:
+4.1.4.1.1a
+Eddy Current
+[NER 6] For part conductivities less than 10% International Annealed Copper
+Standard (IACS), the reference standard shall have a conductivity of ±2% IACS
+with a minimum reference standard conductivity of 0.8% IACS.
+4.1.4.1.1b
+Eddy Current
+[NER 7] Reference standard notches used for standardization shall be no larger than
+½ the length and ½ the depth of the target crack size with a maximum width of 0.127
+mm (0.005 in).
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+40 of 54
+
+Comments
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+
+Description
+
+Requirement in this Standard
+
+4.1.4.1.1c
+
+Eddy Current
+
+4.1.4.1.1d
+
+Eddy Current
+
+4.1.4.1.2
+
+Eddy Current
+
+4.1.4.2
+
+Fluorescent
+Penetrant
+
+4.1.4.2.1
+
+Penetrant
+System
+Mechanically
+Disturbed
+Surfaces
+Etching/Electropolishing
+Procedure
+Etching/Electropolishing
+Procedure
+
+4.1.4.2.2
+
+4.1.4.2.3a
+4.1.4.2.3b
+
+4.1.4.2.3b(1)
+4.1.4.2.3b(2)
+4.1.4.2.3c
+
+4.1.4.2.4
+
+Etching/Electropolishing
+Procedure
+Etching/Electropolishing
+Procedure
+Etching/Electropolishing
+Procedure
+Special Considerations
+
+Applicable
+(Enter Yes
+or No)
+
+[NER 8] Noise levels on the component shall be less than 25% of the reference
+notch response.
+[NER 9] Any indication greater than 50% of the reference notch response shall be
+reported to, and receive disposition by, the proper engineering authority.
+[NER 10] The influence of coatings and lift-off variations on the reliability of an
+eddy current Standard NDE inspection process shall be evaluated for applicationspecific suitability and documented in the NDE Summary Report.
+[NER 11] Fluorescent Penetrant inspection shall be in accordance with ASTM
+E1417/E1417M, Standard Practice for Liquid Penetrant Testing; SAE AMS2647,
+Fluorescent Penetrant Inspection Aircraft Structures and Engine Component
+Maintenance; or NASA fracture control and NASA NDE Engineering-approved
+contractor internal specifications.
+[NER 12] The penetrant system used shall be a fluorescent penetrant of sensitivity
+level 3 or 4.
+[NER 13] Mechanically disturbed or wire EDM surfaces shall be etched or
+electropolished prior to the penetrant inspection and at an appropriate time in the
+manufacturing flow.
+[NER 14] An etching/electropolishing procedure shall be developed, approved, and
+controlled to prevent part damage.
+[NER 15] The etching/electropolishing procedure shall specify the minimum
+amount of material to be removed to ensure that smeared metal does not mask
+cracks.
+[NER 16] Non-ferrous materials such as aluminum and titanium alloys shall be
+etched/electropolished to remove a minimum of 0.01 mm (0.0004 in) of material.
+[NER 17] Corrosion resistant steel and nickel-based alloys shall be
+etched/electropolished to remove a minimum of 0.005 mm (0.0002 in) of material.
+[NER 18] If etching/electropolishing is not feasible or the minimum depths are not
+attainable, it shall be demonstrated and documented that the required flaw size can
+be reliably detected following current machining processes.
+[NER 19] Interpretation of reliably detectable flaw sizes for thin parts with
+thickness less than 0.64 mm (0.025 in) or edges and holes with a fillet radius shall
+require approval by the RFCB.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+41 of 54
+
+Comments
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+
+Description
+
+4.1.4.3
+
+Magnetic
+Particle
+
+4.1.4.3.1
+
+Magnetic
+Particle
+Magnetic
+Particle
+Magnetic
+Particle
+
+4.1.4.3.2
+4.1.4.3.3
+
+Requirement in this Standard
+
+4.1.4.4.1
+
+Radiography (X-Ray)
+
+4.1.4.4.2
+
+Radiography (X-Ray)
+
+4.1.4.4.3
+
+Radiography (X-Ray)
+
+4.1.4.4.3a
+4.1.4.4.3b
+4.1.4.4.3c
+
+Radiography (X-Ray)
+Radiography (X-Ray)
+Radiography (X-Ray)
+
+4.1.4.5
+
+Ultrasonics
+
+4.1.4.5a
+
+Ultrasonics
+
+Applicable
+(Enter Yes
+or No)
+
+[NER 20] Magnetic particle inspections shall be in accordance with ASTM
+E1444/E1444M, Standard Practice for Magnetic Particle Testing for Aerospace, or
+NASA fracture control and NASA NDE Engineering-approved contractor internal
+specifications.
+[NER 21] The magnetic particle inspection shall be the wet, fluorescent,
+continuous, or multi-mag method.
+[NER 22] A Quantitative Quality Indicator (QQI) shall be used to validate the local
+field intensities.
+[NER 23] Type CX-230 or CX4-230 QQIs shall be used on curved or complex
+surfaces where the Type CX-430 or CX4-430 QQIs cannot conform to the part in
+the area of interest.
+[NER 24] A POD study shall be used to establish the capability of digital
+radiographic techniques, including computed radiography, digital radiography, and
+computed tomography which at this time are to be considered to be NDE.
+[NER 25] A POD study shall be used to establish the capability of Gamma
+radiation source inspections which are considered special NDE.
+[NER 26] Film radiographic inspections, with capabilities shown in Table 1 or
+Table 2, shall be in accordance with ASTM E1742/E1742M, Standard Practice for
+Radiographic Examination, or NASA fracture control and NASA NDE
+Engineering-approved contractor internal specifications with the following
+additional requirements:
+[NER 27] The minimum radiographic inspection sensitivity level shall be 2-1T.
+[NER 28] Film density shall be 2.5 to 4.0.
+[NER 29] The local x-ray axis of the radiation beam shall be within ±5 degrees of
+the assumed crack plane orientation.
+[NER 30] Utrasonic inspections for wrought products shall be in accordance with
+ASTM E2375, Standard Practice for Ultrasonic Testing of Wrought Products,
+ASTM E164, Standard Practice for Contact Ultrasonic Testing of Weldments, or
+NASA fracture control and NASA NDE Engineering-approved contractor internal
+specifications with the following additional requirements:
+[NER 31] Any single discontinuity with a response greater than 50% of the
+response from a 1.98 mm (0.078-in) diameter flat bottom hole (or equivalent
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+42 of 54
+
+Comments
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+
+Description
+
+Requirement in this Standard
+
+4.1.4.5b
+
+Ultrasonics
+
+4.1.4.5c
+
+Ultrasonics
+
+4.1.5.1
+
+Method for Introducing New
+Standard NDE Flaw Sizes
+
+4.1.5.2
+
+Method for Introducing New
+Standard NDE Flaw Sizes
+Method for Introducing New
+Standard NDE Flaw Sizes
+Method for Introducing New
+Standard NDE Flaw Sizes
+
+4.1.5.3
+4.1.5.4
+
+4.1.5.5
+4.1.6
+
+Method for Introducing New
+Standard NDE Flaw Sizes
+Inability to Meet Standard
+NDE Inspection Process
+Requirements
+
+4.2.1
+
+Special NDE - General
+
+4.2.2
+
+Special NDE Crack Sizes
+
+Applicable
+(Enter Yes
+or No)
+
+surface notch or side drilled hole) at the estimated discontinuity depth (or sound
+path) shall be reported.
+[NER 32] Multiple discontinuities with indications greater than the response from a
+1.19 mm (0.047-in) diameter flat bottom hole (or equivalent surface notch or side
+drilled hole) at the estimated discontinuity depth (or sound path) shall be reported
+if the centers of any two such indications are separated by less than 25.4 mm (1 in).
+[NER 33] Any linear discontinuity (i.e., cracks or crack-like flaws such as
+stringers, incomplete fusion, or incomplete penetration) with a response equal to or
+greater than the response from a 1.19-mm (0.047-in) diameter flat bottom hole (or
+equivalent surface notch or side drilled hole) at the estimated discontinuity depth
+(or sound path) shall be reported regardless of length.
+[NER 34] A Standard NDE POD study shall consist of a MIL-HDBK-1823Acompliant POD study that is conducted by a minimum of 10 inspectors that form a
+representative sample from a specific population of inspectors.
+[NER 35] Individual inspector analyses shall be performed in accordance with
+MIL-HDBK-1823A methods and reported.
+[NER 36] Individual inspector probability of false-calls (POF) shall be reported
+and are recommended to not exceed 1% POF with 50% confidence.
+[NER 37] The Standard NDE flaw size shall be estimated as a function of the
+average and standard deviation of individual inspector a90/95 flaw sizes and
+represent the flaw size that 90% of inspectors are expected to demonstrate at least
+90/95 detection capability.
+[NER 38] Approval of the study design, execution, and analysis, or waivers from
+these parameters, shall be subject to review and approval of the RFCB.
+[NER 39] If the requirements of section 4.1 of this Standard cannot be met or
+smaller cracks or crack-like flaws than those shown in Table 1 or Table 2 have to
+be detected, the inspection processes shall be considered Special NDE, and the
+Special NDE requirements of section 4.2 of this Standard apply.
+[NER 40] All Special NDE certification processes of NASA partners, contractors,
+sub-contractors, and suppliers shall be approved by the RFCB.
+[NER 41] Special NDE inspections shall require the approval of the RFCB and the
+delegated NASA Technical Authority.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+43 of 54
+
+Comments
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+4.2.3a
+4.2.3b
+
+4.2.3.1
+
+4.2.3.2
+
+Description
+
+Requirement in this Standard
+
+Demonstration of Special
+NDE Capability
+Demonstration of Special
+NDE Capability
+
+NDE Qualification Using the
+MIL-HDBK-1823A POD
+Method
+NDE Qualification Using
+Binomial Point Estimate
+POD Method
+
+4.2.3.3
+
+NDE Qualification Using
+Limited Sample POD
+Method
+
+4.2.4
+
+NDE Capability
+Demonstration Specimens
+
+4.3a
+
+NDE Procedures, Standards,
+and Methods
+
+4.3b
+
+NDE Procedures, Standards,
+and Methods
+
+4.3c
+
+NDE Procedures, Standards,
+and Methods
+
+Applicable
+(Enter Yes
+or No)
+
+[NER 42] A 90/95% flaw detection capability shall be demonstrated before a
+Special NDE inspection can be performed for fracture-critical part screening.
+[NER 43] The capability tests shall be designed and conducted based on the MILHDBK-1823A POD Method (section 4.2.3.1 of this Standard), the Binomial Point
+Estimate POD Method (section 4.2.3.2 of this Standard), the Limited-Sample POD
+method (section 4.2.3.3 of this Standard), or other method approved by the RFCB.
+[NER 44] NDE qualification using the MIL-HDBK-1823 POD methods shall be
+performed in accordance with MIL-HDBK-1823A.
+[NER 45] NDE qualification using the Binomial Point Estimate Method (PEM)
+shall be performed in accordance with Materials Evaluation (ME), Vol. 40, No. 9,
+pp 922-932, 1982, adapted for a single flaw size interval, and the target flaw size is
+equal to or larger than the maximum flaw size in the set or a flaw set approved by
+the RFCB.
+[NER 46] NDE qualification using the limited sample probability of detection (LS
+POD) method shall be performed in accordance with
+NASA/TM−20210018515/Corrected Copy, NESC-TI-20-01545, Guidebook for
+Limited Sample Probability of Detection (LS-POD) Demonstration for SignalResponse Nondestructive Evaluation (NDE) Methods.
+[NER 47] Special NDE demonstration specimen design shall be justified and
+approved by the RFCB or the delegated NASA Technical Authority based on the
+similarity or transfer function between the test hardware and the demonstration
+specimen and documented in the NDE Summary Report.
+[NER 48] NDE procedures, standards, methods, and acceptance criteria shall be
+defined, validated, documented, approved, and implemented for all phases of the
+life cycle such as manufacturing, operation, and maintenance of each fracturecritical part.
+[NER 49] Updates to any of the NDE procedures, standards, methods, or acceptance
+criteria shall be validated, documented, and approved by the RFCB or the delegated
+NASA Technical Authority.
+[NER 50] All NDE inspections shall be conducted by certified NDE inspectors (see
+section 4.5 in this Standard).
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+44 of 54
+
+Comments
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+4.3d
+4.3e
+4.3f
+
+4.3.1
+
+4.3.2a
+4.3.2b
+
+4.3.2c
+4.3.3a
+4.3.3b
+
+4.3.4a
+
+4.3.4b
+
+Description
+
+Requirement in this Standard
+
+NDE Procedures, Standards,
+and Methods
+NDE Procedures, Standards,
+and Methods
+NDE Procedures, Standards,
+and Methods
+
+[NER 51] The fracture-critical NDE inspection procedure(s) shall be clearly defined
+for each type of part.
+[NER 52] All identified part areas shall be inspected.
+
+Applicable
+(Enter Yes
+or No)
+
+[NER 53] Unless specified otherwise by the delegated NASA Technical Authority,
+inspection procedures shall be designed to detect volumetric and surface cracks and
+crack-like flaws in all orientations.
+Material Review Board (MRB) [NER 54] The acceptance of cracks of any size in a fracture-critical part shall
+require an MRB action and the approval of the RFCB and the delegated NASA
+Technical Authority.
+NDE Drawing Callouts
+[NER 55] NDE inspection requirements for all fracture-critical parts shall be
+clearly identified on all drawings.
+NDE Drawing Callouts
+[NER 56] The drawings shall clearly identify each inspection requirement by zone
+when different zones require different NDE inspection requirements and
+acceptance criteria.
+NDE Drawing Callouts
+[NER 57] The drawings shall be updated when NDE inspection requirements are
+updated.
+NDE Process Documentation [NER 58] A written procedure for each fracture-critical part shall be developed that
+Control
+complies with the relevant specification for the NDE method selected.
+NDE Process Documentation [NER 59] Documentation control by revision or date shall be maintained current
+Control
+for the following:
+(1) Personnel Qualification.
+(2) Personnel Certification.
+(3) NDE Specification.
+(4) NDE Reference Standards.
+(5) NDE Method.
+(6) NDE Part-Specific Procedures.
+Capability Demonstration
+[NER 60] NDE capability demonstration specimens shall be used for determining
+Specimens
+the detection capability for all Special NDE applications and may be used to
+validate the capabilities of Standard NDE procedures.
+Capability Demonstration
+[NER 61] Specimens shall be representative of the material to be inspected and the
+Specimens
+critical inspection area for the applicable hardware and of the flaw size (length,
+width and depth), type, location, and orientation.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+45 of 54
+
+Comments
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+
+Description
+
+Requirement in this Standard
+
+4.3.4c
+
+Capability Demonstration
+Specimens
+
+4.3.4d
+
+Capability Demonstration
+Specimens
+NDE Plan
+
+4.4.1
+
+4.4.2.1
+
+NDE Summary/Inspection
+Report
+
+4.4.2.2
+
+NDE Summary/Inspection
+Report
+
+Applicable
+(Enter Yes
+or No)
+
+[NER 62] If appropriate demonstration specimens are not available, specimens
+shall be built or procured that meet both specimen requirements and specific
+engineering drawing requirements.
+[NER 63] Specimens used shall be documented as a part of the NDE procedures
+and personnel skill qualifications.
+[NER 64] An NDE plan shall be developed that addresses the following, as a
+minimum:
+a. Applicable specifications and documented standards.
+b. Calibration artifact traceability.
+c. Inspector training, qualification, and certification.
+d. Method selection, application, and process control.
+e. Acceptance criteria.
+f. Application of requirements during manufacturing, maintenance, and
+operations.
+g. NDE applied to fracture-critical hardware.
+h. Standard NDE selection, application, and control.
+i. Special NDE selection, equipment, application, and configuration control.
+[NER 65] An NDE Summary Report shall be developed and include, but not be
+limited to, the following:
+a. Identification of the fracture-critical part number.
+b. Critical zones inspected.
+c. NDE methods applied and procedures used.
+d. Classification and justification of Standard NDE or Special NDE inspections.
+e. Acceptance, rejection, or summary of critical data.
+f. Inspectors’ names and inspection dates.
+g. Evaluation of special conditions that affect Standard NDE.
+h. Descriptions, locations, and sizes for flaws that do not meet acceptance criteria.
+i. Non-conformances and problems encountered during the inspection.
+j. Descriptions, locations, and sizes for all detected cracks or crack-like flaws,
+regardless of size.
+[NER 66] An NDE inspection report shall be generated for every part acceptance
+NDE operation by NDE personnel involved in the NDE operation and signed by
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+46 of 54
+
+Comments
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+
+Description
+
+Requirement in this Standard
+
+4.4.2.3
+
+NDE Summary/Inspection
+Report
+
+4.4.3.1
+
+Supporting Data and Record
+Retention
+
+4.4.3.2
+
+Supporting Data and Record
+Retention
+
+4.5.1
+
+Personnel Qualification and
+Certification
+
+4.5.2
+
+Personnel Qualification and
+Certification
+
+4.5.3
+
+Personnel Qualification and
+Certification
+Personnel Qualification and
+Certification
+
+4.5.4
+
+Applicable
+(Enter Yes
+or No)
+
+cognizant NAS-410, NAS Certification and Qualification of Nondestructive Test
+Personnel, Level 2 or 3.
+[NER 67] NDE reports and digital records from NDE techniques that produce
+digital data (e.g., ultrasonic C-scans, radiographs, shearography images) used for
+part acceptance shall be traceable through the NDE Summary Report.
+[NER 68] All certification records, NDE reports, and associated paperwork shall
+be retained per current NASA requirements for records management as specified in
+NPR 1441.1, NASA Records Management Program Requirements.
+[NER 69] Responsible NDE engineering shall acquire and retain all records during
+a change to a different contractor, including but not limited to, the following:
+(1) Controlling NDE specifications and document standards.
+(2) Calibration artifact traceability.
+(3) Part-specific NDE procedures.
+(4) Special NDE 90/95% capability demonstration data.
+(5) Supporting data used to justify Standard NDE.
+(6) Standard and Special NDE inspector qualification and certification documents.
+(7) Standard and Special NDE process changes and approval documents.
+(8) The hardware acceptance, inspection, and summary reports.
+(9) Other supporting data, including inspector identifications, inspection dates,
+detailed and zoned drawings, acceptance criteria, and NDE problem reports and
+resolutions.
+(10) NDE reports.
+[NER 70] Personnel performing Standard or Special NDE of fracture-critical
+hardware shall be, at a minimum, qualified and certified Level II in accordance
+with NAS 410.
+[NER 71] If there is a failure to demonstrate capability, then proof of improved
+inspector skills shall be presented to the responsible NDE organization or the
+delegated NASA Technical Authority prior to a retest.
+[NER 72] Qualification for Special NDE shall be specific to the procedure and the
+inspector.
+[NER 73] Special NDE inspection shall not be transferable to another procedure or
+inspector.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+47 of 54
+
+Comments
+
+NASA-STD-5009C
+NASA-STD-5009C
+Section
+4.5.5
+
+Description
+
+Requirement in this Standard
+
+Personnel Qualification and
+Certification
+
+Applicable
+(Enter Yes
+or No)
+
+[NER 74] The period of Special NDE certification shall be 3 years.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+48 of 54
+
+Comments
+
+NASA-STD-5009C
+
+APPENDIX B: EXAMPLE OF AN NDE ORGANIZATION
+(“SHALLS” ARE FOR EXAMPLE ONLY)
+This Appendix provides an example of an NDE organization with clearly defined roles,
+responsibilities, and implementation. This is not a requirement and may be used as an
+organizational model.
+NOTE: The “shalls” used below are for example purposes only and are not requirements related
+to this Standard.
+
+B.1
+
+IMPLEMENTATION AND RESPONSIBILITIES
+
+B.1.1 Oversight Responsibility
+The responsible NASA Center shall provide an NDE oversight function and approval of the
+hardware developer’s NDE plan and program for the inspection of fracture-critical hardware.
+a. The NASA oversight function shall establish periodic reviews of the hardware
+developer’s NDE program.
+b. The NDE oversight function shall be responsible for establishing the personnel
+certification system for Special NDE procedures when NASA conducts the certification tests.
+c. NDE standards and procedures for fracture-critical hardware shall be approved by the
+responsible NASA Center.
+d. In general, all plans, data, documentation, reference standards, and reliability
+demonstration specimens generated under contract from NASA to its contractors, subcontractors,
+and suppliers in fulfillment of these requirements during hardware development, manufacturing,
+operations, and maintenance shall be subject to examination, evaluation, and inspection by and
+delivery to the NDE oversight function or designated representatives of the responsible NASA
+Center.
+B.1.2 Responsibility of Hardware-Specific NDE Requirements
+a. The hardware developer, in concurrence with the RFCB and delegated NASA
+Technical Authority, shall establish and provide hardware-specific NDE requirements to its inhouse NDE inspection organizations, suppliers, subcontractors, and vendors to accomplish the
+NDE during manufacturing.
+b. The hardware developer, in concurrence with the RFCB and delegated NASA
+Technical Authority, shall provide the hardware-specific NDE requirements for operations and
+maintenance to the responsible NASA Center or its designated sustaining engineering
+organization.
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+49 of 54
+
+NASA-STD-5009C
+
+c. The sustaining engineering organization, in concurrence with the RFCB and the
+delegated NASA Technical Authority, shall be responsible for maintaining, changing, and
+establishing new hardware-specific fracture control requirements.
+d. The hardware developer or sustaining engineering organization shall perform a
+drawing review process that identifies fracture-critical parts, identifies all areas of the parts
+requiring NDE, and identifies the appropriate type of NDE during manufacturing, maintenance,
+and operations.
+e. The review process shall include NDE engineering.
+f. NDE engineering shall ensure that the identified areas are inspectable and that efficient
+and reliable NDE methods are selected.
+B.1.3 Responsibility of NDE Standards, Procedures, and Reference Standards During
+Hardware Development and Manufacturing
+a. The hardware developer’s responsible NDE engineering shall be responsible for
+establishing and approving NDE method standards, NDE procedures, and NDE reference
+standards and for ensuring that all NDE processes are implemented through approved written
+NDE procedures.
+b. The NDE procedures shall be performed by the hardware developer’s NDE inspection
+organization or by an approved external NDE organization, provided that the NDE procedures
+approved by responsible NDE engineering are used by personnel certified for fracture-critical
+NDE.
+c. NDE engineering shall be responsible for administering Special NDE certification
+tests and approving certification of the NDE personnel.
+B.1.4 Responsibility of NDE Standards, Procedures, and Reference Standards for
+Operations and Maintenance NDE
+a. During hardware development, the hardware developer shall be responsible for
+establishing, approving, and providing operations and maintenance NDE requirements, method
+standards, NDE procedures, and NDE reference standards to the sustaining engineering
+organization designated by the responsible NASA Center.
+b. During operations and maintenance, the sustaining engineering organization, in
+concurrence with the RFCB and the delegated NASA Technical Authority, shall be responsible
+for maintaining or changing existing NDE requirements, standards, and procedures as well as
+establishing and maintaining new hardware-specific NDE requirements, standards, and
+procedures. NDE procedures may be performed by an in-house NDE inspection organization or
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+50 of 54
+
+NASA-STD-5009C
+by an external NDE inspection organization provided that the NDE procedures approved by
+NDE engineering are used by the personnel certified for fracture-critical NDE.
+c. NDE engineering shall be responsible for administering Special NDE certification
+tests and approving certification of the NDE personnel.
+B.1.5 NDE Drawing Callouts
+a. The hardware developer’s responsible NDE engineering shall review the zoned
+drawings, the NDE inspection methods, procedures, and acceptance criteria.
+b. Where there are different inspection requirements for different areas of a component,
+the drawing shall indicate separate inspection requirements for each zone.
+B.1.6 NDE Process and Configuration Control
+a. A written NDE procedure that complies with the relevant specification for the NDE method
+selected for the part is required for NDE inspection of each fracture-critical part.
+b. Configuration control by revision or date shall be maintained for the personnel
+qualifications and certifications and for the NDE specifications, standards, and part-specific
+procedures.
+c. Certifications shall remain current with revisions.
+d. NDE engineering shall approve NDE process changes.
+e. The RFCB and the delegated NASA Technical Authority shall have final approval for
+NDE process changes that affect the reliability of fracture-critical NDE.
+B.1.7 Capability Demonstration Specimens
+a. NDE engineering shall be responsible for designing, approving, and providing Special
+NDE capability demonstration specimens.
+b. If possible, NDE engineering shall borrow the specimens from NASA or other
+government departments.
+c. If appropriate demonstration specimens are not available, the hardware developer or
+the sustaining engineering organization shall build or procure the demonstration specimens in
+concurrence with the RFCB and the delegated NASA Technical Authority.
+d. Capability artifacts used in NDE procedure application shall be traceable to those
+used in the capability demonstration of the NDE procedure.
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+51 of 54
+
+NASA-STD-5009C
+B.1.8 Responsibilities of NDE Inspection Organization
+a. The NDE inspection organization shall be responsible for training, qualification, and
+facilitating NDE certification of its inspection personnel.
+b. The NDE inspection organization shall be responsible for maintaining and operating
+NDE equipment and facilities used in the NDE inspection of fracture-critical hardware.
+c. The NDE inspection organization shall be responsible for retention of certification
+records, NDE reports, and associated paperwork through the life of the program.
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+52 of 54
+
+NASA-STD-5009C
+
+APPENDIX C: REFERENCE DOCUMENTS
+C.1
+
+PURPOSE
+
+This Appendix provides information of a general or explanatory nature but does not contain
+requirements. The latest issuances of reference documents apply unless specific versions are
+designated. Access reference documents at https://standards.nasa.gov or obtain documents
+directly from the Standards Developing Body, other document distributors, or information
+provided or linked.
+
+C.2
+
+GOVERNMENT DOCUMENTS
+
+NASA-STD-6030, Additive Manufacturing Requirements for Spaceflight Systems
+NASA/TM−2011-215869, A Comparison of the Capability of Sensitivity Level 3 and Sensitivity
+Level 4 Fluorescent Penetrants to Detect Fatigue Cracks in Various Metals, Parker, January 2011
+NASA/TM−20220003648, NESC-TI-21-01657, Guidebook for Assessing Similarity and
+Implementing Empirical Transfer Functions for Probability of Detection (POD) Demonstrations
+for Signal Based Nondestructive Evaluation (NDE) Methods
+NASA/TM−20220013820, NESC-TI-21-01657, A Survey of NASA Standard Nondestructive
+Evaluation (NDE)
+NASA/TM−20220013822, NESC-TI-21-01657, Guidebook for the Design and Analysis of a
+NASA Standard Nondestructive Evaluation (NDE) Probability of Detection (POD) Study
+NASA/TM−20230000318, Guidelines for Mapping Reliably Detectable Dye Penetrant Crack
+Size at External Corners with Fillet Radii, for estimating reliably detectable flaw sizes on external
+corners
+NASA/TM−20230000324, Guidelines for Determining X-ray Shots for Inspection of Cylindrical
+Parts, to determine shot coverage and number of shots for inspection of girth weld on cylindrical
+or spherical parts.
+Bishop, C. R. (1973): “Nondestructive Evaluation of Fatigue Cracks,” Space Division Rockwell
+International, SD 73-SH-0219, NASA Contractor Report NAS9-14000, 1973
+(https://ntrs.nasa.gov/citations/20220005353)
+King, J. P.; and Johnson, K. R. (1974): “Space Shuttle Orbiter Fracture Control Plan,” Space
+Division Rockwell International SD73-SH-0082A, 1974 (Document ID 20220017997)
+NAVAIR 01-1A-34, Aeronautical Equipment Welding
+(http://everyspec.com/USN/NAVAIR/NAVAIR_01-1A-34_2009_30232/)
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+53 of 54
+
+NASA-STD-5009C
+ECSS‐E‐ST‐32‐01C, European Space Agency, Fracture Control
+(http://everyspec.com/ESA/ECSS-E-ST-32-01C_REV-1_48193/)
+JSC PRC-5010C, Process Specification for Pickling, Etching, and Descaling of Metals
+MSFC-STD-1249, Standard NDE Guidelines and Requirements for Fracture Control Programs
+
+C.3
+
+NON-GOVERNMENT DOCUMENTS
+
+ASTM E2862-18, Standard Practice for Probability of Detection Analysis for Hit/Miss Data
+ASTM E3023-21, Standard Practice for Probability of Detection Analysis for â Versus a Data
+
+APPROVED FOR PUBLIC RELEASE – DISTRIBUTION IS UNLIMITED
+54 of 54
+
+

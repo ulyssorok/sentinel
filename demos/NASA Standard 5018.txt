@@ -1,0 +1,2183 @@
+NASA TECHNICAL STANDARD 5018
+
+National Aeronautics and Space Administration
+Washington, DC 20546-0001
+
+NASA-STD-5018
+w/CHANGE 1:
+REVALIDATED
+2017-11-27
+Approved: 08-12-2011
+
+STRENGTH DESIGN AND VERIFICATION CRITERIA FOR
+GLASS, CERAMICS, AND WINDOWS IN
+HUMAN SPACE FLIGHT APPLICATIONS
+
+MEASUREMENT SYSTEM IDENTIFICATION:
+METRIC/SI (ENGLISH)
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+
+NASA-STD-5018 w/CHANGE 1
+
+DOCUMENT HISTORY LOG
+
+Status
+
+Document
+Revision
+
+Change
+No.
+
+Baseline
+1
+
+Approval Date
+
+Description
+
+2011-08-12
+
+Initial Release
+
+2017-11-27
+
+Administrative change:
+Revalidated—This NASA
+Technical Standard is
+revalidated “as-is” pending
+revision of the document.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+2 of 48
+
+NASA-STD-5018 w/CHANGE 1
+FOREWORD
+This Standard is published by the National Aeronautics and Space Administration (NASA) to
+provide uniform engineering and technical requirements for processes, procedures, practices,
+and methods that have been endorsed as standard for NASA programs and projects, including
+requirements for selection, application, and design criteria of an item.
+This Standard is approved for use by NASA Headquarters and NASA Centers, including
+Component Facilities and Technical and Service Support Centers.
+This Standard establishes uniform design and development requirements across NASA Centers
+for the design of glass and ceramic components that require high structural reliability and
+integrity within a human-rated space vehicle, space suit, or habitat. Requirements contained
+herein also provide design hazard controls for the unique hazards presented by brittle materials,
+including non-structural components, in an enclosed area inhabited by humans. Documenting
+these requirements in a NASA Standard allows each NASA program to rely upon an established
+set of practices that have a proven heritage and that have evolved from lessons learned across the
+spectrum of previous programs and designs.
+This Standard was prepared by Johnson Space Center. It has evolved from a series of program
+requirements documents implemented by Apollo, the Space Shuttle, and the International Space
+Station. This document also benefits greatly from certification and verification experiences
+encountered during the development of each of these programs.
+Requests for information, corrections, or additions to this Standard should be submitted via
+“Feedback” in the NASA Standards and Technical Assistance Tool at http://standards.nasa.gov.
+
+Original Signed By:
+_________________________________
+Michael G. Ryschkewitsch
+NASA Chief Engineer
+
+08-12-2011
+_________________
+Approval Date
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+3 of 48
+
+NASA-STD-5018 w/CHANGE 1
+TABLE OF CONTENTS
+SECTION
+
+PAGE
+
+DOCUMENT HISTORY LOG ..........................................................................
+FOREWORD .....................................................................................................
+TABLE OF CONTENTS ...................................................................................
+LIST OF TABLES .............................................................................................
+LIST OF EQUATIONS .....................................................................................
+
+2
+3
+4
+5
+5
+
+1.
+1.1
+1.2
+1.3
+
+SCOPE ..............................................................................................
+Purpose...............................................................................................
+Applicability ......................................................................................
+Tailoring.............................................................................................
+
+6
+6
+6
+7
+
+2.
+2.1
+2.2
+2.3
+2.4
+
+APPLICABLE DOCUMENTS .......................................................
+General ...............................................................................................
+Government Documents ....................................................................
+Non-Government Documents ............................................................
+Order of Precedence...........................................................................
+
+8
+8
+8
+8
+8
+
+3.
+3.1
+3.2
+
+ACRONYMS AND DEFINITIONS ...............................................
+Acronyms and Abbreviations ............................................................
+Definitions .........................................................................................
+
+10
+10
+11
+
+4.
+4.1
+4.2
+4.3
+4.4
+4.5
+4.6
+4.7
+4.8
+4.9
+4.10
+4.11
+4.12
+
+REQUIREMENTS...........................................................................
+Introduction ........................................................................................
+Planning and Reporting .....................................................................
+Environments and Loads ...................................................................
+Design Factors ...................................................................................
+Window Life ......................................................................................
+Window Coating Requirements .........................................................
+Structural Analysis Requirements .....................................................
+Safety and Structural Integrity Assurance Requirements ..................
+Manufacturing Requirements ............................................................
+Window Maintenance Design Requirements ....................................
+Non-Structural Glass..........................................................................
+Requirements for Windowpanes, Glass, and Ceramic Structure for
+which a Proof Test is not Feasible .....................................................
+
+15
+15
+15
+16
+20
+21
+21
+22
+26
+28
+30
+31
+
+VERIFICATIONS ...........................................................................
+Introduction ........................................................................................
+Planning and Reporting .....................................................................
+
+33
+33
+33
+
+5.
+5.1
+5.2
+
+32
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+4 of 48
+
+NASA-STD-5018 w/CHANGE 1
+TABLE OF CONTENTS, continued
+SECTION
+5.3
+5.4
+5.5
+5.6
+5.7
+5.8
+5.9
+5.10
+5.11
+5.12
+
+PAGE
+
+Environments and Loads ...................................................................
+Design Factors ...................................................................................
+Window Life ......................................................................................
+Window Coating Requirements .........................................................
+Structural Analysis Requirements .....................................................
+Safety and Structural Integrity Assurance Requirements ..................
+Manufacturing Requirements ............................................................
+Window Maintenance Design Requirements ....................................
+Non-Structural Glass..........................................................................
+Requirements for Windowpanes, Glass, and Ceramic Structure for
+which a Proof Test is not Feasible .....................................................
+
+33
+35
+36
+36
+37
+40
+41
+42
+44
+44
+
+APPENDICES
+A
+B
+
+Data Item Descriptions ......................................................................
+Reference Documents ........................................................................
+
+45
+47
+
+LIST OF TABLES
+TABLE
+1
+
+PAGE
+Flaw Growth Analysis Uncertainty Factor Versus Design Life ........
+
+21
+
+LIST OF EQUATIONS
+EQUATION
+1
+2
+
+3
+
+PAGE
+
+Flaw Growth Velocity ......................................................................
+Stress
+Intensity
+............................................................................................................
+Static Fatigue Life ..............................................................................
+
+23
+23
+
+24
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+5 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+STRENGTH DESIGN AND VERIFICATION CRITERIA FOR
+GLASS, CERAMICS, AND WINDOWS IN HUMAN SPACE
+FLIGHT APPLICATIONS
+1.
+
+SCOPE
+
+1.1
+
+Purpose
+
+The purpose of this Standard is to specify the minimum structural design requirements for the
+design, development, and verification of windows, glass, and ceramic structure included in
+National Aeronautics and Space Administration (NASA) vehicles/elements, habitats, space suits,
+all orbital support equipment (OSE), and flight support equipment (FSE). Although this
+Standard primarily addresses structural design requirements for glass and ceramics, it also
+includes design and verification requirements for non-structural glass and ceramic components.
+Optical performance and radiation specifications are not provided in this document.
+1.2
+
+Applicability
+
+This Standard is applicable to all human-rated flight vehicle and element hardware, including
+orbital replacement units, space suits, OSE, and FSE. The requirements in this Standard also
+apply to all human-inhabitable structures built beyond Earth’s surface.
+This Standard does not apply to windowpanes made from non-brittle materials, including
+plastics. Windowpanes designed with non-brittle materials are to comply with standard
+engineering design requirements for primary structure.
+Adherence to this document in and of itself does not exempt flight windows, glass, or ceramics
+from any safety, fault-tolerance, or hazard control requirements. Any such reduction in
+requirements shall be established and approved by the appropriate NASA Technical Authority of
+the program invoking this document.
+This Standard is approved for use by NASA Headquarters and NASA Centers, including
+Component Facilities and Technical and Service Support Centers, and may be cited in contract,
+program, and other Agency documents as a technical requirement to ensure the structural
+integrity and reliability of human-rated spacecraft. This Standard may also apply to the Jet
+Propulsion Laboratory or to contractors, grant recipients, or parties to agreements only to the
+extent specified or referenced in their contracts, grants, or agreements.
+Requirements are numbered and indicated by the word “shall.” Explanatory or guidance text is
+indicated in italics beginning in section 4.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+6 of 48
+
+NASA-STD-5018 w/CHANGE 1
+1.3
+
+Tailoring
+
+Tailoring of this Standard for application to a specific program or project shall be formally
+documented as part of program or project requirements and approved by the Technical
+Authority.
+WARNING: Significant inherent risks exist with the use of brittle materials, such as glass
+and ceramics, in spacecraft, either as structural components or as non-structural
+components. The requirements specified in this Standard have been established by decades
+of lessons learned in window designs during Apollo, Shuttle, and International Space
+Station programs. These requirements guide window and glass/ceramic designs that
+ensure the safety of flight. Tailoring of these requirements is not recommended and should
+only be accomplished with close consultation with the appropriate knowledgeable NASA
+Technical Authority.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+7 of 48
+
+NASA-STD-5018 w/CHANGE 1
+2.
+
+APPLICABLE DOCUMENTS
+
+2.1
+
+General
+
+The documents listed in this section contain provisions that constitute requirements of this
+Standard as cited in the text.
+2.1.1 The latest issuances of cited documents shall be used unless specific versions are
+designated.
+2.1.2 Non-use of specific versions as designated shall be approved by the responsible
+Technical Authority.
+The applicable documents are accessible via the NASA Standards and Technical Assistance
+Resource Tool at http://standards.nasa.gov or may be obtained directly from the Standards
+Developing Organizations or other document distributors.
+2.2
+
+Government Documents
+NASA
+NASA-STD-6016
+
+2.3
+
+Standard Materials and Processes Requirements for Spacecraft
+
+Non-Government Documents
+ASTM, International (ASTM) (formerly American Society for Testing Materials)
+
+2.4
+
+ASTM C1368
+
+Standard Test Method for Determination of Slow Crack
+Growth Parameters of Advanced Ceramics by Constant
+Stress-Rate Flexural Testing at Ambient Temperature
+
+ASTM C1421
+
+Standard Test Methods for Determination of Fracture
+Toughness of Advanced Ceramics at Ambient Temperature
+
+ASTM C1576
+
+Standard Test Method for Determination of Slow Crack
+Growth Parameters of Advanced Ceramics by Constant
+Stress Flexural Testing (Stress Rupture) at Ambient
+Temperature
+
+Order of Precedence
+
+This Standard establishes requirements for the minimum structural design requirements for the
+design, development, and verification of windows, glass, and ceramic structure included in the
+vehicle/element, habitats, space suits, all OSE, and FSE and does not supersede nor waive
+established Agency requirements found in other documentation.
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+8 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+2.4.1 Conflicts between this Standard and other requirements documents shall be resolved by
+the responsible Technical Authority.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+9 of 48
+
+NASA-STD-5018 w/CHANGE 1
+3.
+
+ACRONYMS AND DEFINITIONS
+
+3.1
+
+Acronyms and Abbreviations
+
+®
+°
+°C
+°F
+>
+≥
+<
+≤
+±
+µm
+ADP
+ASTM
+cm
+DID
+EVA
+FSE
+GCVP
+GCVR
+in
+IR
+IVA
+KI
+KIC
+lb
+mm
+MM/OD
+MOR
+MS
+N
+NASA
+OSE
+sec
+STD
+UV
+
+registered trademark
+degree(s)
+degree(s) Celsius
+degree(s) Fahrenheit
+greater than
+greater than or equal to
+less than
+less than or equal to
+plus or minus
+micron
+acceptance data package
+ASTM, International (formerly American Society for Testing Materials)
+centimeter(s)
+data item description
+extravehicular activity
+flight support equipment
+glass and ceramics verification plan
+glass and ceramics verification report
+inch(es)
+infrared
+intravehicular activity
+stress intensity
+critical stress intensity
+pound(s)
+millimeter(s)
+micro meteoroid/orbital debris
+modulus of rupture
+margin of safety
+Newton
+National Aeronautics and Space Administration
+orbital support equipment
+second(s)
+Standard
+ultraviolet
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+10 of 48
+
+NASA-STD-5018 w/CHANGE 1
+3.2
+
+Definitions
+
+Definitions cited here are applicable to the context of this document.
+Acceptance Test: A specified level of testing in which all functional aspects of the
+hardware are thoroughly and systematically verified to ensure that the product performs
+according to the specification. Tests are conducted in accordance with an approved verification
+plan and approved test procedures. The test is required before acceptance, certification, and
+delivery of production hardware. It demonstrates that the hardware complies with specification
+requirements and is free of defects. Specific pass/fail criteria, tolerances, and test conditions
+are documented in implementing test requirements documents. The acceptance test verifies the
+workmanship of the flight hardware. Acceptance tests are performed on every deliverable unit.
+Brittle Material: Materials, such as glass and ceramics, that are characterized by the
+fact that rupture occurs without any noticeable earlier change in the rate of elongation, i.e.,
+there is no plastic deformation before fracture. The material will not yield under load before
+breaking. There is no difference between the ultimate strength of the material and its breaking
+strength.
+Catastrophic Hazard: A hazard that can result in a disabling or fatal personnel injury or
+loss of flight hardware, ground facilities, or mission-critical equipment.
+Ceramics: Materials that are joined by ionic or covalent bonds and are complex
+compounds, consisting of both metallic and non-metallic elements. These are hard, brittle,
+high-melting-point materials with good chemical and thermal stability and high compressive
+strengths. The most important of the non-crystalline ceramic materials are glasses.
+Certification: This process consists of qualification testing, any major ground testing,
+acceptance testing, and any other testing and the analyses required to determine that the design
+hardware from the component through the subsystem level meets the specified requirements.
+Critical Hazard: A hazard that can result in a non-disabling personnel injury; damage
+to flight hardware, ground facilities, or mission-critical equipment; or loss of mission.
+Critical Stress Intensity (KIC): A material property that delineates the combination of
+stress and flaw size that will precipitate failure. This property is also referred to as fracture
+toughness.
+Design Life: The interval that begins with entry of a vehicle/element or part into
+operation or the design environment and ends with completion of its intended design mission.
+Dynamic Amplification Factor: The factor applied to a load to account for the dynamic
+nature of the load when applied on a structure. Dynamic amplification factors infrequently
+exceed 2.0.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+11 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+12 of 48
+
+NASA-STD-5018 w/CHANGE 1
+Flaw: An imperfection or discontinuity in the glass or ceramic. Flaws include
+scratches, pits, craters, bubbles, inclusions, chips, bruises, and cracks of any sort. Flaws may
+be acceptable or rejectable.
+Dynamic Factor of Safety: The factor of safety applied to the dynamic load during the
+application of the dynamic load. This factor of safety is reduced (from 3.0 (see section 4.4.1.a
+of this Standard)) since the dynamic load is well understood either by test or by enveloping
+theory.
+Flight Article: The hardware, firmware, and software unit that is used operationally in
+a flight environment. This unit is designed and manufactured under strict quality control, with
+complete records of unit manufacturing, testing, and shipping and handling.
+Glass: A large class of materials with highly variable mechanical and optical
+properties. Glass solidifies from the molten state without crystallization and is typically made
+by fusing silicates with boric oxide, aluminum oxide, or phosphorus pentoxide. Glass is
+generally hard, brittle, and transparent or translucent. Glass is an amorphous (non-crystalline)
+material that is isotropic and elastic.
+Glass Ceramics: Materials that are formed as a glass and then made to partly
+crystallize by heat treatment. Mechanically, they are very strong materials and can sustain
+repeated thermal shocks. They have very low heat conduction coefficients and can be made
+nearly transparent.
+Glass Pane or Pane or Windowpane: The glass structural component or element of a
+window.
+Initial Design Flaw Depth: The total flaw depth that is used to establish the allowable
+design stress that does not induce manufacturing flaws to grow to failure during the design life
+of the glass structure, assuming 100 percent moisture.
+Limit Load: The maximum anticipated load, or combination of loads, on the hardware
+during its design service life, including ground handling, transport to and from orbit (including
+abort conditions), and on-orbit operations.
+Margin of Safety (MS): A computation that demonstrates the structural reserve
+existing when comparing a material’s ability to sustain load to the predicted maximum service
+load with a factor of safety applied. Typically, the MS computation is written as
+MS = (Allowable stress/(predicted service stress x factor of safety))-1.
+For glasses and ceramics, the allowable stress is generally equal to the stress generated in the
+glass during an acceptance proof test.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+13 of 48
+
+NASA-STD-5018 w/CHANGE 1
+Modulus of Rupture (MOR): The failure stress in bending, as determined by bend test
+specimens or MOR bars.
+Non-Structural Glass: Any glass component that is not a part of a structural load path
+or a part of a pressure vessel. The only loads non-structural glass carries are inertial. Failure
+of this type of hardware does not violate redundancy requirements for crew safety but could
+cause the loss of an important function and could present a significant hazard. An example of
+non-structural glass is a camera lens that is not subjected to pressure loading.
+Qualification Article: A hardware, firmware, and software unit that is identical to the
+flight unit or production unit in form, fit, and function, as well as in manufacturing processes,
+parts, and quality control. This unit is used for verification and certification credit for all
+environmental requirements and performance requirements as needed.
+Qualification Test: A test program of statistically valid length under combined loads,
+cyclic loads, and time-varying environmental conditions that simulate conditions expected in
+service use. Qualification tests expose flight-like hardware to the actual environments in
+which it is expected to operate. The qualification test proves that the hardware, as designed,
+can function and perform in the applied environments over the design life. Pass/fail criteria
+are developed to define the minimum performance requirements that the flight-like unit under
+test has to meet for certification by NASA. Qualification test levels are applied with the
+appropriate specified test factors.
+Static Fatigue: In glass and ceramics, flaws grow as a function of stress, flaw size,
+environment, and time. The strength degradation with time resulting from the flaw growth is
+referred to as static fatigue.
+Structural Glass: Any glass component that provides the required structural integrity
+or redundancy for crew safety. Structural glass sustains loads or pressure necessary for a
+mission to succeed. Failure of a structural glass component results in a significant hazard and
+is potentially catastrophic.
+Subsurface Flaws: The portion of a flaw that extends into the thickness of the glass,
+such as the tail of a damage that propagates down into the substrate. All subsurface flaws have
+their genesis at the surface of the glass or from the bottom of a surface damage.
+Tempering: A process that leaves the surface of the glass in compression. The
+thickness of the surface compressive layer is different for the various tempering techniques.
+Two common types of tempering include heat tempering and chemical tempering.
+Total Flaw Depth: The sum of the depth of the visible flaw, depression, or crater and
+the depth of the tail that cannot always be seen. Typically, the total flaw depth is estimated to
+be three times the depth of the visible flaw depth.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+14 of 48
+
+NASA-STD-5018 w/CHANGE 1
+Ultimate Allowable Load: For glass and ceramics, the ultimate allowable load in the
+margin calculation is the proof test load. The proof factor is used for the proof pressure test
+that subjects the structure to a stress level sufficiently high to show that flaws above a chosen
+size do not exist or else the pane would not have survived the proof test.
+Window: A sub-assembly of a greater vehicle element that provides through viewing.
+The term refers to an assembly that contains all glass components (multiple panes, for
+instance) and their associated frames and assembly hardware. The window hardware includes
+the fastening system to the vehicle but not beyond it.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+15 of 48
+
+NASA-STD-5018 w/CHANGE 1
+4.
+
+REQUIREMENTS
+
+This Standard primarily addresses structural and non-structural design and verification
+requirements for glass and windows in human-rated space vehicles, space suits, and habitats.
+The same requirements apply to ceramics, which have similar characteristics. The sole use of
+the word “glass” does not preclude requirement applicability to ceramics.
+4.1
+
+Introduction
+
+Glass is a brittle material that obeys Hooke’s law until failure. Glass failures result from tensile
+stresses and usually originate from a pre-existing flaw on or near the surface. Flaws that
+propagate below the surface can emanate from manufacturing defects; good design and
+manufacturing practice minimize all types of flaws on or near the surface.
+The strength of a particular glass composition and configuration can vary widely because of
+randomly occurring flaws. Often, manufacturing flaws in glass cannot be detected by visual
+inspection because the visible portion of the flaw is removed in the finishing process.
+Flaws in glass can be initiated easily by contact with objects; therefore, glass requires special
+protection subsequent to manufacturing.
+Flaws in glass grow as a function of stress, flaw depth, environment, and time; this phenomenon
+is called static fatigue, flaw growth, or stress corrosion cracking. Structural degradation occurs
+with time for glass in tension, and failure can result if adequate precautions are not exercised.
+Because of the inherent structural characteristics of glass, special precautions and assumptions
+are required in the design, analysis, and verification of glass structural elements.
+4.2
+
+Planning and Reporting
+
+The vehicle/element responsible organization is accountable for certification of the window
+system, including the overall design, planning, demonstration, and management of glass and
+windows for the vehicle/element.
+The vehicle/element prime contractor has the responsibility for demonstrating that each
+requirement has been met to the satisfaction of the appropriate NASA Technical Authority.
+The vehicle/element prime contractor has the responsibility to prepare a glass and ceramics
+verification plan (GCVP).
+a. The GCVP shall describe the test/analysis data and methods to be used, as well as test
+success criteria for each component or assembly-level test.
+b. The data requirements for the GCVP shall be in accordance with the data item
+description (DID) in Appendix A of this Standard.
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+16 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+c. NASA Technical Authority approval of the GCVP shall be obtained before
+implementation of the plan.
+Modifications to the plan in progress may be made with prior NASA Technical Authority
+approval as the design develops.
+The contractor has the responsibility to prepare a glass and ceramics verification report
+(GCVR) describing methodologies, processes, procedures, analyses, and test results used to
+verify the adequacy of glass and ceramic designs and show compliance with each explicit
+requirement contained in this document.
+d. Documentation of mathematical model correlations shall be included in the GCVR.
+e. The GCVR DID, found in Appendix A of this Standard, shall apply to these
+requirements.
+4.3
+
+Environments and Loads
+
+4.3.1
+
+Applied Environments
+
+Where applicable, spacecraft windows shall be capable of meeting the requirements specified
+herein during all phases of the vehicle/element mission, including the launch, entry, and landing
+phases and, if applicable, ferry flights or atmospheric transfers, after exposure to any single or
+combination of the following environments:
+a. Pressure (total pressure, positive and negative differential pressures, aerodynamic,
+plume impingement).
+b. Vacuum.
+c. Thermal.
+(1)
+(2)
+(3)
+(4)
+(5)
+
+Liftoff aerodynamic heating.
+On-orbit temperature extremes.
+On-orbit plume heating and thermal shock.
+Entry aerodynamic heating.
+Terrestrial.
+
+d. Low-frequency and transient and dynamic loads.
+e. Loads associated with pane failures.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+17 of 48
+
+NASA-STD-5018 w/CHANGE 1
+f. Shock.
+(1) Pyrotechnic.
+(2) Landing impact.
+(3) Handling.
+g. Vibration.
+(1) Random.
+(2) Vibroacoustic.
+h. Humidity.
+i. Foreign Object Debris impacts.
+j. Micro meteoroid/orbital debris (MM/OD) flux.
+k. Fungus.
+l. Ozone and atomic oxygen.
+m. Rain.
+n. Lightning.
+o. Salt spray.
+p. Solar radiation.
+q. Geomagnetic trapped (Van Allen) radiation, both protons and electrons.
+r. Acoustic noise.
+s. Sand and dust.
+t. Hail, snow, and ice.
+u. Wind.
+v. Acceleration.
+w. Any other program-specific/mission-specific environments and conditions, including
+loadings and chemicals, to which the vehicle/element can be exposed.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+18 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+4.3.2. Window Inter-pane Purging and Venting
+Pressures shall not exceed the limit design pressure for the windows during purging and venting.
+The window configuration may use passive venting to minimize potential surface contamination
+by material offgassing or moisture condensation.
+4.3.3
+
+Inadvertent Contact
+
+a. The glass assembly shall be capable of withstanding inadvertent contact of up to
+685 N (154 lb) (limit), applied as a uniform pressure load over a 10.2-cm by 10.2-cm (4.0-in by
+4.0-in) area.
+b. If this area is unavailable to inadvertent contact, the load shall be distributed over the
+area exposed to the inadvertent contact in a manner consistent with inadvertent contact but not
+applied over a dimension greater than 10.2 cm (4.0 in) maximum.
+4.3.4
+
+Impact Hazards to Glass and Ceramic Structures and Components
+
+The flight or mission environment presents hazards, such as released shards or cracking
+resulting from impacts on glass or ceramics, to crew safety and the structural integrity of the
+vehicle/element.
+a. All structural glass and non-structural glass or ceramic components exposed to tool
+impact, e.g., the component design permits contact with the brittle material surface, shall not
+create a hazardous condition when impacted.
+b. All sources of potential impacts shall be considered, including but not limited to
+MM/OD impacts, intravehicular activity (IVA) and extravehicular activity (EVA) inadvertent
+contacts, IVA and EVA tool impact hazards, and launch debris impacts.
+c. If these requirements cannot be positively demonstrated, then appropriate hazard
+controls shall be implemented.
+4.3.5
+
+Impact Damage Tolerance Requirement for Structural Glass
+
+a. All vehicle/element windows shall be designed to maintain the structural and
+functional integrity of the window during all appropriate design environments after an impact
+event.
+b. The damaged structural glass or ceramic structure shall maintain a margin of safety of
+0.0 or greater for the duration of the mission being assessed.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+19 of 48
+
+NASA-STD-5018 w/CHANGE 1
+c. The damaged structural glass or ceramic component shall have sufficient remaining
+life to allow repair or replacement of the damaged part without loss of mission.
+4.3.6
+
+Glass-to-Metal Contact
+
+a. The window seal shall prohibit glass-to-metal contact before, during, and after
+exposure to the flight random vibration and vibroacoustic environments.
+b. The window design shall prohibit glass-to-metal contact before, during, and after
+exposure to two times the maximum combined limit load.
+4.3.7
+
+Glass Slipping and Rattling
+
+The window design shall prevent slipping and rattling of the glass during exposure to the flight
+and ground transportation, as well as handling, random vibration, and vibroacoustic
+environments.
+4.3.8
+
+Glass Pane-to-Seal (or Cushion) Interface
+
+a. The window seal shall meet its performance requirements within the temperature
+extremes of the seal-to-windowpane interface for the duration of the design life of the window,
+precluding degradation from the environment or aging.
+b. The window design shall prohibit the phase change (glassy transition) of the seal (or
+cushion) material in contact with the glass at the lower temperature extremes of the seal/glass
+pane interface.
+In this context, the seal is any material in contact with the glass in the assembly.
+The material does not necessarily have to function as a seal for this requirement to be
+applicable.
+4.3.9
+
+Combined Loads
+
+The glass component design shall be assessed for all combined loads that can occur.
+The combined loads may be applied in a time-consistent manner.
+4.3.10 Inner and Outer Surfaces
+Both the inner and outer surfaces of each windowpane shall be designed to carry the maximum
+combined loads for the design life required.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+20 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+4.4
+
+Design Factors
+
+4.4.1
+
+Minimum Factor of Safety for Annealed Glass
+
+Glass and other brittle materials typically have large scatter in material properties. Additionally,
+brittle materials are prone to sudden failure without prior warning. These features require a
+higher safety factor than standard, well-characterized materials.
+a. Annealed glass shall be designed to a minimum ultimate factor of safety of 3.0
+applied to the maximum combined limit load (section 4.3.9 of this Standard) at the beginning of
+life.
+b. Annealed glass shall be designed to a minimum ultimate factor of safety of 1.4
+applied to the maximum combined limit load (section 4.3.9 of this Standard) at the end of life.
+4.4.2
+
+Minimum Factor of Safety for Tempered Glass
+
+Tempered glass shall be designed to a minimum ultimate factor of safety of 3.0 applied to the
+maximum combined limit load (section 4.3.9 of this Standard).
+4.4.3
+
+Dynamic Amplification Factor
+
+The potential for dynamic amplification of the load in the event of a pressure pane failure exists.
+a. A dynamic amplification factor of at least 2.0 shall be applied to the combined load
+(section 4.3.9 of this Standard) for the assessment of a pressure pane failure event.
+b. If specifically measured during a dynamic redundancy test, the dynamic amplification
+factor for analysis shall be the measured value in lieu of section 4.4.3.a of this Standard.
+4.4.4
+
+Dynamic Factor of Safety
+
+a. The factor of safety applied to the load during the dynamic event precipitated by the
+failure of a pressure pane shall be 2.0.
+b. This factor shall be applied only to the dynamic event and in addition to the dynamic
+amplification factor defined in section 4.4.3 of this Standard.
+c. After quasi-static conditions are reached, the factor of safety specified in section 4.4.1
+or section 4.4.2 of this Standard, as appropriate, shall apply.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+21 of 48
+
+NASA-STD-5018 w/CHANGE 1
+4.5
+
+Window Life
+
+4.5.1
+
+Uncertainty Factor on Stress for Flaw Growth Analysis
+
+The data in table 1, Flaw Growth Analysis Uncertainty Factor versus Design Life, shall be used
+for selecting an uncertainty factor to be used on the stress for the flaw growth analysis.
+Table 1—Flaw Growth Analysis Uncertainty Factor versus Design Life
+Design Life
+Uncertainty Factor*
+Design Life ≤ 1 week
+1.4
+1 week < Design Life ≤ 1 month
+1.3
+1 month < Design Life ≤ 1 year
+1.2
+Design Life > 1 year
+1.1
+*The required uncertainty factor is larger for shorter design life because the flaw growth
+velocity is sensitive to small variations in the stress intensity.
+4.5.2
+
+Life Factor
+
+A life factor of 4 shall be applied to the design life to account for scatter.
+4.5.3
+
+Assembly Life
+
+The installation of the window into the vehicle/element shall not cause:
+a. Damage to the glass over the service life of the vehicle.
+b. Deterioration of the sealing capabilities over the service life of the vehicle.
+4.5.4
+
+Induced Residual Stresses
+
+The glass design shall preclude any potential source of strength degradation caused by induced
+residual tensile stresses or local stress concentrators.
+Features that concern designers include certain bonds on glass, localized structural
+deformation, localized thermal gradients, inside curves or cuts, and sharp corners.
+4.6
+
+Window Coating Requirements
+
+4.6.1
+
+Strength Degradation Caused by Coatings
+
+Thermal cycling and thermal shock testing of glass coatings in previous designs have initiated
+coating cracks that have propagated into the glass, causing strength degradation.
+The strength effects of coatings selected for glass components shall be determined.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+22 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+4.6.2
+
+Coated Windowpane Structural Integrity
+
+Windowpane coatings shall be located on surfaces to minimize structural degradation of the
+panes.
+4.6.3
+
+Windowpane Coatings for Infrared and Ultraviolet Photography or Sensing
+
+In the event that a vehicle/element window is to be used for infrared (IR) and ultraviolet (UV)
+photography or sensing, the location of the window coatings shall provide for IR and UV
+viewing through windowpanes without degrading the structural integrity.
+4.7
+
+Structural Analysis Requirements
+
+The primary critical loading condition in windowpanes is typically the bending stress resulting
+from applied pressures. All polished glass or ceramic windows contain invisible micro cracks
+critical to the strength and life of the finished product. Fracture mechanics and static fatigue
+analyses, which are valid for most spacecraft windows, are based on the assumption that the
+critical flaws are much smaller than the thickness of the glass.
+4.7.1
+
+Structural Analysis Requirements for Windowpanes, Glass, and Ceramic Structure
+
+a. Fracture mechanics technology and the related flaw growth methodology as detailed
+herein shall be used to assure adequate life of any glass structure.
+b. All static fatigue assessments on the structural glass life shall consider all load events
+to which the component has been and will be exposed.
+c. The glass/ceramic component predicted life shall be greater than the design life with
+the appropriate life factor applied (section 4.5.2 of this Standard).
+4.7.2
+
+Analysis Methods for Annealed Glass
+
+a. One of the methods in sections 4.7.3 or 4.7.4 of this Standard shall be used to verify
+the life requirement.
+b. Other analytical techniques may be used, but NASA Technical Authority approval
+shall be obtained before implementation.
+4.7.3
+
+Use of NASGRO®
+
+The analysis method provided in the NASGRO® computer program is an acceptable method for
+analysis of vehicle/element glass structure with the following constraints and assumptions:
+a. The exponential equation model of flaw growth shall be selected.
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+23 of 48
+
+NASA-STD-5018 w/CHANGE 1
+b. The length-to-depth ratio of the initial flaw shall be assumed to be ≥20.
+The appropriate material critical strength intensity (KIC) in the NASGRO® database may be
+used, or test-derived KIC in accordance with section 4.7.5 of this Standard may be entered
+manually into the program.
+4.7.4
+
+Flaw Growth Analysis for Annealed Glass
+
+a. The following flaw growth velocity equation shall be used for vehicle/element glass
+structural life prediction:
+v=v e
+0
+
+βK I
+
+(Eq. 1)
+
+where:
+v = Flaw growth velocity
+v0 = Material parameter
+β = Material parameter
+KI = Stress intensity.
+b. v0 and β in equation 1 shall be determined by test in accordance with ASTM C1368,
+Standard Test Method for Determination of Slow Crack Growth Parameters of Advanced
+Ceramics by Constant Stress-Rate Flexural Testing at Ambient Temperature, or ASTM C1576,
+Standard Test Method for Determination of Slow Crack Growth Parameters of Advanced
+Ceramics by Constant Stress Flexural Testing (Stress Rupture) at Ambient Temperature, for each
+material used, in the environment established for windowpane design.
+c. The data generated in section 4.7.4.b of this Standard shall be fit to equation 1.
+d. The test reports shall be delivered to the NASA Technical Authority as part of the
+verification package.
+e. The following equation for stress intensity shall be applicable for glass structure
+where the critical flaw depth is small with respect to the thickness of the glass:
+
+π a 
+
+K I = 1.1 ⋅ σ ⋅ 
+ Q 
+
+1
+
+2
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+24 of 48
+
+(Eq. 2)
+
+NASA-STD-5018 w/CHANGE 1
+where:
+KI = Stress intensity
+σ = Stress
+a = Flaw depth
+Q = Shape factor, Q = 1 for long flaws with respect to depth (length/depth ≥20).
+The time to failure of a glass structural element (static fatigue life) is found by:
+K
+
+IC
+ 2Q 
+ KI 
+t =
+⋅
+dK I
+2  ∫ 
+ 1.21 ⋅ πσ  K I i  v 
+
+(Eq. 3)
+
+where:
+KI = Stress intensity
+KIC = Critical stress intensity
+σ = Stress
+Q = Shape factor, Q = 1 for long flaws with respect to depth (length/depth ≥20)
+v = Flaw growth velocity.
+f. Equation 3 shall be used to establish the static life of a glass or ceramic component.
+g. Material parameters for each material used shall be determined by test in the
+environment established for windowpane design.
+h. The equation for KI (equation 2) shall be appropriate for the configuration that is
+analyzed.
+4.7.5 Material Data Scatter and Average Flaw Growth Properties
+a. Each windowpane shall be designed using average flaw growth properties (KI versus
+velocity) and four times the required design life to account for scatter in the flaw growth data.
+b. The KIC used to determine failure shall be based on the average inert KIC minus three
+standard deviations of the KIC as determined by analysis of the material test data developed in
+accordance with ASTM C1421, Standard Test Methods for Determination of Fracture Toughness
+of Advanced Ceramics at Ambient Temperature, or as provided in NASGRO®.
+c. NASA Technical Authority approval shall be obtained for the number of test samples
+required to establish KIC.
+The flaw growth properties contained in NASGRO® may be used, if available.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+25 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+4.7.6
+
+Total Flaw Depth versus Visible Flaw Depth
+
+Empirical data from glass polishing and handling experience show that an invisible crack tail
+extends past the visible flaw into the glass to an approximate distance of twice the visible crack
+depth, making the total effective crack depth three times the visible flaw depth.
+a. The total flaw depth shall be assumed to be three times the measured visible flaw
+depth.
+b. All life analyses shall be based on the total flaw depth.
+4.7.7
+
+Initial Design Flaw Depth
+
+a. Vehicle/element windowpanes shall be designed by first choosing the limiting flaw
+depth, i.e., maximum initial design flaw depth.
+b. The initial design flaw depth shall be used for the initial fracture and life analysis of
+all glass or ceramic structural components.
+c. The initial design flaw depth shall be limited on the lower bound to 0.0457-mm
+(0.0018-in) total flaw depth to provide reasonable damage discovery since the windowpanes
+receive damage during use.
+4.7.8
+
+Flaw Shape
+
+Long flaws with respect to the depth (length/depth ≥20) and flaw shape factor Q = 1 shall be
+assumed for the glass structure life predictions.
+4.7.9
+
+Flaw Growth Environment: 100 Percent Moisture
+
+Flaw growth properties assuming 100 percent moisture shall be used for all windowpane life
+predictions.
+4.7.10 Glass or Ceramic Structural Component Stress Distribution
+a. The stress distribution in any glass or ceramic structural component shall be
+determined.
+b. The applied stress distribution in the component shall be determined in a manner that
+considers the actual boundary conditions of the actual pressurized vehicle and includes all
+significant (>10 percent of total predicted stress) sources of stress in the component.
+c. The applied stress distribution shall determine the point of maximum stress on the
+surface of the component for the maximum combined load case.
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+26 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+4.7.11 Stress Distribution Correlation
+The stress distribution across the window surfaces shall be obtained during vehicle testing and
+correlated to an analytical model with the same load cases applied.
+4.7.12 Spring Stiffness
+a. Spring stiffness (load versus deflection) shall be determined for all springs and seals
+and combinations included in the window design.
+b. The measured stiffness for the springs and seals shall be used for all analyses and
+models of the window assembly.
+4.7.13 Stress Analysis Requirements and Reports
+The stress analysis of the glass or ceramic structural component shall be in accordance with the
+current best practices for structural design, analysis, and reporting standards and methodologies.
+4.7.14 Analysis Methods for Tempered Glass
+a. The methodology for flaw growth analysis in tempered glass shall be the same as for
+annealed glass (section 4.7.2 of this Standard) for any tensile stress on the surface of the pane
+when loaded, such as during proof testing.
+If the total stress at the initial design flaw depth is compressive after combining the temper
+stresses and the proof tensile stresses, then a flaw growth analysis is not required.
+b. Where tempered glass is used in the window design, the pre-compression of each
+surface of each windowpane shall be measured and recorded.
+4.7.15 Temper Layer Preservation
+The sum of the measured temper surface stress and two times the applied limit surface tensile
+stress shall be equal to or less than zero (compressive).
+4.8
+
+Safety and Structural Integrity Assurance Requirements
+
+4.8.1
+
+Redundancy
+
+4.8.1.1
+
+Pressure Redundancy
+
+a. All vehicle/element windows that are or can be a part of the crew-inhabiting pressure
+shell shall have redundant pressure panes.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+27 of 48
+
+NASA-STD-5018 w/CHANGE 1
+b. The redundant and pressure panes shall be designed to maintain the vehicle/element
+internal pressure in the event that either pane fails.
+c. The dynamic effects of the primary pane failure on the redundant pane shall be
+included in the design and analysis of the redundant pane.
+d. Subsequent to the pressure pane failure event, the redundant pane shall have
+sufficient remaining life to prevent a catastrophic or critical failure for the time required to
+reinstate pressure redundancy.
+4.8.1.2
+
+Redundancy Restoration
+
+In the event of a pressure pane failure or loss of the pressure redundancy function, an
+immediately available alternate means of restoring pressure redundancy shall be provided.
+4.8.1.3
+
+Thermal Redundancy
+
+The windows shall maintain pressure integrity in the event of the failure of the primary thermal
+pane during re-entry.
+4.8.2
+
+Material Selection
+
+Material selected for use in the assembly shall meet the requirements of the latest version of
+NASA-STD-6016, Standard Materials and Processes Requirements for Spacecraft.
+4.8.3
+
+Failure Propagation
+
+Component or element failures within the window assembly shall not propagate sequentially to
+other elements of the window system.
+4.8.4
+
+Protective Covers
+
+a. Where surface scratching, pitting, or staining cannot be prevented by other means,
+removable window protective surfaces shall be provided.
+b. A non-structural outer pane shall be provided to protect the pressure panes from
+damage caused by MM/OD impacts.
+A mechanical shutter may be provided over the window to meet certain requirements specified
+by NASA for the vehicle/element.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+28 of 48
+
+NASA-STD-5018 w/CHANGE 1
+4.8.5
+
+Containment
+
+Glass and other brittle materials pose several health hazards (ingestion, inhalation) should they
+fail in a microgravity environment. Additionally, the debris from such a failure poses hazards to
+mechanical equipment.
+Materials that can shatter shall not be used in inhabited compartments unless positive protection
+is provided to prevent fragments greater than 50 µm (0.0020 in) maximum dimension from
+entering the cabin environment.
+4.8.6
+
+Tempered Glass
+
+Where tempered glass is used in the window design, it shall withstand the types of damages
+(including impact) that can be incurred in the design environment to preclude hazards from
+shattering failure (section 4.8.5 of this Standard).
+4.9
+
+Manufacturing Requirements
+
+4.9.1
+
+Manufacturing Grinding Schedule
+
+A manufacturing grinding schedule shall be implemented to limit the maximum initial flaw
+depth to less than or equal to the initial design flaw depth.
+Reference NASA-HDBK-6007, Handbook for Recommended Material Removal Processes for
+Advanced Ceramic Test Specimens and Components.
+4.9.2
+
+Proof Test Loading
+
+Past failures have been attributed to failure to proof the pane in a manner consistent with the
+flight loading condition.
+Proof testing shall be performed in a manner consistent with and similar to the significant
+loading condition expected during the windowpane design life.
+4.9.3
+
+Proof Test Stress Distribution
+
+The stress distribution across the pane or glass structure during proof testing shall be equal to or
+greater than the stress distribution on the pane when installed on the vehicle and subjected to the
+same applied pressure differential.
+4.9.4
+
+Proof Factor for Annealed and Tempered Glass
+
+a. The proof factor shall generate a minimum of three times the stress associated with
+the maximum combined limit load.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+29 of 48
+
+NASA-STD-5018 w/CHANGE 1
+b. The magnitude of the proof factor to screen manufacturing flaws shall be determined
+by a fracture mechanics analysis based on the structural analysis requirements for windowpanes
+and glass structure as specified in section 4.7 of this Standard.
+c. The proof factor shall be the results of these analyses or 3.0, whichever is higher.
+4.9.5
+
+Proof Pressure Verification
+
+If pressure is used to control the proof stress generated in the glass, then:
+a. Proof pressures shall be measured during proof test using pressure gages installed in
+the chambers on both sides of the glass or test plate or by differential gages.
+b. The maximum delta pressure achieved on each side shall be documented in the proof
+test quality records.
+4.9.6
+
+Window Drying before Proof Loading
+
+a. Care shall be exercised to remove humidity from the test chamber and encapsulated
+water from the surface of the glass.
+b. To extract moisture from the windowpane surfaces before proof testing, which limits
+potential flaw growth during the test, the test fixture purge vent dew point shall not be greater
+than -31 °C (-24 °F) immediately before testing.
+4.9.7
+
+Proof Stress Duration
+
+Inherent flaws in glass grow when exposed to tensile loading in the presence of moisture and
+certain other chemicals.
+a. To minimize the reduction in strength related to the growth of flaws, the applied
+proof stress shall be held for no longer than a 1-sec duration.
+b. The duration of the proof pressure shall be documented in the proof test quality
+records.
+4.9.8
+
+Proof Test Unloading Rate
+
+Studies show that flaws inherent in the glass propagate in the presence of load and continue to
+propagate during the release of the load.
+a. To minimize flaw growth during pressure release, means shall be taken to maximize
+the unloading rate.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+30 of 48
+
+NASA-STD-5018 w/CHANGE 1
+b. NASA Technical Authority approval of the test procedure shall be obtained before
+implementation.
+4.9.9
+
+Modulus of Rupture (MOR)
+
+a. Since windowpane edges are extremely difficult to proof test adequately, special
+finishing techniques like acid etch shall be used.
+b. The process shall be certified by MOR tests to demonstrate that the edges are as
+strong as or stronger than the window surfaces.
+4.10
+
+Window Maintenance Design Requirements
+
+4.10.1 Window Servicing
+Equipment and supplies that will not degrade the windowpane structural or functional integrity
+shall be provided for window cleaning on orbit and on the ground.
+4.10.2 Window Replacement
+The vehicle/element windows or individual windowpane assemblies shall be designed to be
+replaced within the normal vehicle/element servicing timeframe during flights/missions or on the
+ground.
+4.10.3 Window Protection during Vehicle Processing
+a. Windows shall be protected from damage by covers, except during window
+processing or inspections.
+b. Window protection shall be installed at all other feasible times.
+4.10.4 Maintainability/Inspection Requirements
+4.10.4.1
+
+Inspection Specification
+
+a. An inspection specification shall be developed.
+b. The inspection procedure shall document damage sizes (length, width, depth, and
+type), damage locations on the window, and date of discovery.
+c. The inspection process shall detect visible flaws that are at least 0.015 mm (0.0006 in)
+deep, giving a total flaw depth of 0.046 mm (0.0018 in), as defined in section 4.7.7 of this Standard,
+unless other verified and approved methods are used to identify flaws that have potential to affect
+pane structural integrity.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+31 of 48
+
+NASA-STD-5018 w/CHANGE 1
+d. NASA Technical Authority approval shall be obtained before implementation of the
+inspection specification.
+4.10.4.2
+
+Inspection Frequency
+
+As a minimum, surfaces shall be inspected for surface flaws before integration into retainers or
+frames, before and following integration into the vehicle, before customer delivery, and
+immediately before each flight.
+4.10.4.3
+
+Inspection Method Reliability
+
+The inspection method shall be capable of detecting flaws that are equal to and larger than the
+initial design flaw depth.
+4.10.4.4
+
+In Situ Inspections
+
+If specific conditions, e.g., edge lighting, are required for reliable inspections, a means of
+providing the appropriate conditions in situ (while the window is installed in the vehicle) shall be
+designed.
+4.10.5 Flaws Subsequent to Proof Test
+4.10.5.1
+
+Flaw Detection Following Proof Test
+
+All surface flaws that may have occurred subsequent to the proof test and that exceed the initial
+design flaw depth shall be identified, mapped, and assessed using the fracture mechanics
+methodology outlined in this document and sections 4.7 and 4.4.1.a or 4.4.2 of this Standard, as
+applicable.
+A minimum requirement for flaw detection inspection interval is provided in section 4.10.4.2 of
+this Standard.
+4.10.5.2
+
+Visible Flaw Depth Measurement
+
+The depth of all visible flaws exceeding the initial design flaw size shall be measured and
+recorded on a map of each windowpane surface during every inspection following the proof test.
+4.11
+
+Non-Structural Glass
+
+Non-structural glass shall sustain the stresses caused by thermal gradients, induced
+displacements from boundary conditions, crew impact loads (inadvertent and intentional), and
+loading necessary to support its own weight under the various dynamic and quasi-static load
+environments of a mission.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+32 of 48
+
+NASA-STD-5018 w/CHANGE 1
+4.11.1 Requirements Applicable to Non-Structural Glass
+The following requirements, as defined in this Standard, shall be applicable to non-structural
+glass components:
+4.3.3
+4.3.4
+4.3.9
+4.4.1
+4.4.2
+4.5.4
+4.6.1
+4.8.2
+4.8.5
+4.8.6
+4.12
+
+Inadvertent Contact
+Impact Hazards to Glass and Ceramic Structures and Components
+Combined Loads
+Minimum Factor of Safety for Annealed Glass
+Minimum Factor of Safety for Tempered Glass
+Induced/Residual Stresses
+Strength Degradation Caused by Coatings
+Material Selection
+Containment
+Tempered Glass
+Requirements for Windowpanes, Glass, and Ceramic Structure for which a
+Proof Test is not Feasible
+
+Other requirements may be applicable as determined by the NASA Technical Authority based on
+the specific application, design, or hazards presented by the glass or ceramic component.
+4.11.2 Hazard Control of Non-Structural Glass
+Non-structural glass or ceramic component designs shall prevent the release of shattered
+materials into human habitats when exposed to expected design loads, events (including
+impacts), or stresses.
+4.11.3 NASA Approval of Design and Verification Methods
+NASA Technical Authority approval shall be obtained for all design methods and verifications
+for non-structural glass and ceramics before implementation.
+4.12
+
+Requirements for Windowpanes, Glass, and Ceramic Structure for which a Proof
+Test is not Feasible
+
+NASA Technical Authority approval shall be obtained before implementation (manufacture) of
+design for any glass, ceramic, or window verification methodology that does not include a proof
+test for all structural glass or ceramic components.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+33 of 48
+
+NASA-STD-5018 w/CHANGE 1
+5.
+
+VERIFICATIONS
+
+5.1
+
+Introduction
+
+5.2
+
+Planning and Reporting
+a. Verification shall be by inspection and approval of the GCVP.
+
+The vehicle/element prime contractor has the responsibility for demonstrating that each design
+requirement in section 4 of this Standard has been met by verification in accordance with section
+5 of this Standard and for submitting evidence via test reports and analyses.
+b. Verification of the GCVP shall be by inspection of the report and demonstration that
+it is in compliance with Appendix A of this Standard.
+Analysis or qualification test data from previously verified designs can be used, if appropriate.
+NASA reserves the right to witness any verification testing (qualification or acceptance).
+c. Verification of the GCVP shall be by NASA Technical Authority approval letter.
+d. Verification of the GCVR shall be by analysis and inspection of the GCVR.
+e. While the GCVR may be submitted in discrete sections as verifications are
+completed, the sum of all sections shall include verification of all requirements.
+5.3
+
+Environments and Loads
+
+5.3.1
+
+Applied Environments
+
+Requirement 4.3.1 shall be verified by qualification test and analysis.
+The responsible organization is accountable to the NASA Technical Authority for the delivery of
+a copy of the glass acceptance data package (ADP) for each hardware item; an analysis report
+demonstrating positive margins of safety on strength and life for all environments for each
+unique window, component, and configuration; and engineering test reports documenting
+successful completion of the qualification test program.
+5.3.2
+
+Window Inter-pane Purging and Venting
+
+Pressures during purging and venting shall be verified by qualification test and analysis.
+5.3.3
+
+Inadvertent Contact
+
+Requirement 4.3.3 shall be verified by acceptance test and/or analysis.
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+34 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+5.3.4
+
+Impact Hazards to Glass and Ceramic Structures and Components
+a. Requirement 4.3.4.a shall be verified by qualification test and/or analysis.
+
+b. If the component design permits contact with the brittle material’s surface, a special
+analysis shall be performed to assess this event.
+See “Strength Degradation of Glass Impacted with Sharp Particles,” S. M. Wiederhorn and B.
+R. Lawn, Journal of the American Ceramic Society, 1979.
+Testing that replicates the impact event may also be performed to demonstrate a non–hazardous
+failure mode, i.e., a mode that does not generate glass pieces greater than 50 µm (0.0020 in).
+c. Requirement 4.3.4.b shall be verified by inspection of the analysis reports.
+d. Requirement 4.3.4.c shall be verified by hazard analysis and inspection of appropriate
+documentation of controls.
+5.3.5
+
+Impact Damage Tolerance Verification for Structural Glass
+
+a. The structural integrity of the damaged structural glass or ceramic shall be verified by
+a combination of qualification test and analysis.
+b. Requirement 4.3.5.b shall be verified by analysis.
+c. Requirement 4.3.5.c shall be verified by analysis and/or test.
+5.3.6
+
+Glass-to-Metal Contact
+
+a. It shall be demonstrated by qualification test that glass-to-metal contact does not
+occur during the worst-case vibration environments.
+b. It shall be demonstrated by qualification test that glass-to-metal contact does not
+occur at two times maximum combined limit load.
+c. Pressure shell deflections shall be included in the qualification test described in
+section 5.3.6.b of this Standard.
+This may be accomplished by an ultimate pressure test of the pressure shell with glass windows
+installed.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+35 of 48
+
+NASA-STD-5018 w/CHANGE 1
+5.3.7
+
+Glass Slipping and Rattling
+
+It shall be demonstrated by qualification test and/or analysis that pane slipping or rattling does
+not occur during the worst-case vibration environments.
+5.3.8
+
+Glass Pane-to-Seal (or Cushion) Interface
+
+The function of the glass pane-to-seal (or cushion) interface and material properties shall be
+verified by qualification test of flight-like configurations over the predicted temperature
+extremes of the glass pane/seal interface.
+Glass interfaces that will experience predicted temperature extremes between 0 to 38 °C (32 to
+100 °F) only may be exempt from this test requirement.
+5.3.9
+
+Combined Loads
+
+Requirement 4.3.9 shall be verified by qualification test and analysis.
+5.3.10 Inner and Outer Surfaces
+a. Both the inner and outer surfaces of each windowpane or glass structure shall be
+subject to an acceptance proof test in accordance with section 4.9 of this Standard to screen flaws
+greater than the maximum initial design flaw.
+b. Verification shall be by inspection of the ADP documenting the proof test.
+5.4
+
+Design Factors
+
+5.4.1
+
+Minimum Factor of Safety for Annealed Glass
+
+Requirement 4.4.1 shall be verified by a combination of acceptance test and analysis.
+5.4.2
+
+Minimum Factor of Safety for Tempered Glass
+
+Requirement 4.4.2 shall be verified by a combination of acceptance test and analysis.
+5.4.3
+
+Dynamic Amplification Factor
+a. Requirements 4.4.3.a and 4.4.3.b shall be verified by analysis.
+
+b. If a test is performed to measure a specific dynamic amplification factor, an
+engineering test report shall be delivered to the NASA Technical Authority.
+c. The amplification factor shall be verified by inspection of the engineering report and
+the analysis.
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+36 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+5.4.4
+
+Dynamic Factor of Safety
+
+Requirements 4.4.4.a, 4.4.4.b, and 4.4.4.c shall be verified by analysis that shows all margins of
+safety are 0.0 or above, considering the maximum combined loads.
+5.5
+
+Window Life
+
+5.5.1
+
+Uncertainty Factor on Stress for Flaw Growth Analysis
+
+Requirement 4.5.1 shall be verified by analysis.
+5.5.2
+
+Life Factor
+
+Requirement 4.5.2 shall be met by analysis and verified by inspection of the analysis.
+5.5.3
+
+Assembly Life
+
+The final flight configuration assembly shall undergo a life test that includes the life factor
+specified in section 4.5.2 of this Standard to show that the assembly does not cause damage to
+the glass or deterioration of the sealing capabilities over the projected life of the hardware.
+This test may be conducted as a fleet leader.
+5.5.4
+
+Induced Residual Stresses
+
+Verification to demonstrate that the window assembly design prevents potential sources of
+strength degradation caused by induced residual stresses or local stress concentrators shall be by
+test on an acceptance basis.
+5.6
+
+Window Coating Requirements
+
+5.6.1
+
+Strength Degradation Caused by Coatings
+
+a. The strength effects of chosen coatings on glass shall be verified by a statistical
+testing of samples, which has been approved by the NASA Technical Authority and which
+includes conditions simulating the expected design environmental conditions, i.e., pressure loads,
+thermal loads, shock, cycling.
+b. If degradation is indicated, each coated pane shall be appropriately subjected to an
+acceptance proof test to ensure the degradation does not cause a critical loss of strength or
+function over the design life of the component.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+37 of 48
+
+NASA-STD-5018 w/CHANGE 1
+5.6.2
+
+Coated Windowpane Structural Integrity
+
+Verification of windowpane coatings location shall be accomplished by qualification test,
+analysis, and inspection of the installation drawings.
+5.6.3
+
+Windowpane Coatings for Infrared and Ultraviolet Photography or Sensing
+
+The specific window coating configuration for IR and UV photography and sensing shall be
+verified by qualification test, analysis, and inspection of the installation drawings.
+5.7
+
+Structural Analysis Requirements
+
+5.7.1
+
+Structural Analysis Requirements for Windowpanes, Glass, and Ceramic Structure
+
+a. The glass analysis using fracture mechanics technology shall be verified by
+inspection of the analysis.
+b. Verification of the load events considered shall be documented by analysis.
+c. The vehicle/element structural life verification for the glass pane area shall be based
+on analysis of the flaws screened by the proof test and an understanding of the flaw growth
+process.
+5.7.2
+
+Analysis Methods for Annealed Glass
+a. Verification of life analysis method shall be by inspection of the analysis.
+
+b. A NASA Technical Authority approval letter shall be the verification of the alternate
+analysis technique employed.
+5.7.3
+
+Use of NASGRO®
+
+Requirements 4.7.3.a and 4.7.3.b shall be verified by analysis.
+5.7.4
+
+Flaw Growth Analysis for Annealed Glass
+a. Verification of proper velocity equation shall be by inspection of analysis.
+b. Verification of equation 1 parameters shall be by test.
+c. Verification of data fit (section 4.7.4.c of this Standard) shall be by analysis.
+
+d. Verification of section 4.7.4.d of this Standard shall be by inspection of the test
+reports.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+38 of 48
+
+NASA-STD-5018 w/CHANGE 1
+e. Verification of section 4.7.4.e of this Standard shall be by inspection of analysis.
+f. Verification that equation 3 has been applied to compute static fatigue life shall be by
+analysis.
+g. A statistically significant sample test process, approved by the NASA Technical
+Authority, shall establish material flaw growth parameters.
+h. The equation for KI (equation 2) shall be verified by inspection of the analysis.
+5.7.5
+
+Material Data Scatter and Average Flaw Growth Properties
+
+a. Requirement 4.7.5.a shall be verified by the life analysis and by inspection of the
+analysis to demonstrate the proper selection of material properties.
+b. Requirement 4.7.5.b shall be verified by inspection of the material test data and
+analysis.
+c. Verification of requirement 4.7.5.c shall be by NASA Technical Authority approval
+letter.
+5. 7.6 Total Flaw Depth versus Visible Flaw Depth
+Requirements 4.7.6.a and 4.7.6.b shall be verified by analysis and inspection of the analysis.
+5.7.7
+
+Initial Design Flaw Depth
+
+a. Requirement 4.7.7.a shall be verified by analysis, by inspection of the windowpane
+drawings, and by proof test to screen flaws that are greater than the initial design flaw depth.
+b. Requirement 4.7.7.b shall be verified by analysis.
+c. The initial flaw depth screened by the proof test shall be based on the average inert
+KIC plus one standard deviation.
+d. The magnitude of the proof factor shall be based on a fracture mechanics analysis to
+assure the required design life.
+e. Requirement 4.7.7.c shall be verified by inspection, test, and analysis.
+5.7.8
+
+Flaw Shape
+
+Requirement 4.7.8 shall be met by analysis and verified by inspection of the assessment.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+39 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+5.7.9
+
+Flaw Growth Environment: 100 Percent Moisture
+
+Requirement 4.7.9 shall be verified by analysis.
+5.7.10 Glass or Ceramic Structural Component Stress Distribution
+a. Qualification testing shall provide sufficient strain data to demonstrate a good
+understanding of the stress distribution across the glass or ceramic component.
+b. The applied stress distribution in the windowpane or glass structure shall be verified
+by detailed qualification test that includes the actual boundary conditions of the actual
+pressurized module and all significant sources of stress.
+c. Qualification testing shall locate the point of maximum stress on the surface of the
+window for the maximum combined load case.
+5.7.11 Stress Distribution Correlation
+a. Requirement 4.7.11 shall be verified by a combination of qualification test and
+analysis.
+b. Correlation shall be defined as model prediction results that are within ±10 percent of
+the test results for specific tested load conditions and hardware configurations.
+c. If correlation cannot be achieved, NASA Technical Authority approval of the
+verification model shall be obtained.
+5.7.12 Spring Stiffness
+a. Spring stiffness shall be verified by qualification test.
+b. Requirement 4.7.12.b shall be verified by inspection of the analysis and models.
+5.7.13 Stress Analysis Requirements and Reports
+Requirement 4.7.13 shall be verified by inspection of the analysis report.
+5.7.14 Analysis Methods for Tempered Glass
+a. Verification of requirement 4.7.14.a shall be by analysis
+b. Verification of requirement 4.7.14.b shall be by examination of the ADP.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+40 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+5.7.15 Temper Layer Preservation
+Requirement 4.7.15 shall be verified by measurement of the temper compression layer and
+analysis.
+5.8
+
+Safety and Structural Integrity Assurance Requirements
+
+5.8.1
+
+Redundancy
+
+5.8.1.1
+
+Pressure Redundancy
+
+The requirements listed in section 4.8.1.1 of this Standard shall be verified by a combination of
+qualification tests, analyses, and inspections.
+5.8.1.2
+
+Redundancy Restoration
+
+Requirement 4.8.1.2 shall be verified by qualification test.
+5.8.1.3
+
+Thermal Redundancy
+
+Requirement 4.8.1.3 shall be verified by a combination of qualification test, analysis, and
+inspection.
+5.8.2
+
+Material Selection
+
+Requirement 4.8.2 shall be verified by inspection of the window engineering drawings and
+specifications.
+5.8.3
+
+Failure Propagation
+
+Requirement 4.8.3 shall be verified by a combination of qualification test, analysis, and
+inspection of the engineering drawings.
+5.8.4
+
+Protective Covers
+
+The requirements listed in section 4.8.4 of this Standard shall be verified by test, analysis, and
+inspection of design.
+5.8.5
+
+Containment
+
+Requirement 4.8.5 shall be verified by a combination of qualification test, analysis, and
+inspection of the engineering drawings.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+41 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+5.8.6
+
+Tempered Glass
+
+a. Where tempered glass is used in the window design, it shall be demonstrated by
+qualification test that the glass can withstand the types of damages that can be incurred in the
+design environment without a failure.
+b. Tempered glass that is contained shall demonstrate positive containment by test.
+5.9
+
+Manufacturing Requirements
+
+5.9.1
+
+Manufacturing Grinding Schedule
+
+Requirement 4.9.1 shall be verified by inspection of the manufacturing grinding schedule
+provided as part of the ADP and by a proof test to screen flaws that are greater than the initial
+design flaw depth.
+5.9.2
+
+Proof Test Loading
+
+Verification that the pane proof loading is consistent with the expected significant loading
+condition shall be by inspection of the proof test plan and the predicted loading analysis for the
+window in the vehicle.
+5.9.3
+
+Proof Test Stress Distribution
+
+Requirement 4.9.3 shall be verified by test and analysis.
+The intent of this requirement is to ensure that the minimum required proof factor is achieved
+over the entire area of the glass. The appropriate NASA program and Technical Authorities may
+opt to allow the intent of the stress distribution requirement to be met in lieu of the literal
+interpretation.
+5.9.4
+
+Proof Factor for Annealed and Tempered Glass
+
+Requirements listed in section 4.9.4 of this Standard shall be verified by test and analysis.
+5.9.5
+
+Proof Pressure Verification
+a. Requirement 4.9.5.a shall be verified by inspection of proof pressure test procedures.
+b. Maximum delta pressure achieved shall be verified by inspection of the ADP.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+42 of 48
+
+NASA-STD-5018 w/CHANGE 1
+5.9.6
+
+Window Drying before Proof Loading
+
+a. Verification for the removal of humidity from the test chamber and encapsulated
+water from the surface of the glass shall be by test and the results recorded in the test quality
+records and provided in the ADP.
+b. Requirement 4.9.6.b shall be verified by inspection of proof test procedures and
+quality records.
+5.9.7
+
+Proof Stress Duration
+
+a. Requirement 4.9.7.a shall be verified by test and inspection of acceptance test
+procedures.
+b. Quality records shall be verified by inspection.
+5.9.8
+
+Proof Test Unloading Rate
+
+a. Requirement 4.9.8.a shall be verified by inspection of the acceptance test procedures
+and the ADP to ensure that:
+(1) The time to apply, hold, and drop the proof test pressure/load has been limited to
+the minimum practical time to accomplish the proof test.
+(2) Special care has been taken to assure that the unloading rate is the maximum that
+is practical.
+b. A NASA Technical Authority approval letter shall verify prior approval for
+requirement 4.9.8.b.
+5.9.9
+
+Modulus of Rupture (MOR)
+a. The MOR shall be verified by test in an inert environment.
+b. A minimum of three MOR bars shall pass to demonstrate edge viability.
+
+c. MOR bars shall be processed with the parent pane and have the same processes
+applied to the edges and surfaces.
+5.10
+
+Window Maintenance Design Requirements
+
+5.10.1 Window Servicing
+Requirement 4.10.1 shall be verified by tests, analyses, and inspections of the equipment and
+supplies.
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+43 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+5.10.2 Window Replacement
+Requirement 4.10.2 shall be verified by timed demonstration (test) on flight-like hardware and in
+the proper vehicular configuration.
+5.10.3 Window Protection during Vehicle Processing
+Requirement 4.10.3 shall be verified by inspection of processing procedures and Quality Control
+records.
+5.10.4 Maintainability/Inspection Requirements
+5.10.4.1
+
+Inspection Specification
+
+Verification of the inspection process shall be by inspection of the inspection specification and
+NASA Technical Authority approval letter.
+5.10.4.2
+
+Inspection Frequency
+
+Verification shall be by the inspection of the processing procedures, window inspection
+specification, build documentation, and Quality Control records.
+5.10.4.3
+
+Inspection Method Reliability
+
+The probability of detection for the inspection method(s) shall be determined through testing and
+analysis techniques.
+5.10.4.4
+
+In Situ Inspections
+
+Requirement 4.10.4.4 shall be verified by inspection of the design and test of the in situ
+inspection process.
+5.10.5 Flaws Subsequent to Proof Test
+5.10.5.1
+
+Flaw Detection Following Proof Test
+
+a. Verification of requirement 4.10.5.1 shall be through inspection of ADP maps of the
+window surfaces and analysis of any flaws detected after the acceptance proof test.
+b. An initial map of all surface defects shall be provided as part of the ADP of the
+windowpane, glass, or ceramic structure.
+c. The maps shall be maintained and updated to support future evaluations of the
+windowpanes.
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+44 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+d. Each window inspection event and findings shall be recorded and dated on each map.
+e. Analytical assessment of discovered flaws shall be verified by inspection of the
+analysis that demonstrates positive margins of safety for all design conditions and design life.
+5.10.5.2
+
+Visible Flaw Depth Measurement
+
+Requirement 4.10.5.2 shall be verified by inspection of the window ADP.
+5.11
+
+Non-Structural Glass
+
+Requirement 4.11 shall be verified by analysis and testing.
+5.11.1 Requirements Applicable to Non-Structural Glass
+Verifications for the requirements listed in section 4.11.1 of this Standard shall be applied in
+accordance with the applicable verification paragraph for those requirements.
+5.11.2 Hazard Control of Non-Structural Glass
+Verification of requirement 4.11.2 shall be by inspection of drawings, analysis, and/or
+qualification test of the flight design.
+5.11.3 NASA Approval of Design and Verification Methods
+Verification shall be by NASA Technical Authority approval letter accepting the proposed
+methodologies.
+5.12
+
+Requirements for Windowpanes, Glass, and Ceramic Structure for which a Proof
+Test is not Feasible
+
+Requirement 4.12 shall be verified by NASA Technical Authority approval letter accepting the
+design and verification plan.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+45 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+APPENDIX A
+DATA ITEM DESCRIPTIONS
+A.1
+
+Purpose and/or Scope
+
+The purpose of this appendix is to present requirements for Data Item Descriptions.
+
+A.2
+
+Data Item Description (DID) 1: Glass and Ceramics Verification Plan
+(GCVP)
+
+Purpose:
+The GCVP describes the tests and analyses to be performed by the contractor and the verification
+criteria that the tests and analyses results are to meet in order to satisfy the glass and ceramics
+requirements. The GCVP provides the means for the NASA Technical Authority to evaluate and
+judge the acceptability of the contractor-proposed glass and ceramic verification program.
+Use/Relationships:
+This DID contains the format and content preparation instructions for that data generated under
+the work described by section 4 of NASA-STD-5018, Strength Design and Verification Criteria
+for Glass, Ceramics, and Windows in Human Space Flight Applications.
+The data item is applicable to the vehicle/element glass and windows that require verification in
+accordance with contractual requirements. When subsystems or components are procured
+individually, the applicable sections of the GCVP should be used.
+The GCVP should contain as much detail as is practicable commensurate with the state of
+program development at the time the GCVP is prepared. Each requirement in this document
+shall be specifically addressed by the GCVP. The GCVP should be continually updated as
+necessary to maintain an accurate description of the required tasks necessary to meet the
+requirements of section 4 of NASA-STD-5018.
+Preparation Instructions:
+Content: The GCVP shall include the test and analyses data and methods to be used, as well as
+the pass/fail definitions for each subsystem/component to verify glass and ceramics designs for
+those designated as Catastrophic or Critical.
+The plan shall contain the following elements as a minimum:
+a.
+b.
+c.
+d.
+e.
+
+Applicable documents.
+Objectives and requirements fulfillment.
+Description of test articles.
+Pass/fail criteria.
+Test hardware definition.
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+46 of 48
+
+NASA-STD-5018 w/CHANGE 1
+f. Pertinent test/analysis details.
+g. Set-up details.
+h. Test schedule.
+Format: The GCVP format shall be contractor selected. Unless effective presentation would be
+degraded, the initially used format arrangement shall be used for all subsequent submissions.
+
+A.3
+
+DID 2: Glass and Ceramics Verification Report (GCVR)
+
+Purpose:
+The GCVR presents the results of analyses, tests, and other data needed to verify the adequacy of
+glass and ceramics designs for all systems, subsystems, and/or components whose failure is
+designated as Catastrophic or Critical. The GCVR provides the means for the NASA Technical
+Authority to evaluate and judge the acceptability of the contractor’s glass and ceramics designs
+and hardware.
+Use/Relationships:
+This DID contains the format and content preparation instructions for that data generated under
+the work described by section 4 and verified in section 5 of NASA-STD-5018.
+The data item is applicable to the vehicle, subsystem, or component for which a GCVP has been
+prepared as a result of a contractual requirement.
+Preparation Instructions:
+General: The GCVR shall include analyses, test, and/or data used to verify glass and ceramics
+designs for all systems, subsystems, and/or components whose failure is designated as
+Catastrophic or Critical. The GCVR shall specifically address each requirement contained in this
+document, and address appropriate sections in the GCVP in both format and content.
+Content: The report shall contain the following elements as a minimum:
+a.
+b.
+c.
+d.
+e.
+f.
+g.
+
+Description and photographs of test setup.
+Date, personnel performing test, and location of test.
+Test environments used.
+Test measurement records.
+Test results.
+Statement of qualification.
+Requirements fulfillment.
+
+Format: The GCVR format shall be contractor selected and reflect the GCVP format. Unless
+effective presentation would be degraded, the initially used format arrangement shall be used for
+all subsequent submissions.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+47 of 48
+
+NASA-STD-5018 w/CHANGE 1
+
+APPENDIX B
+REFERENCE DOCUMENTS
+B.1
+
+Purpose and/or Scope
+
+The purpose of this appendix is to provide guidance through information in the reference
+documents listed below.
+
+B.2. Government Documents
+NASA-HDBK-6007
+
+Handbook for Recommended Material Removal Processes for Advanced
+Ceramic Test Specimens and Components
+
+NASGRO®
+
+Fatigue Crack Growth Computer Program
+
+B.3
+
+Non-Government Documents
+
+Wiederhorn, S.M.; Lawn, B.R. (1979). “Strength Degradation of Glass Impacted with Sharp
+Particles,” Journal of the American Ceramic Society.
+
+APPROVED FOR PUBLIC RELEASE—DISTRIBUTION IS UNLIMITED
+48 of 48
+
+
