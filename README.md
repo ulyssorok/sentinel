@@ -36,6 +36,10 @@ https://github.com/ulyssorok/sentinel/assets/25058545/2feeab24-6e21-4e0b-bd67-a0
 
 ![image](https://github.com/ulyssorok/sentinel/assets/25058545/3d9e8c3b-0224-4209-9d62-5930e649839e)
 
+![image](https://github.com/ulyssorok/sentinel/assets/25058545/8cb0fee8-58bb-47d4-acd6-62507d0a1722)
+
+Video Demo!
+
 https://github.com/ulyssorok/sentinel/assets/25058545/a5b8beac-5ffb-4282-ace5-e8ca33f148b7
 
 ### All Demos
