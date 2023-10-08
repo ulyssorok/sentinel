@@ -6,7 +6,7 @@
 
 ## 💻 Demo
 
-Our bot can handle everyday questions about outer space and craft a personalized answer for each individual depending on their comfort and technical understanding of space!
+Leveraging OpenAI's GPT-4 with browsing along with Voiceflow as our interface - Our bot can handle everyday questions about outer space and craft a personalized answer for each individual depending on their comfort and technical understanding of space!
 
 <img width="257" alt="Screenshot 2023-10-07 181951" src="https://github.com/ulyssorok/sentinel/assets/25058545/5d6d41c0-afc1-4b51-b484-31e0b35d1b71">
 
@@ -17,6 +17,11 @@ https://github.com/ulyssorok/sentinel/assets/25058545/3b35318b-e422-459d-8368-78
 It can also answer questions about NESC bulletins!
 
 https://github.com/ulyssorok/sentinel/assets/25058545/02a7dd63-e47c-40e7-b0ed-7726194bdda5
+
+Prototype analysis and improvement suggestions for NASA Standard 5018
+
+https://github.com/ulyssorok/sentinel/assets/25058545/d80300d7-0f56-4956-84d5-c9e2bc5b53b6
+
 
 ## 💡 Inspiration 
 
