@@ -20,8 +20,7 @@ https://github.com/ulyssorok/sentinel/assets/25058545/02a7dd63-e47c-40e7-b0ed-77
 
 Prototype analysis and improvement suggestions for NASA Standard 5018
 
-https://github.com/ulyssorok/sentinel/assets/25058545/a090b438-5a77-48b5-a5e7-b41c80f7a82a
-
+https://github.com/ulyssorok/sentinel/assets/25058545/d80300d7-0f56-4956-84d5-c9e2bc5b53b6
 
 
 ## 💡 Inspiration 
