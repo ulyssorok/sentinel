@@ -31,11 +31,11 @@ https://github.com/ulyssorok/sentinel/assets/25058545/02a7dd63-e47c-40e7-b0ed-77
 
 Prototype analysis and improvement suggestions for NASA Standard 5018
 
-https://github.com/ulyssorok/sentinel/assets/25058545/d80300d7-0f56-4956-84d5-c9e2bc5b53b6
+https://github.com/ulyssorok/sentinel/assets/25058545/0cb57d96-96ad-431e-87aa-28c5dd0b7a0d
 
 Prototype analysis and improvement suggestions for NASA Standard 5009
 
-https://github.com/ulyssorok/sentinel/assets/25058545/35580075-2c11-4d82-82b7-1d7205ede8d0
+https://github.com/ulyssorok/sentinel/assets/25058545/947f9428-9491-43ae-b7eb-000c3aa9a012
 
 Additional probing questions about NASA Standard 5009
 
