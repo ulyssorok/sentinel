@@ -8,6 +8,8 @@
 
 Leveraging OpenAI's GPT-4 with browsing along with Voiceflow as our interface - Our bot can handle everyday questions about outer space and craft a personalized answer for each individual depending on their comfort and technical understanding of space!
 
+Try it yourself at: https://creator.voiceflow.com/prototype/650f3cda275e88510bea289d
+
 <img width="257" alt="Screenshot 2023-10-07 181951" src="https://github.com/ulyssorok/sentinel/assets/25058545/5d6d41c0-afc1-4b51-b484-31e0b35d1b71">
 
 Our bot can summarize NASA bulletins 5009 and 5018 for you!
