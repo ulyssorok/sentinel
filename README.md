@@ -18,6 +18,12 @@ It can also answer questions about NESC bulletins!
 
 https://github.com/ulyssorok/sentinel/assets/25058545/02a7dd63-e47c-40e7-b0ed-7726194bdda5
 
+Prototype analysis and improvement suggestions for NASA Standard 5018
+
+https://github.com/ulyssorok/sentinel/assets/25058545/a090b438-5a77-48b5-a5e7-b41c80f7a82a
+
+
+
 ## 💡 Inspiration 
 
 ## ❓ What it does
