@@ -37,9 +37,9 @@ Prototype analysis and improvement suggestions for NASA Standard 5009
 
 https://github.com/ulyssorok/sentinel/assets/25058545/947f9428-9491-43ae-b7eb-000c3aa9a012
 
-Additional probing questions about NASA Standard 5009
+Additional probing questions about NASA Standard 5009 + 5018
 
-https://github.com/ulyssorok/sentinel/assets/25058545/77e6786a-c338-40c9-bcbe-9541c9ad712f
+https://github.com/ulyssorok/sentinel/assets/25058545/a0ba805b-79c1-401e-b97f-ba0ca904653c
 
 Space-related Existential Questions
 
