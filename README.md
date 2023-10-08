@@ -28,15 +28,11 @@ Try it yourself at: https://creator.voiceflow.com/prototype/650f3cda275e88510bea
 
 ### Sentinel Horizon - Public Facing Bot
 
-
 https://github.com/ulyssorok/sentinel/assets/25058545/2feeab24-6e21-4e0b-bd67-a09b6424e057
-
 
 ### Sentinel Vision - Specialist Bot
 
-
-https://github.com/ulyssorok/sentinel/assets/25058545/0c027220-8c91-4c1f-b63c-007f1c89c6c9
-
+https://github.com/ulyssorok/sentinel/assets/25058545/a5b8beac-5ffb-4282-ace5-e8ca33f148b7
 
 ### All Demos
 
