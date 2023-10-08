@@ -10,7 +10,7 @@
 
 https://github.com/ulyssorok/sentinel/assets/25058545/3b35318b-e422-459d-8368-784a1ccf0fff
 
-
+https://github.com/ulyssorok/sentinel/assets/25058545/02a7dd63-e47c-40e7-b0ed-7726194bdda5
 
 ## 💡 Inspiration 
 
