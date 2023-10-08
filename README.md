@@ -70,5 +70,5 @@ https://www.canva.com/design/DAFwnfmZblk/wz_89bePyPBzx2RaaOoumg/view?utm_content
 
 ## The Team
 
-![image](https://github.com/ulyssorok/sentinel/assets/25058545/053729de-f31b-4c60-b68f-958e8fef8050)
+![image](https://github.com/ulyssorok/sentinel/assets/25058545/835122f9-15aa-4d37-a72d-0f339bfa224a)
 
