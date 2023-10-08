@@ -5,11 +5,11 @@
 #### Mission: Onboarding the next billion space enthusiasists, regardless of platform and technical expertise restrictions
 
 ## 💡 Inspiration 
-![image](https://github.com/ulyssorok/sentinel/assets/25058545/f5610c6a-b1b4-469f-948f-b23dc9379d63)
+![image](https://github.com/ulyssorok/sentinel/assets/25058545/e656e1a8-84c3-4ba8-b9e5-0d70f2de1607)
 
 
 ## ❓ What it does
-![image](https://github.com/ulyssorok/sentinel/assets/25058545/f41007e6-7c45-4a8f-b64e-c39cd710ca2e)
+![image](https://github.com/ulyssorok/sentinel/assets/25058545/57a3693b-42b8-4f78-b95e-262dc9aef1b3)
 
 ## 🚧 How we built it 
 
@@ -33,6 +33,8 @@ Pitch Deck: https://www.canva.com/design/DAFwnfmZblk/wz_89bePyPBzx2RaaOoumg/view
 https://github.com/ulyssorok/sentinel/assets/25058545/2feeab24-6e21-4e0b-bd67-a09b6424e057
 
 ### Sentinel Vision - Specialist Bot
+
+![image](https://github.com/ulyssorok/sentinel/assets/25058545/3d9e8c3b-0224-4209-9d62-5930e649839e)
 
 https://github.com/ulyssorok/sentinel/assets/25058545/a5b8beac-5ffb-4282-ace5-e8ca33f148b7
 
