@@ -41,7 +41,9 @@ Additional probing questions about NASA Standard 5009
 
 https://github.com/ulyssorok/sentinel/assets/25058545/77e6786a-c338-40c9-bcbe-9541c9ad712f
 
+Space-related Existential Questions
 
+https://github.com/ulyssorok/sentinel/assets/25058545/d605f074-966a-484f-86e9-2aa93b6d4c31
 
 ## 💡 Inspiration 
 
