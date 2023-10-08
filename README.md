@@ -24,6 +24,8 @@ Our bot can handle:
 
 Try it yourself at: https://creator.voiceflow.com/prototype/650f3cda275e88510bea289d
 
+Pitch Deck: https://www.canva.com/design/DAFwnfmZblk/wz_89bePyPBzx2RaaOoumg/view?utm_content=DAFwnfmZblk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
 ## 💻 Demo
 
 ### Sentinel Horizon - Public Facing Bot
@@ -63,10 +65,6 @@ https://github.com/ulyssorok/sentinel/assets/25058545/947f9428-9491-43ae-b7eb-00
 Additional probing questions about NASA Standard 5009 + 5018 🔬
 
 https://github.com/ulyssorok/sentinel/assets/25058545/a0ba805b-79c1-401e-b97f-ba0ca904653c
-
-## Pitch
-
-https://www.canva.com/design/DAFwnfmZblk/wz_89bePyPBzx2RaaOoumg/view?utm_content=DAFwnfmZblk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 ## The Team
 
