@@ -45,6 +45,7 @@ https://github.com/ulyssorok/sentinel/assets/25058545/a5b8beac-5ffb-4282-ace5-e8
 ### CSA Demos
 
 ![image](https://github.com/ulyssorok/sentinel/assets/25058545/3e5dbb2a-a28d-46ec-828e-96ecb3d45053)
+![image](https://github.com/ulyssorok/sentinel/assets/25058545/76658b0b-5ed1-4174-b1e3-4bbbe8d930bb)
 ![image](https://github.com/ulyssorok/sentinel/assets/25058545/60f4c114-af61-4cdf-b1ee-fba5b0eaa8ec)
 
 
