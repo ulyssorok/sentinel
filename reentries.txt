@@ -1,0 +1,195 @@
+Skip to main content
+Attention
+This website uses cookies to improve functionality and to help us improve the site. Our cookie policy explains our cookie usage and provides information on opting-out. See Cookie Policy to learn more. If you consent to the use of cookies while visiting this site, please click “Yes, I accept.”
+HomeThe Aerospace Corporation
+WHO WE ARE
+WHAT WE DO
+PARTNER WITH US
+CAREERS
+RESOURCES
+SEARCH
+REENTRIES
+The CORDS Reentry Database documents objects and payloads that have reentered earth’s atmosphere since 2000. The database below is sortable by object name, mission name, reentry type, launch date and predicted reentry time.
+
+
+For reentry data older than two years, download the .csv file. To learn more about CORDS, return to the CORDS home page.
+
+Filter Reentries by:
+REENTRY TYPE
+DebrisUnknownPayloadRocket Body
+Choose some options
+REENTRY SIGHTING
+
+- Any -
+REENTERED
+
+- Any -
+Sort by
+
+Predicted Reentry Time
+Order
+
+Desc
+View Reentries as
+
+Tiles
+Select Timezone
+
+UTC
+ELECTRON KICK STAGE R/B (ID 43851)
+Type:
+Rocket Body
+Mission: NASA ELaNa-19
+Launched: 
+Dec 16, 2018
+OCT 09, 2023
+07:25 UTC ± 14 HOURS
+OBJECT B (ID 54683)
+Type:
+Unknown
+Launched: 
+Dec 09, 2022
+OCT 06, 2023
+17:44 UTC ± 1 HOUR
+COSMOS 2537 (ID 44423)
+Type:
+Payload
+Mission: COSMOS 2537
+Launched: 
+Jul 10, 2019
+OCT 06, 2023
+13:36 UTC ± 1 HOUR
+STARLINK-1192 (ID 45180) REENTERED
+Type:
+Payload
+Mission: Starlink Launch 4
+Launched: 
+Feb 17, 2020
+OCT 06, 2023
+03:55 UTC ± 1 HOUR
+CZ-2D DEB (ID 54375) REENTERED
+Type:
+Debris
+Mission: YAOGAN-36 03
+Launched: 
+Nov 27, 2022
+OCT 05, 2023
+17:01 UTC ± 1 HOUR
+LAUNCHERONE R/B (ID 51101) REENTERED
+Type:
+Rocket Body
+Mission: Above the Clouds
+Launched: 
+Jan 13, 2022
+OCT 04, 2023
+21:49 UTC ± 1 HOUR
+STARLINK-30490 (ID 57922) REENTERED
+Type:
+Payload
+Mission: Starlink Group 6-18
+Launched: 
+Sep 24, 2023
+OCT 01, 2023
+20:26 UTC ± 1 HOUR
+STARLINK-1868 (ID 47154) REENTERED
+Type:
+Payload
+Mission: Launch L15
+Launched: 
+Nov 25, 2020
+OCT 01, 2023
+12:48 UTC ± 1 HOUR
+IUS R/B(1) (ID 19884) REENTERED
+Type:
+Rocket Body
+Mission: STS 29/TDRS 4
+Launched: 
+Mar 13, 1989
+SEP 30, 2023
+23:13 UTC ± 1 HOUR
+STARLINK-1074 (ID 44957) REENTERED
+Type:
+Payload
+Mission: Launch L2
+Launched: 
+Jan 07, 2020
+SEP 29, 2023
+21:18 UTC ± 2 HOURS
+STARLINK-5596 (ID 55476) REENTERED
+Type:
+Payload
+Mission: Launch Group 5-3
+Launched: 
+Feb 02, 2023
+SEP 27, 2023
+17:41 UTC ± 6 HOURS
+STARLINK-2345 (ID 47886) REENTERED
+Type:
+Payload
+Mission: Launch L21
+Launched: 
+Mar 14, 2021
+SEP 27, 2023
+15:58 UTC ± 1 HOUR
+COSMOS 1124 (ID 11509) REENTERED
+Type:
+Payload
+Mission: COSMOS 1124
+Launched: 
+Aug 28, 1979
+SEP 27, 2023
+00:23 UTC ± 1 HOUR
+CERES-1 R/B (ID 57796) REENTERED
+Type:
+Rocket Body
+Mission: TIANQI 21-24
+Launched: 
+Sep 05, 2023
+SEP 25, 2023
+06:59 UTC ± 1 HOUR
+STARLINK-2212 (ID 47779) REENTERED
+Type:
+Payload
+Mission: Launch L17
+Launched: 
+Mar 04, 2021
+SEP 25, 2023
+03:11 UTC ± 1 HOUR
+STARLINK-1419 (ID 45694) REENTERED
+Type:
+Payload
+Mission: Launch L7
+Launched: 
+Jun 04, 2020
+SEP 24, 2023
+11:01 UTC ± 10 HOURS
+PAGINATION
+CURRENT PAGE1
+PAGE2
+PAGE3
+PAGE4
+…
+NEXT PAGENEXT
+LAST PAGELAST »
+SUBMIT YOUR DEBRIS SIGHTING
+Have you witnessed a reentry?
+Space Debris Basics
+Back to Top
+310-336-5000 2310 E. El Segundo Blvd., El Segundo, CA 90245
+Social Footer Menu
+Twitter
+LinkedIn
+Facebook
+YouTube
+Instagram
+Footer Menu
+Contact Us
+ 
+Suppliers
+ 
+Copyright and Terms of Use
+ 
+Privacy Policy
+ 
+Cookie Policy
+Copyright © 2023 The Aerospace Corporation. All Rights Reserved.
