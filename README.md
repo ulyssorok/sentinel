@@ -78,8 +78,3 @@ https://github.com/ulyssorok/sentinel/assets/25058545/947f9428-9491-43ae-b7eb-00
 Additional probing questions about NASA Standard 5009 + 5018 🔬
 
 https://github.com/ulyssorok/sentinel/assets/25058545/a0ba805b-79c1-401e-b97f-ba0ca904653c
-
-## The Team
-
-![image](https://github.com/ulyssorok/sentinel/assets/25058545/835122f9-15aa-4d37-a72d-0f339bfa224a)
-
